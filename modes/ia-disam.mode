@@ -1,0 +1,3 @@
+    
+    lt-proc -w /Users/ethanchi/Documents/apy/apertium-ia/ia.automorf.bin |cg-conv -a -l|vislcg3 --trace -g /Users/ethanchi/Documents/apy/apertium-ia/apertium-ia.ia.rlx 
+  

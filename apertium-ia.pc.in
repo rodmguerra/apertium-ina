@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+dir=@libdir@/apertium/apertium-ia
+srcdir=@datarootdir@/apertium/apertium-ia
+
+Name: apertium-ia
+Description: Finite-state morphological transducer and constraint grammar for Interlingua 
+Version: @VERSION@
+

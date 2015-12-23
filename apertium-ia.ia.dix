@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+
+  <!-- Define the alphabet below. -->
+  <alphabet>AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</alphabet>
+
+  <sdefs>
+    <sdef n="n"     c="Noun"/>
+    <sdef n="sg"    c="Singular"/>
+    <sdef n="pl"    c="Plural"/>
+    <sdef n="vblex" c="Verb"/>
+    <sdef n="p1"    c="1st person"/>
+    <sdef n="p2"    c="2nd person"/>
+    <sdef n="p3"    c="3rd person"/>
+    <sdef n="pri"   c="Present indicative"/>
+  </sdefs>
+
+  <pardefs>
+    <!-- Define paradigms within <pardef> here. -->
+    <pardef n="can__n">
+      <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+      <e><p><l>es</l><r><s n="n"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="homine__n">
+      <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
+      <e><p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
+    </pardef>
+      
+    <pardef n="parl/ar__vblex">
+      <e><p><l>a</l><r>ar<s n="vblex"/><s n="pri"/></r></p></e>
+    </pardef>
+  </pardefs>
+    
+    <section id="main" type="standard">
+        <e lm="can"><i>can</i><par n="can__n"/></e>
+        <e lm="homine"><i>homine</i><par n="homine__n"/></e>
+        <e lm="femina"><i>femina</i><par n="homine__n"/></e>
+        <e lm="parlar"><i>parl</i><par n="parl/ar__vblex"/></e>
+    </section>
+
+</dictionary>
+
+
