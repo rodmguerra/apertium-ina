@@ -4,7 +4,7 @@
 
 RELEASE=0.1
 VERSION=0.1.0
-LANG1=ia
+LANG1=ina
 BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON =			\
@@ -63,10 +63,10 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix		\
 #   apertium_ia_dir: This is where the compiled binaries go
 #   apertium_ia_srcdir: This is where the source files go
 
-apertium_iadir=$(prefix)/share/apertium/$(BASENAME)/
-apertium_ia_srcdir=$(prefix)/share/apertium/$(BASENAME)/
+apertium_inadir=$(prefix)/share/apertium/$(BASENAME)/
+apertium_ina_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_ia_DATA=$(TARGETS_COMMON) $(LANG1).prob
+apertium_ina_DATA=$(TARGETS_COMMON) $(LANG1).prob
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
@@ -80,10 +80,10 @@ modes/$(LANG1)-morph.mode: modes.xml
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local:
-	test -d $(DESTDIR)$(apertium_ia_srcdir) || mkdir -p $(DESTDIR)$(apertium_ia_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_ia_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_ia_srcdir)
-	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_ia_srcdir)
+	test -d $(DESTDIR)$(apertium_ina_srcdir) || mkdir -p $(DESTDIR)$(apertium_ina_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_ina_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_ina_srcdir)
+	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_ina_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
@@ -94,7 +94,7 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "TODO test sentence" | apertium -d . ia-morph | tee .test-mt
+	echo "TODO test sentence" | apertium -d . ina-morph | tee .test-mt
 	@echo "TODO test analysis results" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt

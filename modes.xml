@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="ia-morph">
+  <mode name="ina-morph">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="ia.automorf.bin"/>
+        <file name="ina.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="ia-gener">
+  <mode name="ina-gener">
     <pipeline>
       <program name="lt-proc -g">
-        <file name="ia.autogen.bin"/>
+        <file name="ina.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="ia-tagger">
+  <mode name="ina-tagger">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="ia.automorf.bin"/>
+        <file name="ina.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="ia.rlx.bin"/>
+        <file name="ina.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="ia-disam">
+  <mode name="ina-disam">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="ia.automorf.bin"/>
+        <file name="ina.automorf.bin"/>
       </program>
       <program name="cg-conv -a -l" />
       <program name="vislcg3 --trace -g">
-        <file name="apertium-ia.ia.rlx"/>
+        <file name="apertium-ina.ina.rlx"/>
       </program>
     </pipeline>
   </mode>

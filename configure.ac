@@ -1,7 +1,7 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-ia], [0.1.0], [])
-AM_INIT_AUTOMAKE([apertium-ia], [0.1.0], no-define)
+AC_INIT([apertium-ina], [0.1.0], [])
+AM_INIT_AUTOMAKE([apertium-ina], [0.1.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 
@@ -17,5 +17,5 @@ AS_IF([test x$CGCOMP = xfalse], [AC_MSG_ERROR([You don't have cg-comp installed]
 
 AP_MKINCLUDE
 
-AC_OUTPUT([Makefile apertium-ia.pc])
+AC_OUTPUT([Makefile apertium-ina.pc])
 

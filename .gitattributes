@@ -11,12 +11,12 @@
 /README -text
 /aclocal.m4 -text
 /ap_include.am -text
-/apertium-ia.ia.acx -text
-/apertium-ia.ia.dix -text
-/apertium-ia.ia.rlx -text
-/apertium-ia.pc -text
-/apertium-ia.pc.in -text
-/apertium-ia.post-ia.dix -text
+/apertium-ina.ina.acx -text
+/apertium-ina.ina.dix -text
+/apertium-ina.ina.rlx -text
+/apertium-ina.pc -text
+/apertium-ina.pc.in -text
+/apertium-ina.post-ina.dix -text
 /autogen.sh -text
 autom4te.cache/output.0 -text
 autom4te.cache/output.1 -text
@@ -27,13 +27,13 @@ autom4te.cache/traces.1 -text
 /config.status -text
 /configure -text
 /configure.ac -text
-/ia.autogen.att.gz -text
-/ia.autogen.bin -text
-/ia.automorf.att.gz -text
-/ia.automorf.bin -text
-/ia.autopgen.bin -text
-/ia.prob -text svneol=unset#unset
-/ia.rlx.bin -text
+/ina.autogen.att.gz -text
+/ina.autogen.bin -text
+/ina.automorf.att.gz -text
+/ina.automorf.bin -text
+/ina.autopgen.bin -text
+/ina.prob -text svneol=unset#unset
+/ina.rlx.bin -text
 /install-sh -text
 /missing -text
 /modes.xml -text
