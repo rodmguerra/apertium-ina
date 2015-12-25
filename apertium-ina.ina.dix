@@ -571,6 +571,15 @@
     <e lm="morir"><i>mori</i><par n="parti/r__vblex"/></e>
     <e lm="audir"><i>audi</i><par n="parti/r__vblex"/></e>
     <e lm="dormir"><i>dormi</i><par n="parti/r__vblex"/></e>
+    <e lm="parlar"><i>parla</i><par n="canta/r__vblex"/></e>
+    <e lm="mangiar"><i>mangia</i><par n="canta/r__vblex"/></e>       
+    <e lm="leger"><i>lege</i><par n="canta/r__vblex"/></e>       
+    <e lm="biber"><i>bibe</i><par n="cred/er__vblex"/></e>       
+    <e lm="ambular"><i>ambula</i><par n="canta/r__vblex"/></e>  
+    <e lm="currer"><i>curre</i><par n="cred/er__vblex"/></e>       
+    <e lm="natar"><i>nata</i><par n="canta/r__vblex"/></e>       
+    <e lm="cantar"><i>canta</i><par n="canta/r__vblex"/></e>  
+      
   </section>
   <section id="punctuation" type="inconditional">
     <e><p><l>.</l><r>.<s n="sent"/></r></p></e>
