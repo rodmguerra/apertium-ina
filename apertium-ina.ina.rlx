@@ -8,6 +8,9 @@ SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
 REMOVE (n) OR (v) IF (1 (n s)) ;
 
+# Remove imperative
+REMOVE (imp) ;
+
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
 SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
 
