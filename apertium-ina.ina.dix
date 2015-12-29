@@ -557,6 +557,8 @@
     <e lm="semine"><i>semine</i><par n="catto__n"/></e>
     <e lm="serpente"><i>serpente</i><par n="catto__n"/></e>
     <e lm="verme"><i>verme</i><par n="catto__n"/></e>
+    
+<!--    Verbs -->
 
     <e lm="esser"><i></i><par n="/esser__vbser"/></e>
     <e lm="cantar"><i>canta</i><par n="canta/r__vblex"/></e>
