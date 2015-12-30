@@ -18,7 +18,7 @@
     <sdef n="vbhaver"/>
     <sdef n="pri"   c="prient indicative"/>
     <sdef n="past"/>
-    <sdef n="fut"/>
+    <sdef n="fti"/>
     <sdef n="cni"/>
     <sdef n="inf"/>
     <sdef n="pp"/>
@@ -204,6 +204,12 @@
     <pardef n="illo__prn">
             <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
+    <pardef n="ille__prn">
+            <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+    <pardef n="illa__prn">
+            <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
     <pardef n="nos__prn">
             <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
@@ -212,6 +218,12 @@
     </pardef>
     <pardef n="illos__prn">
             <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="illes__prn">
+            <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="illas__prn">
+            <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="ora__adv">
       <e>
@@ -285,7 +297,7 @@
       <e>
         <p>
           <l>ra</l>
-          <r>r<s n="vblex"/><s n="fut"/></r>
+          <r>r<s n="vblex"/><s n="fti"/></r>
         </p>
       </e>
       <e>
@@ -329,7 +341,7 @@
       <e>
         <p>
           <l>era</l>
-          <r>er<s n="vblex"/><s n="fut"/></r>
+          <r>er<s n="vblex"/><s n="fti"/></r>
         </p>
       </e>
       <e>
@@ -373,7 +385,7 @@
       <e>
         <p>
           <l>ra</l>
-          <r>r<s n="vblex"/><s n="fut"/></r>
+          <r>r<s n="vblex"/><s n="fti"/></r>
         </p>
       </e>
       <e>
@@ -459,13 +471,13 @@
       <e>
         <p>
           <l>essera</l>
-          <r>esser<s n="vbser"/><s n="fut"/></r>
+          <r>esser<s n="vbser"/><s n="fti"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>sera</l>
-          <r>esser<s n="vbser"/><s n="fut"/></r>
+          <r>esser<s n="vbser"/><s n="fti"/></r>
         </p>
       </e>
       <e>
@@ -509,18 +521,24 @@
     <e lm="si"><i>si</i><par n="si__cnjadv"/></e>
     <e lm="e"><i>e</i><par n="e__cnjcoo"/></e>
     <e lm="o"><i>o</i><par n="e__cnjcoo"/></e>
+    <e lm="ma"><i>ma</i><par n="e__cnjcoo"/></e>
+
 
     <e lm="le"><i>le</i><par n="le__det"/></e>
     <e lm="un"><i>un</i><par n="un__det"/></e>
     <e lm="iste"><i>iste</i><par n="iste__det"/></e>
 
     <e lm="iste"><i>ist</i><par n="ist/e__prn"/></e>
-            <e i=""><i>io</i><par n="io__prn"/></e>
-        <e i=""><i>tu</i><par n="tu__prn"/></e>
-        <e i=""><i>illo</i><par n="illo__prn"/></e>
-        <e i=""><i>nos</i><par n="nos__prn"/></e>
-        <e i=""><i>vos</i><par n="vos__prn"/></e>
-        <e i=""><i>illos</i><par n="illos__prn"/></e>
+    <e i=""><i>io</i><par n="io__prn"/></e>
+    <e i=""><i>tu</i><par n="tu__prn"/></e>
+    <e i=""><i>illo</i><par n="illo__prn"/></e>
+    <e i=""><i>ille</i><par n="ille__prn"/></e>
+    <e i=""><i>illa</i><par n="illa__prn"/></e>
+    <e i=""><i>nos</i><par n="nos__prn"/></e>
+    <e i=""><i>vos</i><par n="vos__prn"/></e>
+    <e i=""><i>illos</i><par n="illos__prn"/></e>
+    <e i=""><i>illes</i><par n="illes__prn"/></e>
+    <e i=""><i>illas</i><par n="illas__prn"/></e>
     <e lm="se"><i>se</i><par n="se__prn"/></e>
 
     <e lm="ora"><i>ora</i><par n="ora__adv"/></e>
@@ -581,6 +599,7 @@
     <e lm="currer"><i>curre</i><par n="cred/er__vblex"/></e>       
     <e lm="natar"><i>nata</i><par n="canta/r__vblex"/></e>       
     <e lm="cantar"><i>canta</i><par n="canta/r__vblex"/></e>  
+      <e lm="haber"><i>hab</i><par n="cred/er__vblex"/></e>
       
   </section>
   <section id="punctuation" type="inconditional">
