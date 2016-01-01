@@ -15,6 +15,7 @@
     <sdef n="f"/>
     <sdef n="vblex"/>
     <sdef n="vbser"/>
+    <sdef n="vbmod"/>
     <sdef n="vbhaver"/>
     <sdef n="pri"   c="prient indicative"/>
     <sdef n="past"/>
@@ -204,12 +205,14 @@
     <pardef n="illo__prn">
             <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
-    <pardef n="ille__prn">
-            <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <pardef n="ill/e__prn">
+            <e i=""><p><l>e</l><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+            <e i=""><p><l>a</l><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+            <e i=""><p><l>es</l><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+            <e i=""><p><l>as</l><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+
     </pardef>
-    <pardef n="illa__prn">
-            <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-    </pardef>
+<!--      Ille<prn><nom><p3><m><pl>-->
     <pardef n="nos__prn">
             <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
@@ -218,12 +221,6 @@
     </pardef>
     <pardef n="illos__prn">
             <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-    </pardef>
-    <pardef n="illes__prn">
-            <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-    </pardef>
-    <pardef n="illas__prn">
-            <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="ora__adv">
       <e>
@@ -319,6 +316,50 @@
         </p>
       </e>
     </pardef>
+    <pardef n="pot/er__vbmod">
+      <e>
+        <p>
+          <l>er</l>
+          <r>er<s n="vbmod"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>e</l>
+          <r>er<s n="vbmod"/><s n="pri"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eva</l>
+          <r>r<s n="vbmod"/><s n="past"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>era</l>
+          <r>er<s n="vbmod"/><s n="fti"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>erea</l>
+          <r>er<s n="vbmod"/><s n="cni"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ente</l>
+          <r>er<s n="vbmod"/><s n="pprs"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ite</l>
+          <r>er<s n="vbmod"/><s n="pp"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="cred/er__vblex">
       <e>
         <p>
@@ -407,101 +448,101 @@
         </p>
       </e>
     </pardef>
-    <pardef n="/esser__vbser">
+    <pardef n="/esser__vblex">
       <e>
         <p>
           <l>esser</l>
-          <r>esser<s n="vbser"/><s n="inf"/></r>
+          <r>esser<s n="vblex"/><s n="inf"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>sia</l>
-          <r>esser<s n="vbser"/><s n="imp"/></r>
+          <r>esser<s n="vblex"/><s n="imp"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>sia</l>
-          <r>esser<s n="vbser"/><s n="prs"/></r>
+          <r>esser<s n="vblex"/><s n="prs"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>es</l>
-          <r>esser<s n="vbser"/><s n="pri"/></r>
+          <r>esser<s n="vblex"/><s n="pri"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>esse</l>
-          <r>esser<s n="vbser"/><s n="pri"/></r>
+          <r>esser<s n="vblex"/><s n="pri"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>son</l>
-          <r>esser<s n="vbser"/><s n="pri"/><s n="pl"/></r>
+          <r>esser<s n="vblex"/><s n="pri"/><s n="pl"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>so</l>
-          <r>esser<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>esser<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>somos</l>
-          <r>esser<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>esser<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>esseva</l>
-          <r>esser<s n="vbser"/><s n="past"/></r>
+          <r>esser<s n="vblex"/><s n="past"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>era</l>
-          <r>esser<s n="vbser"/><s n="past"/></r>
+          <r>esser<s n="vblex"/><s n="past"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>essera</l>
-          <r>esser<s n="vbser"/><s n="fti"/></r>
+          <r>esser<s n="vblex"/><s n="fti"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>sera</l>
-          <r>esser<s n="vbser"/><s n="fti"/></r>
+          <r>esser<s n="vblex"/><s n="fti"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>esserea</l>
-          <r>esser<s n="vbser"/><s n="cni"/></r>
+          <r>esser<s n="vblex"/><s n="cni"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>serea</l>
-          <r>esser<s n="vbser"/><s n="cni"/></r>
+          <r>esser<s n="vblex"/><s n="cni"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>essente</l>
-          <r>esser<s n="vbser"/><s n="pprs"/></r>
+          <r>esser<s n="vblex"/><s n="pprs"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>essete</l>
-          <r>esser<s n="vbser"/><s n="pp"/></r>
+          <r>esser<s n="vblex"/><s n="pp"/></r>
         </p>
       </e>
     </pardef>
@@ -509,20 +550,46 @@
   <section id="main" type="standard">
     <e lm="adjective"><i>adjective</i><par n="adjective__adj"/></e>
     <e lm="excellente"><i>excellent</i><par n="excellent/e__adj"/></e>
+    <e lm="argentee"><i>argente</i><par n="excellent/e__adj"/></e>
+    <e lm="confidente"><i>confident</i><par n="excellent/e__adj"/></e>
+    <e lm="altere"><i>alter</i><par n="excellent/e__adj"/></e>
+    <e lm="belle"><i>bell</i><par n="excellent/e__adj"/></e>
+    <e lm="bizarre"><i>bizarr</i><par n="excellent/e__adj"/></e>
+    <e lm="albe"><i>alb</i><par n="excellent/e__adj"/></e>
+    <e lm="azur"><i>azur</i><par n="adjective__adj"/></e>
+    <e lm="bon"><i>bon</i><par n="adjective__adj"/></e>
+    <e lm="brun"><i>brun</i><par n="adjective__adj"/></e>
+    <e lm="certe"><i>cert</i><par n="excellent/e__adj"/></e>
+    <e lm="calide"><i>calid</i><par n="excellent/e__adj"/></e>
+    <e lm="car"><i>car</i><par n="adjective__adj"/></e>
+    <e lm="confuse"><i>confus</i><par n="excellent/e__adj"/></e>
+    <e lm="satisfacte"><i>satisfact</i><par n="excellent/e__adj"/></e>
+    <e lm="brave"><i>brav</i><par n="excellent/e__adj"/></e>
+    <e lm="amic"><i>amic</i><par n="adjective__adj"/></e>
+    <e lm="ancian"><i>ancian</i><par n="adjective__adj"/></e>
+    <e lm="clar"><i>clar</i><par n="adjective__adj"/></e>
+    <e lm="gentil"><i>gentil</i><par n="adjective__adj"/></e>
+
 
     <e lm="al"><p><l>al</l><r>a<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
     <e lm="del"><p><l>del</l><r>de<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
     <e lm="in"><i>in</i><par n="in__pr"/></e>
     <e lm="a"><i>a</i><par n="in__pr"/></e>
     <e lm="de"><i>de</i><par n="in__pr"/></e>
+    <e lm="con"><i>con</i><par n="in__pr"/></e>
 
+    <e lm="multo"><i>multo</i><par n="plus__preadv"/></e>
+
+      
     <e lm="tote"><i>tote</i><par n="tote__predet"/></e>
     <e lm="plus"><i>plus</i><par n="plus__preadv"/></e>
+      
     <e lm="si"><i>si</i><par n="si__cnjadv"/></e>
     <e lm="e"><i>e</i><par n="e__cnjcoo"/></e>
     <e lm="o"><i>o</i><par n="e__cnjcoo"/></e>
     <e lm="ma"><i>ma</i><par n="e__cnjcoo"/></e>
 
+      
 
     <e lm="le"><i>le</i><par n="le__det"/></e>
     <e lm="un"><i>un</i><par n="un__det"/></e>
@@ -532,13 +599,10 @@
     <e i=""><i>io</i><par n="io__prn"/></e>
     <e i=""><i>tu</i><par n="tu__prn"/></e>
     <e i=""><i>illo</i><par n="illo__prn"/></e>
-    <e i=""><i>ille</i><par n="ille__prn"/></e>
-    <e i=""><i>illa</i><par n="illa__prn"/></e>
+    <e i=""><i>ill</i><par n="ill/e__prn"/></e>
     <e i=""><i>nos</i><par n="nos__prn"/></e>
     <e i=""><i>vos</i><par n="vos__prn"/></e>
     <e i=""><i>illos</i><par n="illos__prn"/></e>
-    <e i=""><i>illes</i><par n="illes__prn"/></e>
-    <e i=""><i>illas</i><par n="illas__prn"/></e>
     <e lm="se"><i>se</i><par n="se__prn"/></e>
 
     <e lm="ora"><i>ora</i><par n="ora__adv"/></e>
@@ -560,7 +624,10 @@
     <e lm="arbore"><i>arbore</i><par n="catto__n"/></e>
     <e lm="ave"><i>ave</i><par n="catto__n"/></e>
     <e lm="baston"><i>baston</i><par n="can__n"/></e>
+    <e lm="campania"><i>campania</i><par n="catto__n"/></e>
     <e lm="cortice"><i>cortice</i><par n="catto__n"/></e>
+    <e lm="domo"><i>domo</i><par n="catto__n"/></e>
+    <e lm="familia"><i>familia</i><par n="catto__n"/></e>
     <e lm="folio"><i>folio</i><par n="catto__n"/></e>
     <e lm="foreste"><i>foreste</i><par n="catto__n"/></e>
     <e lm="fructo"><i>fructo</i><par n="catto__n"/></e>
@@ -578,7 +645,7 @@
     
 <!--    Verbs -->
 
-    <e lm="esser"><i></i><par n="/esser__vbser"/></e>
+    <e lm="esser"><i></i><par n="/esser__vblex"/></e>
     <e lm="cantar"><i>canta</i><par n="canta/r__vblex"/></e>
     <e lm="mangiar"><i>mangia</i><par n="canta/r__vblex"/></e>
     <e lm="amar"><i>ama</i><par n="canta/r__vblex"/></e>
@@ -597,9 +664,38 @@
     <e lm="biber"><i>bibe</i><par n="cred/er__vblex"/></e>       
     <e lm="ambular"><i>ambula</i><par n="canta/r__vblex"/></e>  
     <e lm="currer"><i>curre</i><par n="cred/er__vblex"/></e>       
-    <e lm="natar"><i>nata</i><par n="canta/r__vblex"/></e>       
+    <e lm="natar"><i>nata</i><par n="canta/r__vblex"/></e>  
+    <e lm="habitar"><i>habita</i><par n="canta/r__vblex"/></e>       
     <e lm="cantar"><i>canta</i><par n="canta/r__vblex"/></e>  
-      <e lm="haber"><i>hab</i><par n="cred/er__vblex"/></e>
+    <e lm="haber"><i>hab</i><par n="cred/er__vblex"/></e>
+    <e lm="poter"><i>pot</i><par n="cred/er__vblex"/></e>
+    <e lm="poter"><i>pot</i><par n="pot/er__vbmod"/></e>
+    <e lm="facer"><i>fac</i><par n="cred/er__vblex"/></e>
+    <e lm="mitter"><i>mitt</i><par n="cred/er__vblex"/></e>
+    <e lm="dicer"><i>dic</i><par n="cred/er__vblex"/></e>
+    <e lm="deber"><i>deb</i><par n="cred/er__vblex"/></e>
+    <e lm="deber"><i>deb</i><par n="pot/er__vbmod"/></e>
+
+    <e lm="prender"><i>prend</i><par n="cred/er__vblex"/></e>
+    <e lm="prender"><i>prend</i><par n="cred/er__vblex"/></e>
+    <e lm="dar"><i>da</i><par n="canta/r__vblex"/></e>
+    <e lm="ambular"><i>ambula</i><par n="canta/r__vblex"/></e>
+    <e lm="voler"><i>vol</i><par n="cred/er__vblex"/></e>
+    <e lm="saper"><i>sap</i><par n="cred/er__vblex"/></e>
+    <e lm="vider"><i>vid</i><par n="cred/er__vblex"/></e>
+    <e lm="demandar"><i>demanda</i><par n="canta/r__vblex"/></e>
+    <e lm="trovar"><i>trova</i><par n="canta/r__vblex"/></e>
+    <e lm="render"><i>rend</i><par n="cred/er__vblex"/></e>
+    <e lm="venir"><i>veni</i><par n="parti/r__vblex"/></e>
+    <e lm="passar"><i>passa</i><par n="canta/r__vblex"/></e>
+    <e lm="comprehender"><i>comprehend</i><par n="cred/er__vblex"/></e>
+    <e lm="restar"><i>resta</i><par n="canta/r__vblex"/></e>
+    <e lm="tener"><i>ten</i><par n="cred/er__vblex"/></e>
+    <e lm="ambular"><i>porta</i><par n="canta/r__vblex"/></e>
+    <e lm="monstrar"><i>monstra</i><par n="canta/r__vblex"/></e>
+    <e lm="cercar"><i>cerca</i><par n="canta/r__vblex"/></e>
+
+
       
   </section>
   <section id="punctuation" type="inconditional">
