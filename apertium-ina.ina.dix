@@ -764,6 +764,7 @@
     <e lm="dignitate"><i>dignitate</i><par n="catto__n"/></e>
     <e lm="esser human"><i>esser</i><par n="can__n"/><p><l><b/>human</l><r><g><b/>human</g></r></p></e>
 
+
     <e lm="can"><i>can</i><par n="can__n"/></e>
     <e lm="homine"><i>homine</i><par n="catto__n"/></e>
     <e lm="femina"><i>femina</i><par n="catto__n"/></e>
@@ -799,6 +800,22 @@
     <e lm="litteratura"><i>litteratura</i><par n="catto__n"/></e>
     <e lm="invitation"><i>invitation</i><par n="catto__n"/></e>
     <e lm="conferentia"><i>conferentia</i><par n="catto__n"/></e>
+    <e lm="autobus"><i>autobus</i><par n="catto__n"/></e>
+    <e lm="traino"><i>traino</i><par n="catto__n"/></e>
+    <e lm="telephono"><i>telephono</i><par n="catto__n"/></e>
+    <e lm="central"><i>central</i><par n="catto__n"/></e>
+    <e lm="ove"><i>ove</i><par n="catto__n"/></e>
+    <e lm="cavallo"><i>cavallo</i><par n="catto__n"/></e>
+    <e lm="hippopotamo"><i>hippopotamo</i><par n="catto__n"/></e>
+    <e lm="stabulo"><i>stabulo</i><par n="catto__n"/></e>
+    <e lm="nihil"><i>nihil</i><par n="catto__n"/></e>
+    <e lm="oca"><i>oca</i><par n="catto__n"/></e>
+    <e lm="domo"><i>domo</i><par n="catto__n"/></e>
+    <e lm="theatro"><i>theatro</i><par n="catto__n"/></e>
+    <e lm="familia"><i>familia</i><par n="catto__n"/></e>
+    <e lm="firma"><i>firma</i><par n="catto__n"/></e>
+    <e lm="opera"><i>opera</i><par n="catto__n"/></e>
+    <e lm="annuncio"><i>annuncio</i><par n="catto__n"/></e>
     
     <e lm="radio"><i>radio</i><par n="catto__n"/></e>
     <e lm="abbordage"><i>abbordage</i><par n="catto__n"/></e>
@@ -873,9 +890,10 @@
     <e lm="audir"><i>audi</i><par n="parti/r__vblex"/></e>
     <e lm="dormir"><i>dormi</i><par n="parti/r__vblex"/></e>
     <e lm="parlar"><i>parla</i><par n="canta/r__vblex"/></e>
+    <e lm="comprender"><i>comprend</i><par n="cred/er__vblex"/></e>
     <e lm="mangiar"><i>mangia</i><par n="canta/r__vblex"/></e>       
     <e lm="leger"><i>lege</i><par n="canta/r__vblex"/></e>       
-    <e lm="biber"><i>bibe</i><par n="cred/er__vblex"/></e>       
+    <e lm="biber"><i>bib</i><par n="cred/er__vblex"/></e>       
     <e lm="ambular"><i>ambula</i><par n="canta/r__vblex"/></e>  
     <e lm="currer"><i>curre</i><par n="cred/er__vblex"/></e>       
     <e lm="natar"><i>nata</i><par n="canta/r__vblex"/></e>  
