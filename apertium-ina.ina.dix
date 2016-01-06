@@ -817,61 +817,6 @@
     <e lm="opera"><i>opera</i><par n="catto__n"/></e>
     <e lm="annuncio"><i>annuncio</i><par n="catto__n"/></e>
     
-    <e lm="radio"><i>radio</i><par n="catto__n"/></e>
-    <e lm="abbordage"><i>abbordage</i><par n="catto__n"/></e>
-    <e lm="silentio"><i>silentio</i><par n="catto__n"/></e>
-    <e lm="absentia"><i>absentia</i><par n="catto__n"/></e>
-    <e lm="bacchetta"><i>bacchetta</i><par n="catto__n"/></e>
-
-    <e lm="banio"><i>banio</i><par n="catto__n"/></e>
-    <e lm="banco"><i>banco</i><par n="catto__n"/></e>
-    <e lm="baston"><i>baston</i><par n="catto__n"/></e>
-    <e lm="bassino"><i>bassino</i><par n="catto__n"/></e>
-    <e lm="bucca"><i>bucca</i><par n="catto__n"/></e>
-
-    <e lm="calma"><i>calma</i><par n="catto__n"/></e>
-    <e lm="campamento"><i>campamento</i><par n="catto__n"/></e>
-    <e lm="cifra"><i>cifra</i><par n="catto__n"/></e>
-    <e lm="cinema"><i>cinema</i><par n="catto__n"/></e>
-    <e lm="cigarro"><i>cigarro</i><par n="catto__n"/></e>
-
-    <e lm="dama"><i>dama</i><par n="catto__n"/></e>
-    <e lm="data"><i>data</i><par n="catto__n"/></e>
-    <e lm="facie"><i>facie</i><par n="catto__n"/></e>
-    <e lm="decor"><i>decor</i><par n="catto__n"/></e>
-    <e lm="demon"><i>demon</i><par n="catto__n"/></e>
-
-    <e lm="demonstration"><i>demonstration</i><par n="catto__n"/></e>
-    <e lm="disastro"><i>disastro</i><par n="catto__n"/></e>
-    <e lm="detalio"><i>detalio</i><par n="catto__n"/></e>
-    <e lm="differentia"><i>differentia</i><par n="catto__n"/></e>
-    <e lm="diplomatia"><i>diplomatia</i><par n="catto__n"/></e>
-  
-
-    <e lm="faciada"><i>faciada</i><par n="catto__n"/></e>
-    <e lm="maniera"><i>maniera</i><par n="catto__n"/></e>
-    <e lm="federation"><i>federation</i><par n="catto__n"/></e>
-    <e lm="clausura"><i>clausura</i><par n="catto__n"/></e>
-    <e lm="festa"><i>festa</i><par n="catto__n"/></e>
-  
-    <e lm="gangster"><i>gangster</i><par n="catto__n"/></e>
-    <e lm="garage"><i>garage</i><par n="catto__n"/></e>
-    <e lm="gastronomo"><i>gastronomo</i><par n="catto__n"/></e>
-    <e lm="general"><i>general</i><par n="catto__n"/></e>
-    <e lm="sorta"><i>sorta</i><par n="catto__n"/></e>
-
-    <e lm="gesto"><i>gesto</i><par n="catto__n"/></e>
-    <e lm="gravamine"><i>gravamine</i><par n="catto__n"/></e>
-    <e lm="habitante"><i>habitante</i><par n="catto__n"/></e>
-    <e lm="hora"><i>hora</i><par n="catto__n"/></e>
-    <e lm="historia"><i>historia</i><par n="catto__n"/></e>
-
-    <e lm="horologio"><i>horologio</i><par n="catto__n"/></e>
-    <e lm="idea"><i>idea</i><par n="catto__n"/></e>
-    <e lm="imagine"><i>imagine</i><par n="catto__n"/></e>
-    <e lm="immigration"><i>immigration</i><par n="catto__n"/></e>
-    <e lm="implantation"><i>implantation</i><par n="catto__n"/></e>
-
 
 
 <!--    Verbs -->
@@ -986,7 +931,7 @@
 <e lm="disastro"><i>disastro</i><par n="catto__n"/></e>
 <e lm="detalio"><i>detalio</i><par n="catto__n"/></e>
 <e lm="differentia"><i>differentia</i><par n="catto__n"/></e>
-<e lm="diplomatia"><i>diplomatia</i><par n="catto__n"/></e>
+<e lm="mercato"><i>mercato</i><par n="catto__n"/></e>
   
 
 <e lm="faciada"><i>faciada</i><par n="catto__n"/></e>
