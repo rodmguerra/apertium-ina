@@ -10,6 +10,7 @@
     <sdef n="sg"/>
     <sdef n="pl"/>
     <sdef n="sp"/>
+    <sdef n="rel"/>
     <sdef n="mf"/>
     <sdef n="m"/>
     <sdef n="f"/>
@@ -1051,6 +1052,11 @@
     <e lm="inter"><i>inter</i><par n="in__pr"/></e>
     <e lm="juxta"><i>juxta</i><par n="in__pr"/></e>
     <e lm="durante"><i>durante</i><par n="in__pr"/></e>
+    <e lm="circa"><i>circa</i><par n="in__pr"/></e>
+    <e lm="nonobstante"><i>nonobstante</i><par n="in__pr"/></e>
+    <e lm="extra"><i>extra</i><par n="in__pr"/></e>
+    <e lm="infra"><i>infra</i><par n="in__pr"/></e>
+    <e lm="presso"><i>presso</i><par n="in__pr"/></e>
   
     <e lm="circa"><i>circa</i><par n="ora__adv"/></e>
     <e lm="retro"><i>retro</i><par n="ora__adv"/></e>
@@ -1062,17 +1068,19 @@
     <e lm="extra"><i>extra</i><par n="ora__adv"/></e>
     <e lm="heri"><i>heri</i><par n="ora__adv"/></e>
     <e lm="hic"><i>hic</i><par n="ora__adv"/></e>
+    <e lm="ubi"><i>ubi</i><par n="ora__adv"/></e>
     <e lm="infra"><i>infra</i><par n="ora__adv"/></e>
     <e lm="insimul"><i>insimul</i><par n="ora__adv"/></e>
     <e lm="interim"><i>interim</i><par n="ora__adv"/></e>
     <e lm="melio"><i>melio</i><par n="ora__adv"/></e>
     <e lm="mesmo"><i>mesmo</i><par n="ora__adv"/></e>
-    <e lm="ubi"><i>ora</i><par n="ora__adv"/></e>
     <e lm="bastante"><i>bastante</i><par n="ora__adv"/></e>
     <e lm="ben"><i>ben</i><par n="ora__adv"/></e>
     <e lm="ibi"><i>ibi</i><par n="ora__adv"/></e>
     <e lm="forsan"><i>forsan</i><par n="ora__adv"/></e>
     <e lm="presso"><i>presso</i><par n="ora__adv"/></e>
+
+    <e lm="ubi"><i>ubi</i><par n="rel"/></e>
 
     <e lm="anniversario"><i>anniversario</i><par n="catto__n"/></e>
     <e lm="bira"><i>bira</i><par n="catto__n"/></e>
@@ -1205,13 +1213,13 @@
     <e lm="preste"><i>prest</i><par n="excellent/e__adj"/></e>
     <e lm="rapide"><i>rapid</i><par n="excellent/e__adj"/></e>
 
-    <e lm="dur"><i>dur</i><par n="adjective__adj"/></e>
+    <e lm="durmente"><i>durmente</i><par n="excellent/e__adj"/></e>
     <e lm="estranier"><i>estranier</i><par n="adjective__adj"/></e>
     <e lm="legier"><i>legier</i><par n="adjective__adj"/></e>
     <e lm="mal"><i>mal</i><par n="adjective__adj"/></e>
     <e lm="melior"><i>melior</i><par n="adjective__adj"/></e>
     <e lm="pejor"><i>pejor</i><par n="adjective__adj"/></e>
-    <e lm="ric"><i>ric</i><par n="adjective__adj"/></e>
+    <e lm="ricamente"><i>ricamente</i><par n="excellent/e__adj"/></e>
     <e lm="san"><i>san</i><par n="adjective__adj"/></e>
     <e lm="secur"><i>asecurzur</i><par n="adjective__adj"/></e>
 
