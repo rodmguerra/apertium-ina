@@ -581,6 +581,12 @@
         </p>
       </e>
     </pardef>
+    <pardef n="ubi__rel"> 
+      <e><p><l/>                    <r><s n="rel"/><s n="adv"/></r></p></e> 
+    </pardef> 
+    <pardef n="como__adv"> 
+      <e><p><l/>                    <r><s n="adv"/><s n="itg"/></r></p></e> 
+    </pardef> 
   </pardefs>
   <section id="main" type="standard">
     <e lm="adjective"><i>adjective</i><par n="adjective__adj"/></e>
@@ -1068,7 +1074,7 @@
     <e lm="extra"><i>extra</i><par n="ora__adv"/></e>
     <e lm="heri"><i>heri</i><par n="ora__adv"/></e>
     <e lm="hic"><i>hic</i><par n="ora__adv"/></e>
-    <e lm="ubi"><i>ubi</i><par n="ora__adv"/></e>
+    <e lm="ubi"><i>ubi</i><par n="como__adv"/></e>
     <e lm="infra"><i>infra</i><par n="ora__adv"/></e>
     <e lm="insimul"><i>insimul</i><par n="ora__adv"/></e>
     <e lm="interim"><i>interim</i><par n="ora__adv"/></e>
@@ -1080,7 +1086,7 @@
     <e lm="forsan"><i>forsan</i><par n="ora__adv"/></e>
     <e lm="presso"><i>presso</i><par n="ora__adv"/></e>
 
-    <e lm="ubi"><i>ubi</i><par n="rel"/></e>
+    <e lm="ubi"><i>ubi</i><par n="ubi__rel"/></e>
 
     <e lm="anniversario"><i>anniversario</i><par n="catto__n"/></e>
     <e lm="bira"><i>bira</i><par n="catto__n"/></e>
