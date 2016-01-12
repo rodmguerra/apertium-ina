@@ -247,6 +247,14 @@
     <pardef n="illos__prn">
             <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
+    <pardef n="nihil__prn">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="prn"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="que__cnjsub">
             <e i=""><p><l/><r><s n="cnjsub"/></r></p></e>
     </pardef>
@@ -616,6 +624,7 @@
     <e lm="terrestre"><i>terrestr</i><par n="excellent/e__adj"/></e>
     <e lm="exacte"><i>exact</i><par n="excellent/e__adj"/></e>
     <e lm="libere"><i>liber</i><par n="excellent/e__adj"/></e>
+    <e lm="centesime"><i>centesim</i><par n="excellent/e__adj"/></e>
 
 
     <e lm="al"><p><l>al</l><r>a<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
@@ -654,6 +663,7 @@
     <e i=""><i>vos</i><par n="vos__prn"/></e>
     <e i=""><i>illos</i><par n="illos__prn"/></e>
     <e lm="se"><i>se</i><par n="se__prn"/></e>
+    <e lm="nihil"><i>nihil</i><par n="nihil__prn"/></e>
 
     <e lm="ora"><i>ora</i><par n="ora__adv"/></e>
     <e lm="jammais"><i>jammais</i><par n="ora__adv"/></e>
@@ -786,6 +796,7 @@
     <e lm="domo"><i>domo</i><par n="catto__n"/></e>
     <e lm="familia"><i>familia</i><par n="catto__n"/></e>
     <e lm="folio"><i>folio</i><par n="catto__n"/></e>
+
     <e lm="foreste"><i>foreste</i><par n="catto__n"/></e>
     <e lm="fructo"><i>fructo</i><par n="catto__n"/></e>
     <e lm="infante"><i>infante</i><par n="catto__n"/></e>
@@ -816,7 +827,6 @@
     <e lm="cavallo"><i>cavallo</i><par n="catto__n"/></e>
     <e lm="hippopotamo"><i>hippopotamo</i><par n="catto__n"/></e>
     <e lm="stabulo"><i>stabulo</i><par n="catto__n"/></e>
-    <e lm="nihil"><i>nihil</i><par n="catto__n"/></e>
     <e lm="oca"><i>oca</i><par n="catto__n"/></e>
     <e lm="domo"><i>domo</i><par n="catto__n"/></e>
     <e lm="theatro"><i>theatro</i><par n="catto__n"/></e>
@@ -826,6 +836,99 @@
     <e lm="annuncio"><i>annuncio</i><par n="catto__n"/></e>
     
 
+
+<!--    Verbs -->
+    <e lm="calma"><i>calma</i><par n="catto__n"/></e>
+    <e lm="campamento"><i>campamento</i><par n="catto__n"/></e>
+    <e lm="cifra"><i>cifra</i><par n="catto__n"/></e>
+    <e lm="cinema"><i>cinema</i><par n="catto__n"/></e>
+    <e lm="cigarro"><i>cigarro</i><par n="catto__n"/></e>
+
+    <e lm="dama"><i>dama</i><par n="catto__n"/></e>
+    <e lm="data"><i>data</i><par n="catto__n"/></e>
+    <e lm="facie"><i>facie</i><par n="catto__n"/></e>
+    <e lm="decor"><i>decor</i><par n="catto__n"/></e>
+    <e lm="demon"><i>demon</i><par n="catto__n"/></e>
+
+    <e lm="demonstration"><i>demonstration</i><par n="catto__n"/></e>
+    <e lm="disastro"><i>disastro</i><par n="catto__n"/></e>
+    <e lm="detalio"><i>detalio</i><par n="catto__n"/></e>
+    <e lm="differentia"><i>differentia</i><par n="catto__n"/></e>
+    <e lm="diplomatia"><i>diplomatia</i><par n="catto__n"/></e>
+  
+
+    <e lm="faciada"><i>faciada</i><par n="catto__n"/></e>
+    <e lm="maniera"><i>maniera</i><par n="catto__n"/></e>
+    <e lm="federation"><i>federation</i><par n="catto__n"/></e>
+    <e lm="clausura"><i>clausura</i><par n="catto__n"/></e>
+    <e lm="festa"><i>festa</i><par n="catto__n"/></e>
+  
+    <e lm="gangster"><i>gangster</i><par n="catto__n"/></e>
+    <e lm="garage"><i>garage</i><par n="catto__n"/></e>
+    <e lm="gastronomo"><i>gastronomo</i><par n="catto__n"/></e>
+    <e lm="general"><i>general</i><par n="catto__n"/></e>
+    <e lm="sorta"><i>sorta</i><par n="catto__n"/></e>
+
+    <e lm="gesto"><i>gesto</i><par n="catto__n"/></e>
+    <e lm="gravamine"><i>gravamine</i><par n="catto__n"/></e>
+    <e lm="habitante"><i>habitante</i><par n="catto__n"/></e>
+    <e lm="hora"><i>hora</i><par n="catto__n"/></e>
+    <e lm="historia"><i>historia</i><par n="catto__n"/></e>
+
+    <e lm="horologio"><i>horologio</i><par n="catto__n"/></e>
+    <e lm="idea"><i>idea</i><par n="catto__n"/></e>
+    <e lm="imagine"><i>imagine</i><par n="catto__n"/></e>
+    <e lm="immigration"><i>immigration</i><par n="catto__n"/></e>
+    <e lm="implantation"><i>implantation</i><par n="catto__n"/></e>
+
+
+    <e lm="linea"><i>linea</i><par n="catto__n"/></e>
+    <e lm="café"><i>café</i><par n="catto__n"/></e>
+    <e lm="celebration"><i>celebration</i><par n="catto__n"/></e>
+    <e lm="cella"><i>cella</i><par n="catto__n"/></e>
+    <e lm="ceramica"><i>ceramica</i><par n="catto__n"/></e>
+
+    <e lm="cathedra"><i>sedia</i><par n="catto__n"/></e>
+    <e lm="sorte"><i>sorte</i><par n="catto__n"/></e>
+    <e lm="cappello"><i>cappello</i><par n="catto__n"/></e>
+    <e lm="minoritate"><i>minoritate</i><par n="catto__n"/></e>
+    <e lm="moda"><i>moda</i><par n="catto__n"/></e>
+
+    <e lm="voga"><i>voga</i><par n="catto__n"/></e>
+    <e lm="medie"><i>medie</i><par n="catto__n"/></e>
+    <e lm="molecula"><i>molecula</i><par n="catto__n"/></e>
+    <e lm="mumia"><i>mumia</i><par n="catto__n"/></e>
+    <e lm="amonta"><i>amonta</i><par n="catto__n"/></e>
+
+    <e lm="molecula"><i>molecula</i><par n="catto__n"/></e>
+    <e lm="horologio"><i>horologio</i><par n="catto__n"/></e>
+    <e lm="moschea"><i>moschea</i><par n="catto__n"/></e>
+    <e lm="parola"><i>parola</i><par n="catto__n"/></e>
+    <e lm="musca"><i>musca</i><par n="catto__n"/></e>
+
+    <e lm="musculo"><i>musculo</i><par n="catto__n"/></e>
+    <e lm="movimento"><i>movimento</i><par n="catto__n"/></e>
+    <e lm="muro"><i>muro</i><par n="catto__n"/></e>
+    <e lm="museo"><i>museo</i><par n="catto__n"/></e>
+    <e lm="medio"><i>medio</i><par n="catto__n"/></e>
+
+    <e lm="natura"><i>natura</i><par n="catto__n"/></e>
+    <e lm="nausea"><i>nausea</i><par n="catto__n"/></e>
+    <e lm="nazismo"><i>nazismo</i><par n="catto__n"/></e>
+    <e lm="nervo"><i>nervo</i><par n="catto__n"/></e>
+    <e lm="neutralitate"><i>neutralitate</i><par n="catto__n"/></e>
+
+    <e lm="nota"><i>nota</i><par n="catto__n"/></e>
+    <e lm="nucleo"><i>nucleo</i><par n="catto__n"/></e>
+    <e lm="nube"><i>nube</i><par n="catto__n"/></e>
+    <e lm="nocte"><i>nocte</i><par n="catto__n"/></e>
+    <e lm="objectivo"><i>objectivo</i><par n="catto__n"/></e>
+
+    <e lm="activitate"><i>activitate</i><par n="catto__n"/></e>
+    <e lm="oceano"><i>oceano</i><par n="catto__n"/></e>
+    <e lm="odor"><i>odor</i><par n="catto__n"/></e>
+    <e lm="offerta"><i>offerta</i><par n="catto__n"/></e>
+    <e lm="nihil"><i>nihil</i><par n="catto__n"/></e>
 
 <!--    Verbs -->
 
@@ -859,6 +962,7 @@
     <e lm="mitter"><i>mitt</i><par n="cred/er__vblex"/></e>
     <e lm="dicer"><i>dic</i><par n="cred/er__vblex"/></e>
     <e lm="deber"><i>deb</i><par n="cred/er__vblex"/></e>
+    <e lm="ceder"><i>ced</i><par n="cred/er__vblex"/></e>
     <e lm="deber"><i>deb</i><par n="pot/er__vbmod"/></e>
     <e lm="pensar"><i>pensa</i><par n="canta/r__vblex"/></e>
 
