@@ -1,4 +1,10 @@
-<dictionary>
+<!-- dictionario de interlingua -->
+<!-- il ha decisiones importante que prener:
+   esser vblex?
+   haber vblex?
+   factorisation de paradigmas de numerales
+-->
+<!-- <dictionary>
   <alphabet>ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
   <sdefs>
     <sdef n="n"/>
