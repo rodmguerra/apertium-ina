@@ -628,8 +628,10 @@
     <e lm="septe"><i>septe</i><par n="tres__num"/></e>
     <e lm="octo"><i>octo</i><par n="tres__num"/></e>
     <e lm="nove"><i>nove</i><par n="tres__num"/></e>
+
     <e lm="dece"><i>dece</i><par n="tres__num"/></e>
     <e lm="dece-un"><i>dece-un</i><par n="tres__num"/></e>
+    <!-- a certain amount of factoring is possible here!! -->
     <e lm="dece-duo"><i>dece-duo</i><par n="tres__num"/></e>
     <e lm="dece-tres"><i>dece-tres</i><par n="tres__num"/></e>
     <e lm="dece-quatro"><i>dece-quatro</i><par n="tres__num"/></e>
