@@ -266,7 +266,7 @@
         </p>
       </e>
     </pardef>
-    <pardef n="trois__num">
+    <pardef n="tres__num">
       <e>
         <p>
           <l></l>
@@ -316,7 +316,9 @@
         </p>
       </e>
     </pardef>
-    <pardef n="canta/r__vblex">
+
+
+   <pardef n="vblex-common">  <!-- common to all vblex paradigms -->
       <e>
         <p>
           <l>r</l>
@@ -347,12 +349,9 @@
           <r>r<s n="vblex"/><s n="cni"/></r>
         </p>
       </e>
-      <e>
-        <p>
-          <l>nte</l>
-          <r>r<s n="vblex"/><s n="pprs"/></r>
-        </p>
-      </e>
+    </pardef>
+
+    <pardef n="vblex-pp-common">   <!-- what's common to past participles -->
       <e>
         <p>
           <l>te</l>
@@ -360,7 +359,42 @@
         </p>
       </e>
     </pardef>
-    <pardef n="pot/er__vbmod">
+
+    <pardef n="vblex-pprs-common"> <!-- what's common to present participles -->
+      <e>
+        <p>
+          <l>nte</l>
+          <r>r<s n="vblex"/><s n="pprs"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+
+
+
+
+    <pardef n="canta/r__vblex">
+      <e><par n="vblex-common"/></e>
+      <e><par n="vblex-pp-common"/></e>
+      <e><par n="vblex-pprs-common"/></e>
+    </pardef>
+
+    <pardef n="parti/r__vblex">
+      <e><par n="vblex-common"/></e>
+      <e><par n="vblex-pp-common"/></e>
+      <e><p><l>e</l><r/></p><par n="vblex-pprs-common"/></e>
+    </pardef>
+
+    <pardef n="cred/er__vblex">
+      <e><i>e</i><par n="vblex-common"/></e>  
+      <e><p><l>i</l><r>e</r></p><par n="vblex-pp-common"/></e> <!-- cred-ite -->
+      <e><i>e</i><par n="vblex-pprs-common"/></e> <!-- cred-ente -->
+    </pardef>
+
+
+
+    <pardef n="pot/er__vbmod">  <!-- hard to collapse with vblex paradigms -->
       <e>
         <p>
           <l>er</l>
@@ -404,95 +438,9 @@
         </p>
       </e>
     </pardef>
-    <pardef n="cred/er__vblex">
-      <e>
-        <p>
-          <l>er</l>
-          <r>er<s n="vblex"/><s n="inf"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>e</l>
-          <r>er<s n="vblex"/><s n="pri"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>eva</l>
-          <r>r<s n="vblex"/><s n="past"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>era</l>
-          <r>er<s n="vblex"/><s n="fti"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>erea</l>
-          <r>er<s n="vblex"/><s n="cni"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ente</l>
-          <r>er<s n="vblex"/><s n="pprs"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ite</l>
-          <r>er<s n="vblex"/><s n="pp"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="parti/r__vblex">
-      <e>
-        <p>
-          <l>r</l>
-          <r>r<s n="vblex"/><s n="inf"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l></l>
-          <r>r<s n="vblex"/><s n="pri"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>va</l>
-          <r>r<s n="vblex"/><s n="past"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ra</l>
-          <r>r<s n="vblex"/><s n="fti"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>rea</l>
-          <r>r<s n="vblex"/><s n="cni"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ente</l>
-          <r>r<s n="vblex"/><s n="pprs"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>te</l>
-          <r>r<s n="vblex"/><s n="pp"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="/esser__vblex">
+
+
+    <pardef n="/esser__vblex"> <!-- this should probably not be vblex; if it is, it could be factored -->
       <e>
         <p>
           <l>esser</l>
@@ -670,106 +618,107 @@
     <e lm="non"><i>non</i><par n="ora__adv"/></e>
     <e lm="actualmente"><i>actualmente</i><par n="ora__adv"/></e>
     <e lm="hodie"><i>hodie</i><par n="ora__adv"/></e>
-    <e lm="un"><i>un</i><par n="trois__num"/></e>
-    <e lm="duo"><i>duo</i><par n="trois__num"/></e>
-    <e lm="tres"><i>tres</i><par n="trois__num"/></e>
-    <e lm="quatro"><i>quatro</i><par n="trois__num"/></e>
-    <e lm="cinque"><i>cinque</i><par n="trois__num"/></e>
-    <e lm="sex"><i>sex</i><par n="trois__num"/></e>
-    <e lm="septe"><i>septe</i><par n="trois__num"/></e>
-    <e lm="octo"><i>octo</i><par n="trois__num"/></e>
-    <e lm="nove"><i>nove</i><par n="trois__num"/></e>
-    <e lm="dece"><i>dece</i><par n="trois__num"/></e>
-    <e lm="dece-un"><i>dece-un</i><par n="trois__num"/></e>
-    <e lm="dece-duo"><i>dece-duo</i><par n="trois__num"/></e>
-    <e lm="dece-tres"><i>dece-tres</i><par n="trois__num"/></e>
-    <e lm="dece-quatro"><i>dece-quatro</i><par n="trois__num"/></e>
-    <e lm="dece-cinque"><i>dece-cinque</i><par n="trois__num"/></e>
-    <e lm="dece-sex"><i>dece-sex</i><par n="trois__num"/></e>
-    <e lm="dece-septe"><i>dece-septe</i><par n="trois__num"/></e>
-    <e lm="dece-octo"><i>dece-octo</i><par n="trois__num"/></e>
-    <e lm="dece-nove"><i>dece-nove</i><par n="trois__num"/></e>
-    <e lm="vinti"><i>vinti</i><par n="trois__num"/></e>
-    <e lm="vinti-un"><i>vinti-un</i><par n="trois__num"/></e>
-    <e lm="vinti-duo"><i>vinti-duo</i><par n="trois__num"/></e>
-    <e lm="vinti-tres"><i>vinti-tres</i><par n="trois__num"/></e>
-    <e lm="vinti-quatro"><i>vinti-quatro</i><par n="trois__num"/></e>
-    <e lm="vinti-cinque"><i>vinti-cinque</i><par n="trois__num"/></e>
-    <e lm="vinti-sex"><i>vinti-sex</i><par n="trois__num"/></e>
-    <e lm="vinti-septe"><i>vinti-septe</i><par n="trois__num"/></e>
-    <e lm="vinti-octo"><i>vinti-octo</i><par n="trois__num"/></e>
-    <e lm="vinti-nove"><i>vinti-nove</i><par n="trois__num"/></e>
-    <e lm="trenta"><i>trenta</i><par n="trois__num"/></e>
-    <e lm="trenta-un"><i>trenta-un</i><par n="trois__num"/></e>
-    <e lm="trenta-duo"><i>trenta-duo</i><par n="trois__num"/></e>
-    <e lm="trenta-tres"><i>trenta-tres</i><par n="trois__num"/></e>
-    <e lm="trenta-quatro"><i>trenta-quatro</i><par n="trois__num"/></e>
-    <e lm="trenta-cinque"><i>trenta-cinque</i><par n="trois__num"/></e>
-    <e lm="trenta-sex"><i>trenta-sex</i><par n="trois__num"/></e>
-    <e lm="trenta-septe"><i>trenta-septe</i><par n="trois__num"/></e>
-    <e lm="trenta-octo"><i>trenta-octo</i><par n="trois__num"/></e>
-    <e lm="trenta-nove"><i>trenta-nove</i><par n="trois__num"/></e>
-    <e lm="quaranta"><i>quaranta</i><par n="trois__num"/></e>
-    <e lm="quaranta-un"><i>quaranta-un</i><par n="trois__num"/></e>
-    <e lm="quaranta-duo"><i>quaranta-duo</i><par n="trois__num"/></e>
-    <e lm="quaranta-tres"><i>quaranta-tres</i><par n="trois__num"/></e>
-    <e lm="quaranta-quatro"><i>quaranta-quatro</i><par n="trois__num"/></e>
-    <e lm="quaranta-cinque"><i>quaranta-cinque</i><par n="trois__num"/></e>
-    <e lm="quaranta-sex"><i>quaranta-sex</i><par n="trois__num"/></e>
-    <e lm="quaranta-septe"><i>quaranta-septe</i><par n="trois__num"/></e>
-    <e lm="quaranta-octo"><i>quaranta-octo</i><par n="trois__num"/></e>
-    <e lm="quaranta-nove"><i>quaranta-nove</i><par n="trois__num"/></e>
-    <e lm="cinquanta"><i>cinquanta</i><par n="trois__num"/></e>
-    <e lm="cinquanta-un"><i>cinquanta-un</i><par n="trois__num"/></e>
-    <e lm="cinquanta-duo"><i>cinquanta-duo</i><par n="trois__num"/></e>
-    <e lm="cinquanta-tres"><i>cinquanta-tres</i><par n="trois__num"/></e>
-    <e lm="cinquanta-quatro"><i>cinquanta-quatro</i><par n="trois__num"/></e>
-    <e lm="cinquanta-cinque"><i>cinquanta-cinque</i><par n="trois__num"/></e>
-    <e lm="cinquanta-sex"><i>cinquanta-sex</i><par n="trois__num"/></e>
-    <e lm="cinquanta-septe"><i>cinquanta-septe</i><par n="trois__num"/></e>
-    <e lm="cinquanta-octo"><i>cinquanta-octo</i><par n="trois__num"/></e>
-    <e lm="cinquanta-nove"><i>cinquanta-nove</i><par n="trois__num"/></e>
-    <e lm="sexanta"><i>sexanta</i><par n="trois__num"/></e>
-    <e lm="sexanta-un"><i>sexanta-un</i><par n="trois__num"/></e>
-    <e lm="sexanta-duo"><i>sexanta-duo</i><par n="trois__num"/></e>
-    <e lm="sexanta-tres"><i>sexanta-tres</i><par n="trois__num"/></e>
-    <e lm="sexanta-quatro"><i>sexanta-quatro</i><par n="trois__num"/></e>
-    <e lm="sexanta-cinque"><i>sexanta-cinque</i><par n="trois__num"/></e>
-    <e lm="sexanta-sex"><i>sexanta-sex</i><par n="trois__num"/></e>
-    <e lm="sexanta-septe"><i>sexanta-septe</i><par n="trois__num"/></e>
-    <e lm="sexanta-octo"><i>sexanta-octo</i><par n="trois__num"/></e>
-    <e lm="sexanta-nove"><i>sexanta-nove</i><par n="trois__num"/></e>
-    <e lm="septanta"><i>septanta</i><par n="trois__num"/></e>
-    <e lm="septanta-un"><i>septanta-un</i><par n="trois__num"/></e>
-    <e lm="septanta-duo"><i>septanta-duo</i><par n="trois__num"/></e>
-    <e lm="septanta-tres"><i>septanta-tres</i><par n="trois__num"/></e>
-    <e lm="septanta-quatro"><i>septanta-quatro</i><par n="trois__num"/></e>
-    <e lm="septanta-cinque"><i>septanta-cinque</i><par n="trois__num"/></e>
-    <e lm="septanta-sex"><i>septanta-sex</i><par n="trois__num"/></e>
-    <e lm="septanta-septe"><i>septanta-septe</i><par n="trois__num"/></e>
-    <e lm="septanta-octo"><i>septanta-octo</i><par n="trois__num"/></e>
-    <e lm="septanta-nove"><i>septanta-nove</i><par n="trois__num"/></e>
-    <e lm="octanta"><i>octanta</i><par n="trois__num"/></e>
-    <e lm="octanta-un"><i>octanta-un</i><par n="trois__num"/></e>
-    <e lm="octanta-duo"><i>octanta-duo</i><par n="trois__num"/></e>
-    <e lm="octanta-tres"><i>octanta-tres</i><par n="trois__num"/></e>
-    <e lm="octanta-quatro"><i>octanta-quatro</i><par n="trois__num"/></e>
-    <e lm="octanta-cinque"><i>octanta-cinque</i><par n="trois__num"/></e>
-    <e lm="octanta-sex"><i>octanta-sex</i><par n="trois__num"/></e>
-    <e lm="octanta-septe"><i>octanta-septe</i><par n="trois__num"/></e>
-    <e lm="octanta-octo"><i>octanta-octo</i><par n="trois__num"/></e>
-    <e lm="octanta-nove"><i>octanta-nove</i><par n="trois__num"/></e>
-    <e lm="novanta"><i>novanta</i><par n="trois__num"/></e>
-    <e lm="novanta-un"><i>novanta-un</i><par n="trois__num"/></e>
-    <e lm="novanta-duo"><i>novanta-duo</i><par n="trois__num"/></e>
-    <e lm="novanta-tres"><i>novanta-tres</i><par n="trois__num"/></e>
-    <e lm="novanta-quatro"><i>novanta-quatro</i><par n="trois__num"/></e>
-    <e lm="novanta-cinque"><i>novanta-cinque</i><par n="trois__num"/></e>
-    <e lm="novanta-sex"><i>novanta-sex</i><par n="trois__num"/></e>
-    <e lm="novanta-septe"><i>novanta-septe</i><par n="trois__num"/></e>
-    <e lm="novanta-octo"><i>novanta-octo</i><par n="trois__num"/></e>
-    <e lm="novanta-nove"><i>novanta-nove</i><par n="trois__num"/></e>
-    <e lm="cento"><i>cento</i><par n="trois__num"/></e>
+<!-- Numeral reading removed until taggers and rules are changed -->
+<!--    <e lm="un"><i>un</i><par n="tres__num"/></e> -->
+    <e lm="duo"><i>duo</i><par n="tres__num"/></e>
+    <e lm="tres"><i>tres</i><par n="tres__num"/></e>
+    <e lm="quatro"><i>quatro</i><par n="tres__num"/></e>
+    <e lm="cinque"><i>cinque</i><par n="tres__num"/></e>
+    <e lm="sex"><i>sex</i><par n="tres__num"/></e>
+    <e lm="septe"><i>septe</i><par n="tres__num"/></e>
+    <e lm="octo"><i>octo</i><par n="tres__num"/></e>
+    <e lm="nove"><i>nove</i><par n="tres__num"/></e>
+    <e lm="dece"><i>dece</i><par n="tres__num"/></e>
+    <e lm="dece-un"><i>dece-un</i><par n="tres__num"/></e>
+    <e lm="dece-duo"><i>dece-duo</i><par n="tres__num"/></e>
+    <e lm="dece-tres"><i>dece-tres</i><par n="tres__num"/></e>
+    <e lm="dece-quatro"><i>dece-quatro</i><par n="tres__num"/></e>
+    <e lm="dece-cinque"><i>dece-cinque</i><par n="tres__num"/></e>
+    <e lm="dece-sex"><i>dece-sex</i><par n="tres__num"/></e>
+    <e lm="dece-septe"><i>dece-septe</i><par n="tres__num"/></e>
+    <e lm="dece-octo"><i>dece-octo</i><par n="tres__num"/></e>
+    <e lm="dece-nove"><i>dece-nove</i><par n="tres__num"/></e>
+    <e lm="vinti"><i>vinti</i><par n="tres__num"/></e>
+    <e lm="vinti-un"><i>vinti-un</i><par n="tres__num"/></e>
+    <e lm="vinti-duo"><i>vinti-duo</i><par n="tres__num"/></e>
+    <e lm="vinti-tres"><i>vinti-tres</i><par n="tres__num"/></e>
+    <e lm="vinti-quatro"><i>vinti-quatro</i><par n="tres__num"/></e>
+    <e lm="vinti-cinque"><i>vinti-cinque</i><par n="tres__num"/></e>
+    <e lm="vinti-sex"><i>vinti-sex</i><par n="tres__num"/></e>
+    <e lm="vinti-septe"><i>vinti-septe</i><par n="tres__num"/></e>
+    <e lm="vinti-octo"><i>vinti-octo</i><par n="tres__num"/></e>
+    <e lm="vinti-nove"><i>vinti-nove</i><par n="tres__num"/></e>
+    <e lm="trenta"><i>trenta</i><par n="tres__num"/></e>
+    <e lm="trenta-un"><i>trenta-un</i><par n="tres__num"/></e>
+    <e lm="trenta-duo"><i>trenta-duo</i><par n="tres__num"/></e>
+    <e lm="trenta-tres"><i>trenta-tres</i><par n="tres__num"/></e>
+    <e lm="trenta-quatro"><i>trenta-quatro</i><par n="tres__num"/></e>
+    <e lm="trenta-cinque"><i>trenta-cinque</i><par n="tres__num"/></e>
+    <e lm="trenta-sex"><i>trenta-sex</i><par n="tres__num"/></e>
+    <e lm="trenta-septe"><i>trenta-septe</i><par n="tres__num"/></e>
+    <e lm="trenta-octo"><i>trenta-octo</i><par n="tres__num"/></e>
+    <e lm="trenta-nove"><i>trenta-nove</i><par n="tres__num"/></e>
+    <e lm="quaranta"><i>quaranta</i><par n="tres__num"/></e>
+    <e lm="quaranta-un"><i>quaranta-un</i><par n="tres__num"/></e>
+    <e lm="quaranta-duo"><i>quaranta-duo</i><par n="tres__num"/></e>
+    <e lm="quaranta-tres"><i>quaranta-tres</i><par n="tres__num"/></e>
+    <e lm="quaranta-quatro"><i>quaranta-quatro</i><par n="tres__num"/></e>
+    <e lm="quaranta-cinque"><i>quaranta-cinque</i><par n="tres__num"/></e>
+    <e lm="quaranta-sex"><i>quaranta-sex</i><par n="tres__num"/></e>
+    <e lm="quaranta-septe"><i>quaranta-septe</i><par n="tres__num"/></e>
+    <e lm="quaranta-octo"><i>quaranta-octo</i><par n="tres__num"/></e>
+    <e lm="quaranta-nove"><i>quaranta-nove</i><par n="tres__num"/></e>
+    <e lm="cinquanta"><i>cinquanta</i><par n="tres__num"/></e>
+    <e lm="cinquanta-un"><i>cinquanta-un</i><par n="tres__num"/></e>
+    <e lm="cinquanta-duo"><i>cinquanta-duo</i><par n="tres__num"/></e>
+    <e lm="cinquanta-tres"><i>cinquanta-tres</i><par n="tres__num"/></e>
+    <e lm="cinquanta-quatro"><i>cinquanta-quatro</i><par n="tres__num"/></e>
+    <e lm="cinquanta-cinque"><i>cinquanta-cinque</i><par n="tres__num"/></e>
+    <e lm="cinquanta-sex"><i>cinquanta-sex</i><par n="tres__num"/></e>
+    <e lm="cinquanta-septe"><i>cinquanta-septe</i><par n="tres__num"/></e>
+    <e lm="cinquanta-octo"><i>cinquanta-octo</i><par n="tres__num"/></e>
+    <e lm="cinquanta-nove"><i>cinquanta-nove</i><par n="tres__num"/></e>
+    <e lm="sexanta"><i>sexanta</i><par n="tres__num"/></e>
+    <e lm="sexanta-un"><i>sexanta-un</i><par n="tres__num"/></e>
+    <e lm="sexanta-duo"><i>sexanta-duo</i><par n="tres__num"/></e>
+    <e lm="sexanta-tres"><i>sexanta-tres</i><par n="tres__num"/></e>
+    <e lm="sexanta-quatro"><i>sexanta-quatro</i><par n="tres__num"/></e>
+    <e lm="sexanta-cinque"><i>sexanta-cinque</i><par n="tres__num"/></e>
+    <e lm="sexanta-sex"><i>sexanta-sex</i><par n="tres__num"/></e>
+    <e lm="sexanta-septe"><i>sexanta-septe</i><par n="tres__num"/></e>
+    <e lm="sexanta-octo"><i>sexanta-octo</i><par n="tres__num"/></e>
+    <e lm="sexanta-nove"><i>sexanta-nove</i><par n="tres__num"/></e>
+    <e lm="septanta"><i>septanta</i><par n="tres__num"/></e>
+    <e lm="septanta-un"><i>septanta-un</i><par n="tres__num"/></e>
+    <e lm="septanta-duo"><i>septanta-duo</i><par n="tres__num"/></e>
+    <e lm="septanta-tres"><i>septanta-tres</i><par n="tres__num"/></e>
+    <e lm="septanta-quatro"><i>septanta-quatro</i><par n="tres__num"/></e>
+    <e lm="septanta-cinque"><i>septanta-cinque</i><par n="tres__num"/></e>
+    <e lm="septanta-sex"><i>septanta-sex</i><par n="tres__num"/></e>
+    <e lm="septanta-septe"><i>septanta-septe</i><par n="tres__num"/></e>
+    <e lm="septanta-octo"><i>septanta-octo</i><par n="tres__num"/></e>
+    <e lm="septanta-nove"><i>septanta-nove</i><par n="tres__num"/></e>
+    <e lm="octanta"><i>octanta</i><par n="tres__num"/></e>
+    <e lm="octanta-un"><i>octanta-un</i><par n="tres__num"/></e>
+    <e lm="octanta-duo"><i>octanta-duo</i><par n="tres__num"/></e>
+    <e lm="octanta-tres"><i>octanta-tres</i><par n="tres__num"/></e>
+    <e lm="octanta-quatro"><i>octanta-quatro</i><par n="tres__num"/></e>
+    <e lm="octanta-cinque"><i>octanta-cinque</i><par n="tres__num"/></e>
+    <e lm="octanta-sex"><i>octanta-sex</i><par n="tres__num"/></e>
+    <e lm="octanta-septe"><i>octanta-septe</i><par n="tres__num"/></e>
+    <e lm="octanta-octo"><i>octanta-octo</i><par n="tres__num"/></e>
+    <e lm="octanta-nove"><i>octanta-nove</i><par n="tres__num"/></e>
+    <e lm="novanta"><i>novanta</i><par n="tres__num"/></e>
+    <e lm="novanta-un"><i>novanta-un</i><par n="tres__num"/></e>
+    <e lm="novanta-duo"><i>novanta-duo</i><par n="tres__num"/></e>
+    <e lm="novanta-tres"><i>novanta-tres</i><par n="tres__num"/></e>
+    <e lm="novanta-quatro"><i>novanta-quatro</i><par n="tres__num"/></e>
+    <e lm="novanta-cinque"><i>novanta-cinque</i><par n="tres__num"/></e>
+    <e lm="novanta-sex"><i>novanta-sex</i><par n="tres__num"/></e>
+    <e lm="novanta-septe"><i>novanta-septe</i><par n="tres__num"/></e>
+    <e lm="novanta-octo"><i>novanta-octo</i><par n="tres__num"/></e>
+    <e lm="novanta-nove"><i>novanta-nove</i><par n="tres__num"/></e>
+    <e lm="cento"><i>cento</i><par n="tres__num"/></e>
 
     <e lm="que"><i>que</i><par n="que__cnjsub"/></e>
 
@@ -952,7 +901,7 @@
     <e lm="natar"><i>nata</i><par n="canta/r__vblex"/></e>  
     <e lm="habitar"><i>habita</i><par n="canta/r__vblex"/></e>       
     <e lm="cantar"><i>canta</i><par n="canta/r__vblex"/></e>  
-    <e lm="haber"><i>hab</i><par n="cred/er__vblex"/></e>
+    <e lm="haber"><i>hab</i><par n="cred/er__vblex"/></e>  <!-- vblex, sure? trivial forms like "ha" missing -->
     <e lm="poter"><i>pot</i><par n="cred/er__vblex"/></e>
     <e lm="poter"><i>pot</i><par n="pot/er__vbmod"/></e>
     <e lm="facer"><i>fac</i><par n="cred/er__vblex"/></e>
@@ -973,7 +922,6 @@
     <e lm="permitter"><i>permitt</i><par n="cred/er__vblex"/></e>
     <e lm="occupar"><i>occupa</i><par n="cred/er__vblex"/></e>
     <e lm="devenir"><i>deveni</i><par n="cred/er__vblex"/></e>
-    <e lm="partir"><i>parti</i><par n="cred/er__vblex"/></e>
     <e lm="decider"><i>decid</i><par n="cred/er__vblex"/></e>
     <e lm="arrivar"><i>arriva</i><par n="cred/er__vblex"/></e>
     <e lm="servir"><i>servi</i><par n="cred/er__vblex"/></e>
