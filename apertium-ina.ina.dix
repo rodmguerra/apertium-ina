@@ -4,7 +4,7 @@
    haber vblex?
    factorisation de paradigmas de numerales
 -->
-<!-- <dictionary>
+<dictionary>
   <alphabet>ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
   <sdefs>
     <sdef n="n"/>
@@ -931,7 +931,7 @@
     <e lm="occupar"><i>occupa</i><par n="cred/er__vblex"/></e>
     <e lm="devenir"><i>deveni</i><par n="cred/er__vblex"/></e>
     <e lm="decider"><i>decid</i><par n="cred/er__vblex"/></e>
-    <e lm="arrivar"><i>arriva</i><par n="cred/er__vblex"/></e>
+    <e lm="arrivar"><i>arriva</i><par n="canta/r__vblex"/></e>
     <e lm="servir"><i>servi</i><par n="cred/er__vblex"/></e>
     <e lm="semblar"><i>sembla</i><par n="cred/er__vblex"/></e>
     <e lm="retornar"><i>retorna</i><par n="cred/er__vblex"/></e>
@@ -1036,7 +1036,7 @@
     <e lm="junger"><i>jung</i><par n="cred/er__vblex"/></e>
     <e lm="repeter"><i>repet</i><par n="cred/er__vblex"/></e>
     <e lm="remaner"><i>reman</i><par n="cred/er__vblex"/></e>
-    <e lm="exprimer"><i>exprimer</i><par n="cred/er__vblex"/></e>
+    <e lm="exprimer"><i>exprim</i><par n="cred/er__vblex"/></e>
     <e lm="proponer"><i>propon</i><par n="cred/er__vblex"/></e>
     <e lm="promitter"><i>promitt</i><par n="cred/er__vblex"/></e>
     <e lm="mitter"><i>mitt</i><par n="cred/er__vblex"/></e>
