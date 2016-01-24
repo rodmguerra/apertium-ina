@@ -587,6 +587,7 @@
     <e lm="a"><i>a</i><par n="in__pr"/></e>
     <e lm="de"><i>de</i><par n="in__pr"/></e>
     <e lm="con"><i>con</i><par n="in__pr"/></e>
+    <e lm="sin"><i>sin</i><par n="in__pr"/></e>
 
     <e lm="multo"><i>multo</i><par n="plus__preadv"/></e>
 
@@ -753,6 +754,8 @@
     <e lm="domo"><i>domo</i><par n="catto__n"/></e>
     <e lm="familia"><i>familia</i><par n="catto__n"/></e>
     <e lm="folio"><i>folio</i><par n="catto__n"/></e>
+    <e lm="anno"><i>anno</i><par n="catto__n"/></e>
+    <e lm="tempore"><i>tempore</i><par n="catto__n"/></e>
 
     <e lm="foreste"><i>foreste</i><par n="catto__n"/></e>
     <e lm="fructo"><i>fructo</i><par n="catto__n"/></e>
@@ -760,6 +763,7 @@
     <e lm="marita"><i>marita</i><par n="catto__n"/></e>
     <e lm="marito"><i>marito</i><par n="catto__n"/></e>
     <e lm="matre"><i>matre</i><par n="catto__n"/></e>
+    <e lm="morte"><i>morte</i><par n="catto__n"/></e>
     <e lm="patre"><i>patre</i><par n="catto__n"/></e>
     <e lm="pediculo"><i>pediculo</i><par n="catto__n"/></e>
     <e lm="pisce"><i>pisce</i><par n="catto__n"/></e>
@@ -1268,6 +1272,7 @@
     <e lm="mesme"><i>mesm</i><par n="excellent/e__adj"/></e>
     <e lm="micre"><i>micr</i><par n="excellent/e__adj"/></e>
     <e lm="molle"><i>moll</i><par n="excellent/e__adj"/></e>
+    <e lm="morte"><i>mort</i><par n="excellent/e__adj"/></e>
     <e lm="multe"><i>mult</i><par n="excellent/e__adj"/></e>
     <e lm="nette"><i>nett</i><par n="excellent/e__adj"/></e>
     <e lm="parve"><i>parv</i><par n="excellent/e__adj"/></e>
@@ -1276,6 +1281,7 @@
     <e lm="povre"><i>povr</i><par n="excellent/e__adj"/></e>
     <e lm="preste"><i>prest</i><par n="excellent/e__adj"/></e>
     <e lm="rapide"><i>rapid</i><par n="excellent/e__adj"/></e>
+
 
     <e lm="durmente"><i>durmente</i><par n="excellent/e__adj"/></e>
     <e lm="estranier"><i>estranier</i><par n="adjective__adj"/></e>
