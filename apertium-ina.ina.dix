@@ -60,6 +60,7 @@
     <sdef n="nom"/>
     <sdef n="pos"/>
     <sdef n="num"/>
+    <sdef n="ij"/>
 
   </sdefs>
   <pardefs>
@@ -253,8 +254,7 @@
     <pardef n="illos__prn">
             <e i=""><p><l/><r><s n="prn"/><s n="nom"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="nihil__prn">
-      <e>
+    <pardef n="nihil__prn">      <e>
         <p>
           <l></l>
           <r><s n="prn"/></r>
@@ -269,6 +269,22 @@
         <p>
           <l></l>
           <r><s n="adv"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="gratias__ij">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="ij"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="como__adv">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="adv"/><s n="itg"/></r>
         </p>
       </e>
     </pardef>
@@ -313,7 +329,7 @@
         <p>
           <l></l>
           <r><s n="n"/><s n="sg"/></r>
-        </p>
+        </p>        
       </e>
       <e>
         <p>
@@ -579,6 +595,8 @@
     <e lm="exacte"><i>exact</i><par n="excellent/e__adj"/></e>
     <e lm="libere"><i>liber</i><par n="excellent/e__adj"/></e>
     <e lm="centesime"><i>centesim</i><par n="excellent/e__adj"/></e>
+    <e lm="nove"><i>nov</i><par n="excellent/e__adj"/></e>
+    <e lm="juvene"><i>juvene</i><par n="adjective__adj"/></e>
 
 
     <e lm="al"><p><l>al</l><r>a<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
@@ -591,14 +609,18 @@
 
     <e lm="multo"><i>multo</i><par n="plus__preadv"/></e>
 
+    <e lm="qu"><i>multo</i><par n="plus__preadv"/></e>
+
       
     <e lm="tote"><i>tote</i><par n="tote__predet"/></e>
     <e lm="plus"><i>plus</i><par n="plus__preadv"/></e>
       
     <e lm="si"><i>si</i><par n="si__cnjadv"/></e>
+    <e lm="ab"><i>ab</i><par n="si__cnjadv"/></e>
     <e lm="e"><i>e</i><par n="e__cnjcoo"/></e>
     <e lm="o"><i>o</i><par n="e__cnjcoo"/></e>
     <e lm="ma"><i>ma</i><par n="e__cnjcoo"/></e>
+    <e lm="ni"><i>ni</i><par n="e__cnjcoo"/></e>
 
       
 
@@ -623,6 +645,27 @@
     <e lm="ora"><i>ora</i><par n="ora__adv"/></e>
     <e lm="jammais"><i>jammais</i><par n="ora__adv"/></e>
     <e lm="non"><i>non</i><par n="ora__adv"/></e>
+    <e lm="si"><i>si</i><par n="ora__adv"/></e>
+    <e lm="como"><i>como</i><par n="ora__adv"/></e>
+    <e lm="in"><i>in</i><par n="ora__adv"/></e>
+    <e lm="per"><i>per</i><par n="ora__adv"/></e>
+    <e lm="sur"><i>sur</i><par n="ora__adv"/></e>
+    <e lm="ben"><i>ben</i><par n="ora__adv"/></e>
+    <e lm="ancora"><i>ancora</i><par n="ora__adv"/></e>
+    <e lm="semper"><i>semper</i><par n="ora__adv"/></e>
+    <e lm="poco"><i>poco</i><par n="ora__adv"/></e>
+    <e lm="vermente"><i>vermente</i><par n="ora__adv"/></e>
+    <e lm="jam"><i>jam</i><par n="ora__adv"/></e>
+    <e lm="mal"><i>mal</i><par n="ora__adv"/></e>
+    <e lm="tunc"><i>tunc</i><par n="ora__adv"/></e>
+
+    <e lm="como"><i>como</i><par n="como__adv"/></e>
+    <e lm="quando"><i>quando</i><par n="como__adv"/></e>
+    <e lm="proque"><i>proque</i><par n="como__adv"/></e>
+    <e lm="ubi"><i>ubi</i><par n="como__adv"/></e>
+
+    <e lm="gratias"><i>gratias</i><par n="gratias__ij"/></e>
+
     <e lm="actualmente"><i>actualmente</i><par n="ora__adv"/></e>
     <e lm="hodie"><i>hodie</i><par n="ora__adv"/></e>
 <!-- Numeral reading removed until taggers and rules are changed -->
@@ -756,6 +799,8 @@
     <e lm="folio"><i>folio</i><par n="catto__n"/></e>
     <e lm="anno"><i>anno</i><par n="catto__n"/></e>
     <e lm="tempore"><i>tempore</i><par n="catto__n"/></e>
+    <e lm="necessitate"><i>necessitate</i><par n="catto__n"/></e>
+    <e lm="nihil"><i>nihil</i><par n="catto__n"/></e>
 
     <e lm="foreste"><i>foreste</i><par n="catto__n"/></e>
     <e lm="fructo"><i>fructo</i><par n="catto__n"/></e>
@@ -795,7 +840,19 @@
     <e lm="firma"><i>firma</i><par n="catto__n"/></e>
     <e lm="opera"><i>opera</i><par n="catto__n"/></e>
     <e lm="annuncio"><i>annuncio</i><par n="catto__n"/></e>
-    
+    <e lm="hallo"><i>hallo</i><par n="catto__n"/></e>
+    <e lm="pavor"><i>pavor</i><par n="can__n"/></e>
+    <e lm="persona"><i>persona</i><par n="catto__n"/></e>
+    <e lm="Seniora"><i>Seniora</i><par n="catto__n"/></e>
+    <e lm="Senior"><i>Senior</i><par n="can__n"/></e>
+    <e lm="vespera"><i>vespera</i><par n="catto__n"/></e>
+    <e lm="momento"><i>momento</i><par n="catto__n"/></e>
+    <e lm="causa"><i>causa</i><par n="catto__n"/></e>
+    <e lm="corpore"><i>corpore</i><par n="catto__n"/></e>
+    <e lm="amico"><i>amico</i><par n="catto__n"/></e>
+    <e lm="amica"><i>amica</i><par n="catto__n"/></e>
+    <e lm="problema"><i>problema</i><par n="catto__n"/></e>
+
     <e lm="calma"><i>calma</i><par n="catto__n"/></e>
     <e lm="campamento"><i>campamento</i><par n="catto__n"/></e>
     <e lm="cifra"><i>cifra</i><par n="catto__n"/></e>
@@ -900,6 +957,7 @@
     <e lm="creder"><i>cred</i><par n="cred/er__vblex"/></e>
     <e lm="vider"><i>vid</i><par n="cred/er__vblex"/></e>
     <e lm="partir"><i>parti</i><par n="parti/r__vblex"/></e>
+    <e lm="sortir"><i>sorti</i><par n="parti/r__vblex"/></e>
     <e lm="morir"><i>mori</i><par n="parti/r__vblex"/></e>
     <e lm="audir"><i>audi</i><par n="parti/r__vblex"/></e>
     <e lm="dormir"><i>dormi</i><par n="parti/r__vblex"/></e>
@@ -923,6 +981,8 @@
     <e lm="ceder"><i>ced</i><par n="cred/er__vblex"/></e>
     <e lm="deber"><i>deb</i><par n="pot/er__vbmod"/></e>
     <e lm="pensar"><i>pensa</i><par n="canta/r__vblex"/></e>
+    <e lm="memorar"><i>memora</i><par n="canta/r__vblex"/></e>
+    <e lm="sperar"><i>spera</i><par n="canta/r__vblex"/></e>
 
     <e lm="continuar"><i>continua</i><par n="cred/er__vblex"/></e>
     <e lm="sequer"><i>sequ</i><par n="cred/er__vblex"/></e>
@@ -1125,7 +1185,8 @@
     <e lm="extra"><i>extra</i><par n="in__pr"/></e>
     <e lm="infra"><i>infra</i><par n="in__pr"/></e>
     <e lm="presso"><i>presso</i><par n="in__pr"/></e>
-  
+      <e lm="prope"><i>prope</i><par n="in__pr"/></e>
+
     <e lm="circa"><i>circa</i><par n="ora__adv"/></e>
     <e lm="retro"><i>retro</i><par n="ora__adv"/></e>
     <e lm="pejo"><i>pejo</i><par n="ora__adv"/></e>
@@ -1150,7 +1211,8 @@
     <e lm="presso"><i>presso</i><par n="ora__adv"/></e>
 
     <e lm="ubi"><i>ubi</i><par n="ubi__rel"/></e>
-
+      
+    <e lm="accordo"><i>accordo</i><par n="catto__n"/></e>
     <e lm="anniversario"><i>anniversario</i><par n="catto__n"/></e>
     <e lm="bira"><i>bira</i><par n="catto__n"/></e>
     <e lm="avion"><i>avion</i><par n="can__n"/></e>
@@ -1316,7 +1378,6 @@
     <e lm="ajornar"><i>ajorna</i><par n="canta/r__vblex"/></e>
     <e lm="alienar"><i>aliena</i><par n="canta/r__vblex"/></e>
     <e lm="allargar"><i>allarga</i><par n="canta/r__vblex"/></e>
-    <e lm="allegrar"><i>allegra</i><par n="canta/r__vblex"/></e>
     <e lm="alterar"><i>altera</i><par n="canta/r__vblex"/></e>
     <e lm="altercar"><i>alterca</i><par n="canta/r__vblex"/></e>
     <e lm="amalgamar"><i>amalgama</i><par n="canta/r__vblex"/></e>
@@ -1389,7 +1450,7 @@
     <e lm="colpar"><i>colpa</i><par n="canta/r__vblex"/></e>
     <e lm="comenciar"><i>comencia</i><par n="canta/r__vblex"/></e>
     <e lm="commandar"><i>commanda</i><par n="canta/r__vblex"/></e>
-    <e lm="commercialisar"><i>commercialisa</i><par n="canta/r__vblex"/></e>
+    <e lm="comgratiasalisar"><i>comgratiasalisa</i><par n="canta/r__vblex"/></e>
     <e lm="commiserar"><i>commisera</i><par n="canta/r__vblex"/></e>
     <e lm="commissionar"><i>commissiona</i><par n="canta/r__vblex"/></e>
     <e lm="comportar"><i>comporta</i><par n="canta/r__vblex"/></e>
@@ -1457,6 +1518,7 @@
     <e lm="imballar"><i>imballa</i><par n="canta/r__vblex"/></e>
     <e lm="imbuccar"><i>imbucca</i><par n="canta/r__vblex"/></e>
     <e lm="implorar"><i>implora</i><par n="canta/r__vblex"/></e>
+    <e lm="importar"><i>importa</i><par n="canta/r__vblex"/></e>
     <e lm="importunar"><i>importuna</i><par n="canta/r__vblex"/></e>
     <e lm="incatenar"><i>incatena</i><par n="canta/r__vblex"/></e>
     <e lm="inclinar"><i>inclina</i><par n="canta/r__vblex"/></e>
