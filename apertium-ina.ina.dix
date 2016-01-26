@@ -606,6 +606,7 @@
     <e lm="de"><i>de</i><par n="in__pr"/></e>
     <e lm="con"><i>con</i><par n="in__pr"/></e>
     <e lm="sin"><i>sin</i><par n="in__pr"/></e>
+    <e lm="per"><i>per</i><par n="in__pr"/></e>
 
     <e lm="multo"><i>multo</i><par n="plus__preadv"/></e>
 
@@ -648,7 +649,6 @@
     <e lm="si"><i>si</i><par n="ora__adv"/></e>
     <e lm="como"><i>como</i><par n="ora__adv"/></e>
     <e lm="in"><i>in</i><par n="ora__adv"/></e>
-    <e lm="per"><i>per</i><par n="ora__adv"/></e>
     <e lm="sur"><i>sur</i><par n="ora__adv"/></e>
     <e lm="ben"><i>ben</i><par n="ora__adv"/></e>
     <e lm="ancora"><i>ancora</i><par n="ora__adv"/></e>
