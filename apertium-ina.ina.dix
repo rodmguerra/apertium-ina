@@ -1377,6 +1377,7 @@
 <e lm="rumper"><i>rump</i><par n="cred/er__vblex"/></e>
 <e lm="rolar"><i>rola</i><par n="canta/r__vblex"/></e>
 <e lm="attrappar"><i>attrappa</i><par n="canta/r__vblex"/></e>
+<e lm="appaciar"><i>appacia</i><par n="canta/r__vblex"/></e>
 <e lm="complir"><i>compli</i><par n="parti/r__vblex"/></e>
 <e lm="salvar"><i>salva</i><par n="canta/r__vblex"/></e>
 <e lm="succuter"><i>succut</i><par n="cred/er__vblex"/></e>
@@ -1482,6 +1483,7 @@
 <e lm="laborar"><i>labora</i><par n="canta/r__vblex"/></e>
 <e lm="mangiar"><i>mangia</i><par n="canta/r__vblex"/></e>
 <e lm="brandir"><i>brandi</i><par n="parti/r__vblex"/></e>
+<e lm="expectar"><i>expecta</i><par n="canta/r__vblex"/></e>
 <e lm="quartierar"><i>quartiera</i><par n="canta/r__vblex"/></e>
 <e lm="censurar"><i>censura</i><par n="canta/r__vblex"/></e>
 <e lm="calefacer"><i>calefac</i><par n="cred/er__vblex"/></e>
@@ -1539,6 +1541,7 @@
 <e lm="domar"><i>doma</i><par n="canta/r__vblex"/></e>
 <e lm="aurar"><i>aura</i><par n="canta/r__vblex"/></e>
 <e lm="captar"><i>capta</i><par n="canta/r__vblex"/></e>
+<e lm="capturar"><i>captura</i><par n="canta/r__vblex"/></e>
 <e lm="durar"><i>dura</i><par n="canta/r__vblex"/></e>
 <e lm="effectuar"><i>effectua</i><par n="canta/r__vblex"/></e>
 <e lm="imbarcar"><i>imbarca</i><par n="canta/r__vblex"/></e>
