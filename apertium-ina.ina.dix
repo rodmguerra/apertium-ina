@@ -460,6 +460,53 @@
         </p>
       </e>
     </pardef>
+      
+
+
+    <pardef n="ha/ber__vbhaver">  <!-- hard to collapse with vblex paradigms -->
+      <e>
+        <p>
+          <l>ber</l>
+          <r>ber<s n="vbhaver"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r>ber<s n="vbhaver"/><s n="pri"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>beva</l>
+          <r>ber<s n="vbhaver"/><s n="past"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>bera</l>
+          <r>ber<s n="vbhaver"/><s n="fti"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>berea</l>
+          <r>ber<s n="vbhaver"/><s n="cni"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>bente</l>
+          <r>ber<s n="vbhaver"/><s n="pprs"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>bite</l>
+          <r>ber<s n="vbhaver"/><s n="pp"/></r>
+        </p>
+      </e>
+    </pardef>
 
 
     <pardef n="/esser__vblex"> <!-- this should probably not be vblex; if it is, it could be factored -->
@@ -633,7 +680,7 @@
     <e lm="iste"><i>iste</i><par n="iste__det"/></e>
 
     <e lm="iste"><i>ist</i><par n="ist/e__prn"/></e>
-    <e i=""><i>io</i><par n="io__prn"/></e>
+    <e lm="io"><i>io</i><par n="io__prn"/></e>
     <e i=""><i>tu</i><par n="tu__prn"/></e>
     <e i=""><i>illo</i><par n="illo__prn"/></e>
     <e i=""><i>ill</i><par n="ill/e__prn"/></e>
@@ -781,7 +828,7 @@
     <e lm="declaration"><i>declaration</i><par n="catto__n"/></e>
     <e lm="derecto"><i>derecto</i><par n="catto__n"/></e>
     <e lm="dignitate"><i>dignitate</i><par n="catto__n"/></e>
-    <e lm="esser human"><i>esser</i><par n="can__n"/><p><l><b/>human</l><r><g><b/>human</g></r></p></e>
+    <e lm="esser"><i>esser</i><par n="can__n"/></e>
 
 
     <e lm="can"><i>can</i><par n="can__n"/></e>
@@ -971,7 +1018,7 @@
     <e lm="natar"><i>nata</i><par n="canta/r__vblex"/></e>  
     <e lm="habitar"><i>habita</i><par n="canta/r__vblex"/></e>       
     <e lm="cantar"><i>canta</i><par n="canta/r__vblex"/></e>  
-    <e lm="haber"><i>hab</i><par n="cred/er__vblex"/></e>  <!-- vblex, sure? trivial forms like "ha" missing -->
+    <e lm="haber"><i>ha</i><par n="ha/ber__vbhaver"/></e>  <!-- vblex, sure? trivial forms like "ha" missing -->
     <e lm="poter"><i>pot</i><par n="cred/er__vblex"/></e>
     <e lm="poter"><i>pot</i><par n="pot/er__vbmod"/></e>
     <e lm="facer"><i>fac</i><par n="cred/er__vblex"/></e>
@@ -1847,7 +1894,9 @@
     <e lm="ricamente"><i>ricamente</i><par n="excellent/e__adj"/></e>
     <e lm="san"><i>san</i><par n="adjective__adj"/></e>
     <e lm="secur"><i>asecurzur</i><par n="adjective__adj"/></e>
+    <e lm="equal"><i>equal</i><par n="adjective__adj"/></e>
 
+    <e lm="human"><i>human</i><par n="adjective__adj"/></e>
 
     <e lm="abassar"><i>abassa</i><par n="canta/r__vblex"/></e>
     <e lm="abbreviar"><i>abbrevia</i><par n="canta/r__vblex"/></e>
