@@ -49,12 +49,10 @@ SELECT V IF (0 ADJ) (0 V) (-1 V) ;
 #Otherwise, select ADJ
 SELECT ADJ IF (0 ADJ) (0 V);
 
-
 # Remove imperative
 REMOVE (imp) IF (-1 N) ;
 REMOVE (imp) IF (-1 ADJ) ;
 REMOVE (imp) IF (-1 PRN) ;
-REMOVE (imp) IF (-1 CNJ) ;
 
 # But select the imperative at the beginning of a sentence
 SELECT (imp) IF (-1 BOS) ;
@@ -62,6 +60,8 @@ SELECT (imp) IF (-1 BOS) ;
 # Choose the indicative by default
 SELECT (pri) ;
 
+# VBHAVER before another verb.
+SELECT (vbhaver) IF (1 V) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
