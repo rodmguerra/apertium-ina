@@ -1,18 +1,67 @@
 # Firstly, we need to define what tags should be considered sentence delimiters. For this example, only full stop is set as delimiter.
 DELIMITERS = "<.>" ;
 
+SETS
+
+LIST BOS = (>>>) ;
+LIST EOS = (<<<) ;
+
 # We can define sets for common tag clusters
 LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
+LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
+LIST TotePRN = ("tote" prn tn mf sp) ;
+LIST TotePREDET = ("tote" predet mf sp) ;
+LIST EsserN = ("esser" n sg) ;
+LIST V = vblex vbhaver vbser;
+LIST N = n;
+List DET = det;
+List ADJ = adj;
+List PRN = prn;
+List CNJ = cnjcoo;
+
 
 SECTION
-# If there is a singular noun to the right, I cannot be a verb or noun.
-REMOVE (n) OR (v) IF (1 (n s)) ;
+
+# Tote must be a pronoun if verb is to the right.
+REMOVE TotePREDET IF (1 V) ;
+
+# Tote must be a predet if an DET is to the right.
+REMOVE TotePREDET IF (1 DET) ;
+
+# Lemmas that are both N and V must be a N if a DET or ADJ is to the left.
+SELECT N IF (0 N) (0 V) (-1 DET) ;
+SELECT N IF (0 N) (0 V) (-1 ADJ) ;
+
+#Lemmas that are both N and V must be a V if a N or PRN is to the left
+SELECT V IF (0 N) (0 V) (-1 N) ;
+SELECT V IF (0 N) (0 V) (-1 PRN) ;
+
+#Otherwise, select N
+SELECT N IF (0 N) (0 V) ;
+
+#Lemmas that are both ADJ and V must be an ADJ if noun on left or right
+SELECT ADJ IF (0 ADJ) (0 V) (-1 N) ;
+SELECT ADJ IF (0 ADJ) (0 V) (1 N) ;
+
+#Lemmas that are both ADJ and V must be an VB if V to left
+SELECT V IF (0 ADJ) (0 V) (-1 V) ;
+
+#Otherwise, select ADJ
+SELECT ADJ IF (0 ADJ) (0 V);
+
 
 # Remove imperative
-REMOVE (imp) ;
+REMOVE (imp) IF (-1 N) ;
+REMOVE (imp) IF (-1 ADJ) ;
+REMOVE (imp) IF (-1 PRN) ;
+REMOVE (imp) IF (-1 CNJ) ;
 
-# If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
-SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
+# But select the imperative at the beginning of a sentence
+SELECT (imp) IF (-1 BOS) ;
+
+# Choose the indicative by default
+SELECT (pri) ;
+
 
 # Resources:
 # http://visl.sdu.dk/cg3.html

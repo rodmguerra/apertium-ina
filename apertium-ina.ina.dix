@@ -221,10 +221,12 @@
           <r>e<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
+      </pardef>
+   <pardef n="tote__prn">
       <e>
         <p>
-          <l>os</l>
-          <r>e<s n="prn"/><s n="tn"/><s n="nt"/><s n="pl"/></r>
+          <l></l>
+          <r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -351,6 +353,12 @@
         <p>
           <l></l>
           <r>r<s n="vblex"/><s n="pri"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r>r<s n="vblex"/><s n="imp"/></r>
         </p>
       </e>
       <e>
@@ -607,11 +615,111 @@
         </p>
       </e>
     </pardef>
+
+
+    <pardef n="/esser__vbser"> 
+      <e>
+        <p>
+          <l>esser</l>
+          <r>esser<s n="vbser"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sia</l>
+          <r>esser<s n="vbser"/><s n="imp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sia</l>
+          <r>esser<s n="vbser"/><s n="prs"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>es</l>
+          <r>esser<s n="vbser"/><s n="pri"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>esse</l>
+          <r>esser<s n="vbser"/><s n="pri"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>son</l>
+          <r>esser<s n="vbser"/><s n="pri"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>so</l>
+          <r>esser<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>somos</l>
+          <r>esser<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>esseva</l>
+          <r>esser<s n="vbser"/><s n="past"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>era</l>
+          <r>esser<s n="vbser"/><s n="past"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>essera</l>
+          <r>esser<s n="vbser"/><s n="fti"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>sera</l>
+          <r>esser<s n="vbser"/><s n="fti"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>esserea</l>
+          <r>esser<s n="vbser"/><s n="cni"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>serea</l>
+          <r>esser<s n="vbser"/><s n="cni"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>essente</l>
+          <r>esser<s n="vbser"/><s n="pprs"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>essete</l>
+          <r>esser<s n="vbser"/><s n="pp"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="ubi__rel"> 
       <e><p><l/>                    <r><s n="rel"/><s n="adv"/></r></p></e> 
     </pardef> 
     <pardef n="como__adv"> 
-      <e><p><l/>                    <r><s n="adv"/><s n="itg"/></r></p></e> 
+      <e><p><l/><r><s n="adv"/><s n="itg"/></r></p></e> 
     </pardef> 
   </pardefs>
   <section id="main" type="standard">
@@ -678,6 +786,7 @@
     <e lm="mi"><i>mi</i><par n="mi__det"/></e>
 
     <e lm="iste"><i>iste</i><par n="iste__det"/></e>
+    <e lm="tote"><i>tote</i><par n="tote__prn"/></e>
 
     <e lm="iste"><i>ist</i><par n="ist/e__prn"/></e>
     <e lm="io"><i>io</i><par n="io__prn"/></e>
@@ -950,7 +1059,7 @@
     <e lm="cella"><i>cella</i><par n="catto__n"/></e>
     <e lm="ceramica"><i>ceramica</i><par n="catto__n"/></e>
 
-    <e lm="cathedra"><i>sedia</i><par n="catto__n"/></e>
+    <e lm="cathedra"><i>cathedra</i><par n="catto__n"/></e>
     <e lm="sorte"><i>sorte</i><par n="catto__n"/></e>
     <e lm="cappello"><i>cappello</i><par n="catto__n"/></e>
     <e lm="minoritate"><i>minoritate</i><par n="catto__n"/></e>
@@ -995,6 +1104,7 @@
 <!--    Verbs -->
 
     <e lm="esser"><i></i><par n="/esser__vblex"/></e>
+    <e lm="esser"><i></i><par n="/esser__vbser"/></e>
     <e lm="cantar"><i>canta</i><par n="canta/r__vblex"/></e>
     <e lm="mangiar"><i>mangia</i><par n="canta/r__vblex"/></e>
     <e lm="amar"><i>ama</i><par n="canta/r__vblex"/></e>
@@ -1003,6 +1113,7 @@
     <e lm="demandar"><i>demanda</i><par n="canta/r__vblex"/></e>
     <e lm="creder"><i>cred</i><par n="cred/er__vblex"/></e>
     <e lm="vider"><i>vid</i><par n="cred/er__vblex"/></e>
+    <e lm="exceller"><i>excell</i><par n="cred/er__vblex"/></e>
     <e lm="partir"><i>parti</i><par n="parti/r__vblex"/></e>
     <e lm="sortir"><i>sorti</i><par n="parti/r__vblex"/></e>
     <e lm="morir"><i>mori</i><par n="parti/r__vblex"/></e>
