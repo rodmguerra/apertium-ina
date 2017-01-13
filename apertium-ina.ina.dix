@@ -1192,20 +1192,20 @@
     <e lm="cognoscer"><i>cognosc</i><par n="cred/er__vblex"/></e>
     <e lm="comenciar"><i>comencia</i><par n="cred/er__vblex"/></e>
     <e lm="contar"><i>conta</i><par n="cred/er__vblex"/></e>
-    <e lm="remitter"><i>remitte</i><par n="cred/er__vblex"/></e>
+    <e lm="remitter"><i>remitt</i><par n="cred/er__vblex"/></e>
     <e lm="appellar"><i>appella</i><par n="cred/er__vblex"/></e>
     <e lm="permitter"><i>permitt</i><par n="cred/er__vblex"/></e>
     <e lm="occupar"><i>occupa</i><par n="cred/er__vblex"/></e>
     <e lm="devenir"><i>deveni</i><par n="parti/r__vblex"/></e>
     <e lm="decider"><i>decid</i><par n="cred/er__vblex"/></e>
     <e lm="arrivar"><i>arriva</i><par n="canta/r__vblex"/></e>
-    <e lm="servir"><i>servi</i><par n="cred/er__vblex"/></e>
-    <e lm="semblar"><i>sembla</i><par n="cred/er__vblex"/></e>
-    <e lm="retornar"><i>retorna</i><par n="cred/er__vblex"/></e>
-    <e lm="lassar"><i>lassa</i><par n="cred/er__vblex"/></e>
+    <e lm="servir"><i>servi</i><par n="parti/r__vblex"/></e>
+    <e lm="semblar"><i>sembla</i><par n="canta/r__vblex"/></e>
+    <e lm="retornar"><i>retorna</i><par n="canta/r__vblex"/></e>
+    <e lm="lassar"><i>lassa</i><par n="canta/r__vblex"/></e>
     <e lm="reciper"><i>recip</i><par n="cred/er__vblex"/></e>
     <e lm="responder"><i>respond</i><par n="cred/er__vblex"/></e>
-    <e lm="recordar"><i>recorda</i><par n="cred/er__vblex"/></e>
+    <e lm="recordar"><i>recorda</i><par n="canta/r__vblex"/></e>
 
       
     <e lm="prender"><i>prend</i><par n="cred/er__vblex"/></e>
@@ -1856,7 +1856,6 @@
 <e lm="alleviar"><i>allevia</i><par n="canta/r__vblex"/></e>
 <e lm="cogitar"><i>cogita</i><par n="canta/r__vblex"/></e>
 <e lm="reunir"><i>reuni</i><par n="parti/r__vblex"/></e>
-<e lm="assemblar"><i>assembla</i><par n="canta/r__vblex"/></e>
 <e lm="remar"><i>rema</i><par n="canta/r__vblex"/></e>
 <e lm="approchar"><i>approcha</i><par n="canta/r__vblex"/></e>
 <e lm="rasar"><i>rasa</i><par n="canta/r__vblex"/></e>
