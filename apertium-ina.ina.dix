@@ -27,7 +27,7 @@
     <sdef n="vbmod"/>
     <sdef n="vbhaver"/>
     <sdef n="pri"   c="prient indicative"/>
-    <sdef n="past"/>
+    <sdef n="pii"/>
     <sdef n="fti"/>
     <sdef n="cni"/>
     <sdef n="inf"/>
@@ -364,7 +364,7 @@
       <e>
         <p>
           <l>va</l>
-          <r>r<s n="vblex"/><s n="past"/></r>
+          <r>r<s n="vblex"/><s n="pii"/></r>
         </p>
       </e>
       <e>
@@ -440,7 +440,7 @@
       <e>
         <p>
           <l>eva</l>
-          <r>r<s n="vbmod"/><s n="past"/></r>
+          <r>r<s n="vbmod"/><s n="pii"/></r>
         </p>
       </e>
       <e>
@@ -485,7 +485,7 @@
       <e>
         <p>
           <l>beva</l>
-          <r>ber<s n="vblex"/><s n="past"/></r>
+          <r>ber<s n="vblex"/><s n="pii"/></r>
         </p>
       </e>
       <e>
@@ -530,7 +530,7 @@
       <e>
         <p>
           <l>beva</l>
-          <r>ber<s n="vbhaver"/><s n="past"/></r>
+          <r>ber<s n="vbhaver"/><s n="pii"/></r>
         </p>
       </e>
       <e>
@@ -612,13 +612,13 @@
       <e>
         <p>
           <l>esseva</l>
-          <r>esser<s n="vblex"/><s n="past"/></r>
+          <r>esser<s n="vblex"/><s n="pii"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>era</l>
-          <r>esser<s n="vblex"/><s n="past"/></r>
+          <r>esser<s n="vblex"/><s n="pii"/></r>
         </p>
       </e>
       <e>
@@ -712,13 +712,13 @@
       <e>
         <p>
           <l>esseva</l>
-          <r>esser<s n="vbser"/><s n="past"/></r>
+          <r>esser<s n="vbser"/><s n="pii"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>era</l>
-          <r>esser<s n="vbser"/><s n="past"/></r>
+          <r>esser<s n="vbser"/><s n="pii"/></r>
         </p>
       </e>
       <e>
