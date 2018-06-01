@@ -35,6 +35,8 @@
     <sdef n="pprs"/>
     <sdef n="imp"/>
     <sdef n="prs"/>
+     <sdef n="pis"/>
+     <sdef n="fts"/>
     <sdef n="cnjcoo"/>
     <sdef n="cnjsub"/>
     <sdef n="cnjadv"/>
@@ -355,6 +357,12 @@
           <r>r<s n="vblex"/><s n="pri"/></r>
         </p>
       </e>
+      <e r="RL">
+         <p>
+            <l></l>
+            <r>r<s n="vblex"/><s n="prs"/></r>
+         </p>
+       </e>
       <e>
         <p>
           <l></l>
@@ -367,11 +375,23 @@
           <r>r<s n="vblex"/><s n="pii"/></r>
         </p>
       </e>
+       <e r="RL">
+            <p>
+               <l>va</l>
+               <r>r<s n="vblex"/><s n="pis"/></r>
+            </p>
+         </e>
       <e>
         <p>
           <l>ra</l>
           <r>r<s n="vblex"/><s n="fti"/></r>
         </p>
+      </e>
+      <e r="RL">
+         <p>
+            <l>ra</l>
+            <r>r<s n="vblex"/><s n="fts"/></r>
+         </p>
       </e>
       <e>
         <p>
@@ -437,18 +457,36 @@
           <r>er<s n="vbmod"/><s n="pri"/></r>
         </p>
       </e>
+       <e r="RL">
+          <p>
+             <l>e</l>
+             <r>er<s n="vbmod"/><s n="prs"/></r>
+          </p>
+       </e>
       <e>
         <p>
           <l>eva</l>
           <r>r<s n="vbmod"/><s n="pii"/></r>
         </p>
       </e>
+       <e>
+          <p>
+             <l>eva</l>
+             <r>r<s n="vbmod"/><s n="pis"/></r>
+          </p>
+       </e>
       <e>
         <p>
           <l>era</l>
           <r>er<s n="vbmod"/><s n="fti"/></r>
         </p>
       </e>
+       <e>
+          <p>
+             <l>eva</l>
+             <r>r<s n="vbmod"/><s n="fts"/></r>
+          </p>
+       </e>
       <e>
         <p>
           <l>erea</l>
@@ -468,51 +506,75 @@
         </p>
       </e>
     </pardef>
-      
-    <pardef n="ha/ber__vblex">  <!-- hard to collapse with vblex paradigms -->
-      <e>
-        <p>
-          <l>ber</l>
-          <r>ber<s n="vblex"/><s n="inf"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l></l>
-          <r>ber<s n="vblex"/><s n="pri"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>beva</l>
-          <r>ber<s n="vblex"/><s n="pii"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>bera</l>
-          <r>ber<s n="vblex"/><s n="fti"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>berea</l>
-          <r>ber<s n="vblex"/><s n="cni"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>bente</l>
-          <r>ber<s n="vblex"/><s n="pprs"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>bite</l>
-          <r>ber<s n="vblex"/><s n="pp"/></r>
-        </p>
-      </e>
-    </pardef>
+
+     <pardef n="ha/ber__vblex">  <!-- hard to collapse with vblex paradigms -->
+        <e>
+           <p>
+              <l>ber</l>
+              <r>ber<s n="vblex"/><s n="inf"/></r>
+           </p>
+        </e>
+        <e>
+           <p>
+              <l></l>
+              <r>ber<s n="vblex"/><s n="pri"/></r>
+           </p>
+        </e>
+        <e r="LR"> <!-- indicative habe (LR because "ha" is prefered)-->
+           <p>
+              <l>be</l>
+              <r>ber<s n="vblex"/><s n="pri"/></r>
+           </p>
+        </e>
+        <e r="RL"> <!-- subjunctive habe -->
+           <p>
+              <l>be</l>
+              <r>ber<s n="vblex"/><s n="prs"/></r>
+           </p>
+        </e>
+        <e>
+           <p>
+              <l>beva</l>
+              <r>ber<s n="vblex"/><s n="pii"/></r>
+           </p>
+        </e>
+        <e r="RL">
+           <p>
+              <l>beva</l>
+              <r>ber<s n="vblex"/><s n="pis"/></r>
+           </p>
+        </e>
+        <e>
+           <p>
+              <l>bera</l>
+              <r>ber<s n="vblex"/><s n="fti"/></r>
+           </p>
+        </e>
+        <e r="RL">
+           <p>
+              <l>bera</l>
+              <r>ber<s n="vblex"/><s n="fts"/></r>
+           </p>
+        </e>
+        <e>
+           <p>
+              <l>berea</l>
+              <r>ber<s n="vblex"/><s n="cni"/></r>
+           </p>
+        </e>
+        <e>
+           <p>
+              <l>bente</l>
+              <r>ber<s n="vblex"/><s n="pprs"/></r>
+           </p>
+        </e>
+        <e>
+           <p>
+              <l>bite</l>
+              <r>ber<s n="vblex"/><s n="pp"/></r>
+           </p>
+        </e>
+     </pardef>
 
     <pardef n="ha/ber__vbhaver">  <!-- hard to collapse with vblex paradigms -->
       <e>
@@ -527,18 +589,42 @@
           <r>ber<s n="vbhaver"/><s n="pri"/></r>
         </p>
       </e>
+       <e r="LR"> <!-- indicative habe (LR because "ha" is prefered)-->
+          <p>
+             <l>be</l>
+             <r>ber<s n="vbhaver"/><s n="pri"/></r>
+          </p>
+       </e>
+       <e r="RL"> <!-- subjunctive habe -->
+          <p>
+             <l>be</l>
+             <r>ber<s n="vbhaver"/><s n="prs"/></r>
+          </p>
+       </e>
       <e>
         <p>
           <l>beva</l>
           <r>ber<s n="vbhaver"/><s n="pii"/></r>
         </p>
       </e>
+       <e r="RL">
+          <p>
+             <l>beva</l>
+             <r>ber<s n="vbhaver"/><s n="pis"/></r>
+          </p>
+       </e>
       <e>
         <p>
           <l>bera</l>
           <r>ber<s n="vbhaver"/><s n="fti"/></r>
         </p>
       </e>
+       <e r="RL">
+          <p>
+             <l>bera</l>
+             <r>ber<s n="vbhaver"/><s n="fts"/></r>
+          </p>
+       </e>
       <e>
         <p>
           <l>berea</l>
@@ -567,6 +653,12 @@
           <r>esser<s n="vblex"/><s n="inf"/></r>
         </p>
       </e>
+       <e r="LR">
+          <p>
+             <l>ser</l>
+             <r>esser<s n="vblex"/><s n="inf"/></r>
+          </p>
+       </e>
       <e>
         <p>
           <l>sia</l>
@@ -609,18 +701,21 @@
           <r>esser<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
-      <e>
+
+       <e>
+          <p>
+             <l>era</l>
+             <r>esser<s n="vblex"/><s n="pii"/></r>
+          </p>
+       </e>
+
+      <e r="LR"> <!-- esseva = era, era is preferred -->
         <p>
           <l>esseva</l>
           <r>esser<s n="vblex"/><s n="pii"/></r>
         </p>
       </e>
-      <e r="LR">
-        <p>
-          <l>era</l>
-          <r>esser<s n="vblex"/><s n="pii"/></r>
-        </p>
-      </e>
+
       <e>
         <p>
           <l>essera</l>
@@ -653,7 +748,7 @@
       </e>
       <e>
         <p>
-          <l>essete</l>
+          <l>essite</l>
           <r>esser<s n="vblex"/><s n="pp"/></r>
         </p>
       </e>
@@ -753,11 +848,52 @@
       </e>
       <e>
         <p>
-          <l>essete</l>
+          <l>essite</l>
           <r>esser<s n="vbser"/><s n="pp"/></r>
         </p>
       </e>
     </pardef>
+
+
+     <pardef n="ir_vader__vblex">  <!-- hard to collapse with vblex paradigms -->
+        <!-- ir = vader -->
+        <e><p><l>ir</l><r>ir<s n="vblex"/><s n="inf"/></r></p></e>
+        <e r="LR"><p><l>vader</l><r>ir<s n="vblex"/><s n="inf"/></r></p></e>
+
+        <!-- io va = io vade = io i -->
+        <e><p><l>va</l><r>ir<s n="vblex"/><s n="pri"/></r></p></e>
+        <e r="LR"><p><l>vade</l><r>ir<s n="vblex"/><s n="pri"/></r></p></e>
+        <e r="LR"><p><l>i</l><r>ir<s n="vblex"/><s n="pri"/></r></p></e>
+              <!-- subj "que io vade" (Using RL for subjunctives, maybe there is a better solution)-->
+              <e r="RL"><p><l>vade</l><r>ir<s n="vblex"/><s n="prs"/></r></p></e>
+
+        <!-- io iva = io vadeva -->
+        <e><p><l>iva</l><r>ir<s n="vblex"/><s n="pii"/></r></p></e>
+        <e r="LR"><p><l>vadeva</l><r>ir<s n="vblex"/><s n="pii"/></r></p></e>
+              <!-- subj "si io vadeva"(Using RL for subjunctives, maybe there is a better solution)-->
+              <e r="RL"><p><l>vadeva</l><r>ir<s n="vblex"/><s n="pis"/></r></p></e>
+
+        <!-- io ira = io vadera -->
+        <e><p><l>ira</l><r>ir<s n="vblex"/><s n="fti"/></r></p></e>
+        <e r="LR"><p><l>vadera</l><r>ir<s n="vblex"/><s n="fti"/></r></p></e>
+              <!-- subj "quando io vadera" (Using RL for subjunctives, maybe there is a better solution)-->
+              <e r="RL"><p><l>vadera</l><r>ir<s n="vblex"/><s n="fts"/></r></p></e>
+
+        <!-- io irea = io vaderea -->
+        <e><p><l>irea</l><r>ir<s n="vblex"/><s n="cni"/></r></p></e>
+        <e r="LR"><p><l>vaderea</l><r>ir<s n="vblex"/><s n="cni"/></r></p></e>
+
+        <!-- vadente = iente -->
+        <e><p><l>vadente</l><r>ir<s n="vblex"/><s n="pprs"/></r></p></e>
+        <e r="LR"><p><l>iente</l><r>ir<s n="vblex"/><s n="pprs"/></r></p></e>
+
+        <!-- ite = vadite -->
+        <e><p><l>ite</l><r>ir<s n="vblex"/><s n="pp"/></r></p></e>
+        <e r="LR"><p><l>vadite</l><r>ir<s n="vblex"/><s n="pp"/></r></p></e>
+
+     </pardef>
+
+
     <pardef n="ubi__rel"> 
       <e><p><l/>                    <r><s n="rel"/><s n="adv"/></r></p></e> 
     </pardef> 
@@ -1171,11 +1307,12 @@
     <e lm="currer"><i>curr</i><par n="cred/er__vblex"/></e>       
     <e lm="natar"><i>nata</i><par n="canta/r__vblex"/></e>  
     <e lm="habitar"><i>habita</i><par n="canta/r__vblex"/></e>
-    <e lm="haber"><i>ha</i><par n="ha/ber__vbhaver"/></e>  <!-- vblex, sure? trivial forms like "ha" missing -->
-    <e lm="haber"><i>ha</i><par n="ha/ber__vblex"/></e>  <!-- vblex, sure? trivial forms like "ha" missing -->
-
+    <e lm="haber"><i>ha</i><par n="ha/ber__vbhaver"/></e>
+    <e lm="haber"><i>ha</i><par n="ha/ber__vblex"/></e>
     <e lm="poter"><i>pot</i><par n="cred/er__vblex"/></e>
     <e lm="poter"><i>pot</i><par n="pot/er__vbmod"/></e>
+    <e lm="ir"><i></i><par n="ir_vader__vblex"/></e>
+
     <e lm="facer"><i>fac</i><par n="cred/er__vblex"/></e>
     <e lm="mitter"><i>mitt</i><par n="cred/er__vblex"/></e>
     <e lm="dicer"><i>dic</i><par n="cred/er__vblex"/></e>
@@ -2896,7 +3033,6 @@
 <e lm="adjunger"><i>adjung</i><par n="cred/er__vblex"/></e>
 <e lm="approchar"><i>approcha</i><par n="canta/r__vblex"/></e>
 <e lm="conjunger"><i>conjung</i><par n="cred/er__vblex"/></e>
-<e lm="vader"><i>vad</i><par n="cred/er__vblex"/></e>
 <e lm="obstinar"><i>obstina</i><par n="canta/r__vblex"/></e>
 <e lm="inviar"><i>invia</i><par n="canta/r__vblex"/></e>
 <e lm="renovar"><i>renova</i><par n="canta/r__vblex"/></e>
