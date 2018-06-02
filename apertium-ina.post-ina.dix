@@ -1,40 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-  <alphabet/>
+   <alphabet/>
+   <sdefs>
+      <sdef n="test"/>
+   </sdefs>
 
-  <sdefs>
-    <sdef n="n" c="Noun"/>
-  </sdefs>
+   <pardefs>
+      <pardef n="caracter_general">
+         <e>
+            <i>;</i>
+         </e>
+         <e>
+            <i>#</i>
+         </e>
+         <e>
+            <i>)</i>
+         </e>
+         <e>
+            <i>:</i>
+         </e>
+         <e>
+            <i>(</i>
+         </e>
+         <e>
+            <i>[</i>
+         </e>
+         <e>
+            <i>]</i>
+         </e>
+         <e>
+            <i>"</i>
+         </e>
+         <e>
+            <i>'</i>
+         </e>
+         <e>
+            <i>*</i>
+         </e>
+         <e>
+            <i>@</i>
+         </e>
+         <e>
+            <i>«</i>
+         </e>
+         <e>
+            <i>-</i>
+         </e>
+         <e>
+            <i>,</i>
+         </e>
+         <e>
+            <i>?</i>
+         </e>
+         <e>
+            <i>/</i>
+         </e>
+         <e>
+            <i>`</i>
+         </e>
+         <e>
+            <i>±</i>
+         </e>
+         <e>
+            <i>­</i>
+         </e>
+         <e>
+            <i>$</i>
+         </e>
+         <e>
+            <i>.</i>
+         </e>
+      </pardef>
 
-  <pardefs>
-    <pardef n="vocals">
-      <e>
-        <i>a</i>
-      </e>
-      <e>
-        <i>e</i>
-      </e>
-      <e>
-        <i>i</i>
-      </e>
-      <e>
-        <i>o</i>
-      </e>
-      <e>
-        <i>u</i>
-      </e>
-    </pardef>
-  </pardefs>
+      <pardef n="le">
 
-  <section id="main" type="standard">
-    <!-- Define entries within <e> here. See http://wiki.apertium.org/wiki/Post-generator for more information.-->
-    <e>
-      <p>
-        <l><a/>a<b/></l>
-        <r>an<b/></r>
-      </p>
-      <par n="vocals"/>
-    </e>
-  </section>
+         <e>
+            <p>
+               <l>le<b/></l>
+               <r>l<b/></r>
+            </p>
+         </e>
+         <e>
+            <p>
+               <l>le</l>
+               <r>l</r>
+            </p>
+            <par n="caracter_general"/>
+         </e>
+      </pardef>
+
+      <pardef n="LE">
+         <!--   <e>
+              <p>
+                <l><a/>EL<b/></l>
+                <r>L<b/></r>
+              </p>
+            </e> -->
+         <e>
+            <p>
+               <l>LE<b/></l>
+               <r>L<b/></r>
+            </p>
+         </e>
+         <e>
+            <p>
+               <l>LE</l>
+               <r>L</r>
+            </p>
+            <par n="caracter_general"/>
+         </e>
+      </pardef>
+
+
+
+   </pardefs>
+
+   <section id="main" type="standard">
+
+      <e>
+         <p>
+            <l><a/>de<b/></l>
+            <r>de</r>
+         </p>
+         <par n="le"/>
+      </e>
+
+
+
+      <e>
+         <p>
+            <l><a/>a<b/></l>
+            <r>a</r>
+         </p>
+         <par n="le"/>
+      </e>
+
+
+      <e>
+         <p>
+            <l><a/>DE<b/></l>
+            <r>DE</r>
+         </p>
+         <par n="LE"/>
+      </e>
+
+
+      <e>
+         <p>
+            <l><a/>A<b/></l>
+            <r>A</r>
+         </p>
+         <par n="LE"/>
+      </e>
+
+   </section>
+
 </dictionary>
-

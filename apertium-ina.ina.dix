@@ -74,6 +74,29 @@
         </p>
       </e>
     </pardef>
+     <!--<pardef n="contraction__pr">-->
+        <!--<e r="LR"><p><l></l><r><s n="pr"/></r></p></e>-->
+        <!--<e r="RL"><p><l><a/></l><r><s n="pr"/></r></p></e>-->
+        <!--<e><p><l>l</l>       <r><s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>-->
+        <!--<e r="RL"><p><l>l</l>       <r><s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sg"/></r></p></e>-->
+        <!--<e r="RL"><p><l>l</l>       <r><s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="pl"/></r></p></e>-->
+     <!--</pardef>-->
+     <pardef n="contde__pr">
+        <e r="LR"><p><l>de</l><r>de<s n="pr"/></r></p></e>
+        <e r="RL"><p><l><a/>de</l><r>de<s n="pr"/></r></p></e>
+        <e><p><l>del</l>       <r>de<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+        <e r="RL"><p><l>del</l>       <r>de<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sg"/></r></p></e>
+        <e r="RL"><p><l>del</l>       <r>de<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="pl"/></r></p></e>
+     </pardef>
+
+     <pardef n="conta__pr">
+        <e r="LR"><p><l>a</l><r>a<s n="pr"/></r></p></e>
+        <e r="RL"><p><l><a/>a</l><r>a<s n="pr"/></r></p></e>
+        <e><p><l>al</l>       <r>a<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+        <e r="RL"><p><l>al</l>       <r>a<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sg"/></r></p></e>
+        <e r="RL"><p><l>al</l>       <r>a<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="pl"/></r></p></e>
+     </pardef>
+
     <pardef n="plus__preadv">
       <e>
         <p>
@@ -128,26 +151,13 @@
         </p>
       </e>
     </pardef>
-    <pardef n="le__det">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="det"/><s n="def"/><s n="sp"/></r>
-        </p>
-      </e>
-      <e r="RL">
-        <p>
-          <l></l>
-          <r><s n="det"/><s n="def"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="RL">
-        <p>
-          <l></l>
-          <r><s n="det"/><s n="def"/><s n="pl"/></r>
-        </p>
-      </e>
-    </pardef>
+
+     <pardef n="le__det">
+        <e><p><l></l>               <r><s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+        <e r="RL"><p><l></l>        <r><s n="det"/><s n="def"/><s n="sg"/></r></p></e>
+        <e r="RL"><p><l></l>        <r><s n="det"/><s n="def"/><s n="pl"/></r></p></e>
+     </pardef>
+
     <pardef n="un__det">
       <e>
         <p>
@@ -933,11 +943,11 @@
     <e lm="juvene"><i>juvene</i><par n="adjective__adj"/></e>
 
 
-    <e lm="al"><p><l>al</l><r>a<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
-    <e lm="del"><p><l>del</l><r>de<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+    <!--<e lm="al"><p><l>al</l><r>a<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>-->
+    <!--<e lm="del"><p><l>del</l><r>de<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>-->
     <e lm="in"><i>in</i><par n="in__pr"/></e>
-    <e lm="a"><i>a</i><par n="in__pr"/></e>
-    <e lm="de"><i>de</i><par n="in__pr"/></e>
+    <e lm="a"><i></i><par n="conta__pr"/></e>
+    <e lm="de"><i></i><par n="contde__pr"/></e>
     <e lm="con"><i>con</i><par n="in__pr"/></e>
     <e lm="sin"><i>sin</i><par n="in__pr"/></e>
     <e lm="per"><i>per</i><par n="in__pr"/></e>
