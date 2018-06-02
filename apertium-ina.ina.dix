@@ -986,14 +986,124 @@
     <e lm="juvene"><i>juvene</i><par n="adjective__adj"/></e>
 
 
-    <!--<e lm="al"><p><l>al</l><r>a<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>-->
-    <!--<e lm="del"><p><l>del</l><r>de<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>-->
-    <e lm="in"><i>in</i><par n="in__pr"/></e>
-    <e lm="a"><i></i><par n="conta__pr"/></e>
-    <e lm="de"><i></i><par n="contde__pr"/></e>
-    <e lm="con"><i>con</i><par n="in__pr"/></e>
-    <e lm="sin"><i>sin</i><par n="in__pr"/></e>
-    <e lm="per"><i>per</i><par n="in__pr"/></e>
+      <!-- Prepositions -->
+      <e lm="in"><i>in</i><par n="in__pr"/></e>
+      <e lm="a"><i></i><par n="conta__pr"/></e>
+      <e lm="de"><i></i><par n="contde__pr"/></e>
+      <e lm="per"><i>per</i><par n="in__pr"/></e>
+      <e lm="pro"><i>pro</i><par n="in__pr"/></e>
+      <e lm="inter"><i>inter</i><par n="in__pr"/></e>
+      <e lm="contra"><i>contra</i><par n="in__pr"/></e>
+      <e lm="ultra"><i>ultra</i><par n="in__pr"/></e>
+      <e lm="con"><i>con</i><par n="in__pr"/></e>
+      <e lm="sin"><i>sin</i><par n="in__pr"/></e>
+      <e lm="intra"><i>intra</i><par n="in__pr"/></e>
+      <e lm="extra"><i>extra</i><par n="in__pr"/></e>
+      <e lm="sub"><i>sub</i><par n="in__pr"/></e>
+      <e lm="super"><i>super</i><par n="in__pr"/></e>
+      <e lm="supra"><i>supra</i><par n="in__pr"/></e>
+      <e lm="infra"><i>infra</i><par n="in__pr"/></e>
+      <e lm="ante"><i>ante</i><par n="in__pr"/></e>
+      <e lm="post"><i>post</i><par n="in__pr"/></e>
+      <e lm="usque"><i>usque</i><par n="in__pr"/></e>
+      <e lm="verso"><i>verso</i><par n="in__pr"/></e>
+      <e lm="durante"><i>durante</i><par n="in__pr"/></e>
+
+
+
+     <!-- Less common -->
+     <e lm="ad"><i>ad</i><par n="in__pr"/></e> <!-- ad = a -->
+     <e lm="apud"><i>apud</i><par n="in__pr"/></e>
+     <e lm="circa"><i>circa</i><par n="in__pr"/></e>
+     <e lm="circum"><i>circum</i><par n="in__pr"/></e>
+
+     <e lm="concernente"><i>concernente</i><par n="in__pr"/></e>
+
+     <e lm="depost"><i>depost</i><par n="in__pr"/></e>
+     <e lm="desde"><i>desde</i><par n="in__pr"/></e>
+     <e lm="dextra"><i>dextra</i><par n="in__pr"/></e>
+
+     <e lm="ex"><i>ex</i><par n="in__pr"/></e>
+     <e lm="excepte"><i>excepte</i><par n="in__pr"/></e>
+     <e lm="foras"><i>foras</i><par n="in__pr"/></e>
+     <e lm="foris"><i>foris</i><par n="in__pr"/></e> <!-- extra - foris = foras -->
+
+
+
+     <e lm="detra"><i>detra</i><par n="in__pr"/></e> <!-- detra = post -->
+     <e lm="presso"><i>presso</i><par n="in__pr"/></e>
+     <e lm="preter"><i>preter</i><par n="in__pr"/></e>
+     <e lm="re"><i>re</i><par n="in__pr"/></e>
+     <e lm="salvo"><i>salvo</i><par n="in__pr"/></e>
+     <e lm="secundo"><i>secundo</i><par n="in__pr"/></e>
+
+     <e lm="sur"><i>sur</i><par n="in__pr"/></e> <!-- = super -->
+     <e lm="trans"><i>trans</i><par n="in__pr"/></e>
+     <e lm="via"><i>via</i><par n="in__pr"/></e>
+     <e lm="viste"><i>viste</i><par n="in__pr"/></e>
+
+
+
+     <!--
+
+     a {prep} 1. to (a point in space or time, a goal, etc.); 2. at (a point in space or time, a stage of development, etc.);
+ab {prep} since, from
+[ad] {prep} 1. to; 2. at (`a')
+ante' I. {prep} before (1. in front of; 2. earlier than; 3. above); II. {adv} before (1. in front, ahead; {also:} forward; 2. earlier);
+apud (á-) {prep} near, with, at, by
+[circum] (cír-) {prep} around, around about
+[cis] {prep} on this side (of)
+[clam]' 1. {adv} secretly; 2. {prep} without the knowledge of, unknown to
+con {prep} with (1. together with; 2. by means of; 3. having, carrying, characterized by)
+concernente {prep} concerning
+contra' I. {prep} 1. opposite, facing; 2. against; II. {adv} 1. opposite, facing, etc.; 2. on the contrary
+[coram] (có-) 1. {adv} in one's presence, openly, publicly; 2. {prep} in the presence of
+[cum] {prep} with (1. together with; 2. by means of; 3. having, carrying, characterized by) (con)
+de {prep} I. from; {also:} since; II. of (1. belonging or pertaining to; 2. made of); III. with, by means of; de (+inf) to; for de nove, de nocte, pensar de, etc. cf. nove, nocte, pensar, etc.
+depost' I. {adv} afterwards, later; depost que since (from the time that); II. {prep} after, since
+[desde] {prep} since, from
+[detra]' 1. {adv} behind, back, backwards; 2. {prep} behind
+[dextra] {prep} on the right of
+durante {prep} during; durante que while, whilst
+[erga] {prep} 1. towards; 2. against; 3. in respect to
+ex {prep} out of, from
+excepte {prep} except, excepting
+extra' I. {adv} 1. without, on the outside; 2. besides, in addition, extra; II. {prep} 1. outside of, without, beyond; 2. excepting, except; 3. besides, in addition to
+[for]' I. {adv} 1. out of doors, outside, out; 2. from without; II. {prep} 1. beyond; 2. except; for de outside of, without; for de se beside oneself (`foras', `foris')
+foras, foris (fór-) I. {adv} 1. out of doors, outside, out; 2. from without; II. {prep} 1. beyond; 2. except; foras de outside of, without; foras de se beside oneself
+in {prep} in, into; for in plus, in fin, etc. cf. plus, fin, etc.
+infra' 1. {adv} below, underneath, beneath; 2. {prep} below, under, beneath
+inter (ín-) {prep} 1. between; 2. among
+juxta' 1. {adv} near, near by; 2. {prep} near, near to, next to, etc.
+[malgre] (-gré) {prep} in spite of (malgrado)
+nonobstante' 1. {prep} despite, in spite of; 2. {adv} nevertheless
+[ob] {prep} towards; before, in front of; on account of, because of
+per {prep} 1. through (from one side to the other of); also: during, throughout; 2. by (by the agency of; through; by means of); {also:} per
+[por] {prep} for (1. not against; 2. in place of, in exchange or return for; por (+inf) in order to; partir por (Paris) to leave or set out for (Paris); (pro)
+post' I. {adv} 1. behind, back, backwards; 2. afterwards, after; II. {prep} behind; after; post que since, because
+preter (pré-) I. {adv} past, beyond; II. {prep} 1. past, along(side of), beyond; 2. except, excepting; 3. in addition to
+pro {prep} for (1. not against; 2. in place of, in exchange or return for); pro (+inf) in order to; partir pro (Paris) to leave or set out for (Paris)
+[propter] (próp-) I. {adv} near, at hand; II. {prep} 1. near, close to; 2. on account of, by reason of, because of
+[re (2)]' 1. {n} thing, affair, matter; 2. {prep} regarding, about, of, on, concerning
+salvo {prep} save, but; {also:} save or but for; salvo que save or but that; salvo error e omission errors and omissions excepted
+[secun] {prep} 1. (following) after; 2. along, by; 3. according to (secundo)
+secundo {n} second (in a duel, etc.) secundo {prep} 1. (following) after; 2. along, by; 3. according to; secundo que according as
+sin {prep} without
+sub {prep} under, below, beneath
+super (sú-) I. {prep} 1. on, upon; on top of; above, over; 2. about, concerning, on; II. {adv} above, on top; super toto above all
+supra' I. {prep} above, over; II. {adv} on the top, above
+[sur] {prep} on, upon; on top of
+[tra] {prep} through
+trans {prep} across, over, beyond, on the farther side of
+[traverso] {prep} through, from side to side
+ultra' I. {adv} on the other side, beyond, farther; II. {prep} 1. on the farther side of; beyond, past; 2. besides; ultra ille besides, moreover; ultra que aside from the fact that
+usque {prep} (all the way) to, up to (a point in space or time); also: till, until; usque nunc up to now; usque al presente up to the present
+verso {prep} toward(s); {also:} to, in the direction of, etc.
+via {prep} via, by way of
+viste {prep} considering, in view of; viste que considering that
+
+
+     -->
 
     <e lm="multo"><i>multo</i><par n="plus__preadv"/></e>
 
