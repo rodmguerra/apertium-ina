@@ -63,6 +63,11 @@
     <sdef n="pos"/>
     <sdef n="num"/>
     <sdef n="ij"/>
+     <sdef n="lquest"/>
+     <sdef n="rpar"/>
+     <sdef n="lpar"/>
+     <sdef n="percent"/>
+     <sdef n="hour"/>
 
   </sdefs>
   <pardefs>
@@ -162,7 +167,7 @@
       <e>
         <p>
           <l></l>
-          <r><s n="det"/><s n="ind"/><s n="sp"/></r>
+          <r><s n="det"/><s n="ind"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -906,10 +911,48 @@
 
     <pardef n="ubi__rel"> 
       <e><p><l/>                    <r><s n="rel"/><s n="adv"/></r></p></e> 
-    </pardef> 
-    <pardef n="como__adv"> 
-      <e><p><l/><r><s n="adv"/><s n="itg"/></r></p></e> 
-    </pardef> 
+    </pardef>
+
+     <pardef n="coma">
+        <e><re>,</re><p><l></l>       <r><s n="cm"/></r></p></e>
+     </pardef>
+
+     <pardef n="emails">
+        <e><re>[a-z.]+@[a-z.]+</re><p><l></l><r><s n="num"/></r></p></e>
+     </pardef>
+
+     <pardef n="urls">
+        <e><re>(http://|https://|ftp://)?[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*(.[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*)*(.[a-z][a-z]|.aero|.asia|.biz|.cat|.com|.coop|.edu|.gov|.info|.int|.jobs|.mil|.mobi|.museum|.name|.net|.org|.pro|.tel|.travel)(/([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*/)*([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*)?)?</re><!--      <re>(((www.)|(http://))[a-z0-9\-]+([.][a-z]+)+(/[a-z0-9_]+)*([.][a-z]+)*)</re> --><p><l></l><r><s n="num"/></r></p></e>
+     </pardef>
+
+     <pardef n="horas">
+        <e><re>[0-2]?[0-9]h[0-6][0-9]</re><p><l/><r><s n="num"/><s n="hour"/></r></p></e>
+     </pardef>
+
+     <pardef n="numeros">
+        <e><re>[\+\-]?[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+        <e><re>[\+\-]?[0-9]+([.,][0-9]+)?[ ]?\-[ ]?[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+        <e><re>[\+\-]?[0-9]+([.,][0-9]+)?[ ]?%</re><p><l></l><r><s n="num"/><s n="percent"/></r></p></e>
+        <e><re>[\+\-]?[0-9]+([.,][0-9]+)?[ ]?\-[ ]?[0-9]+([.,][0-9]+)?([ ]?%)?</re><p><l></l><r><s n="num"/><s n="percent"/></r></p></e>
+     </pardef>
+
+     <pardef n="pardret">
+        <e><re>[\)\]]</re><p><l></l>  <r><s n="rpar"/></r></p></e>
+     </pardef>
+
+     <pardef n="paresq">
+        <e><re>[\(\[]</re><p><l></l>  <r><s n="lpar"/></r></p></e>
+     </pardef>
+
+     <pardef n="separ">
+        <e><re>¿</re><p><l></l>       <r><s n="lquest"/></r></p></e>
+     </pardef>
+
+     <pardef n="separa">
+        <e r="LR"><re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+        <e r="RL"><p><l><a/></l>      <r></r></p><re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+     </pardef>
+
   </pardefs>
   <section id="main" type="standard">
     <e lm="adjective"><i>adjective</i><par n="adjective__adj"/></e>
@@ -4170,10 +4213,16 @@
 
       
   </section>
-  <section id="punctuation" type="inconditional">
-    <e><p><l>.</l><r>.<s n="sent"/></r></p></e>
-    <e><p><l>:</l><r>:<s n="sent"/></r></p></e>
-    <e><p><l>;</l><r>;<s n="sent"/></r></p></e>
-    <e><p><l>,</l><r>,<s n="cm"/></r></p></e>
-  </section>
+   <section id="final" type="inconditional">
+      <!--<e>                                     <par n="ordinales"/></e>-->
+      <e>                                     <par n="coma"/></e>
+      <e>                                     <par n="numeros"/></e>
+      <e>                                     <par n="pardret"/></e>
+      <e>                                     <par n="paresq"/></e>
+      <e>                                     <par n="separ"/></e>
+      <e>                                     <par n="separa"/></e>
+      <e>                                     <par n="emails"/></e>
+      <e>                                     <par n="urls"/></e>
+      <e>                                     <par n="horas"/></e>
+   </section>
 </dictionary>
