@@ -171,26 +171,19 @@
         </p>
       </e>
     </pardef>
-    <pardef n="mi__det">
-      <e>
-        <p>
-          <l></l>
-          <r><s n="det"/><s n="pos"/><s n="sp"/></r>
-        </p>
-      </e>
-      <e r="RL">
-        <p>
-          <l></l>
-          <r><s n="det"/><s n="pos"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="RL">
-        <p>
-          <l></l>
-          <r><s n="det"/><s n="pos"/><s n="pl"/></r>
-        </p>
-      </e>
+
+     <pardef n="alcun__det">
+        <e><p><l></l><r><s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+        <e r="RL"><p><l></l><r><s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+        <e r="RL"><p><l></l><r><s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
+     </pardef>
+
+    <pardef n="possessive__det">
+      <e><p><l></l><r><s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+      <e r="RL"><p><l></l><r><s n="det"/><s n="pos"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l></l><r><s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
     </pardef>
+
     <pardef n="iste__det">
       <e>
         <p>
@@ -248,31 +241,55 @@
       </e>
     </pardef>
     <pardef n="io__prn">
-            <e i=""><p><l/><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+            <e><p><l/><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="tu__prn">
-            <e i=""><p><l/><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+            <e><p><l/><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
-    <pardef n="illo__prn">
-            <e i=""><p><l/><r><s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-    </pardef>
+     <pardef n="il__prn">
+        <e><p><l/><r><s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+     </pardef>
     <pardef n="ill/e__prn">
-            <e i=""><p><l>e</l><r>e<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-            <e i=""><p><l>a</l><r>e<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-            <e i=""><p><l>es</l><r>e<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-            <e i=""><p><l>as</l><r>e<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-
+            <e><p><l>e</l><r>e<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+            <e><p><l>a</l><r>e<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+            <e><p><l>o</l><r>e<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+            <e><p><l>es</l><r>e<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+            <e><p><l>as</l><r>e<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+            <e><p><l>os</l><r>e<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
 <!--      Ille<prn><nom><p3><m><pl>-->
     <pardef n="nos__prn">
-            <e i=""><p><l/><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+            <e><p><l/><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="vos__prn">
-            <e i=""><p><l/><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+            <e><p><l/><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="illos__prn">
-            <e i=""><p><l/><r><s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="tn"/></r></p></e>
-    </pardef>
+
+     <pardef n="me_obj__prn">
+        <e><p><l/><r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+     </pardef>
+     <pardef n="te_obj__prn">
+        <e><p><l/><r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+     </pardef>
+     <pardef n="se_obj__prn">
+        <e><p><l/><r><s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+     </pardef>
+     <pardef n="l/e_obj__prn">
+        <e><p><l>e</l><r>e<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>a</l><r>e<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+        <e><p><l>o</l><r>e<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+        <e><p><l>es</l><r>e<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+        <e><p><l>as</l><r>e<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>os</l><r>e<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
+     </pardef>
+
+     <pardef n="nos_obj__prn">
+        <e><p><l/><r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+     </pardef>
+     <pardef n="vos_obj__prn">
+        <e><p><l/><r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+     </pardef>
+
     <pardef n="nihil__prn">      <e>
         <p>
           <l></l>
@@ -913,6 +930,7 @@
       <e><p><l/>                    <r><s n="rel"/><s n="adv"/></r></p></e> 
     </pardef>
 
+
      <pardef n="coma">
         <e><re>,</re><p><l></l>       <r><s n="cm"/></r></p></e>
      </pardef>
@@ -1121,24 +1139,39 @@ viste {prep} considering, in view of; viste que considering that
     <e lm="ni"><i>ni</i><par n="e__cnjcoo"/></e>
 
       
-
+    <!-- Indefinite Determinants -->
     <e lm="le"><i>le</i><par n="le__det"/></e>
     <e lm="un"><i>un</i><par n="un__det"/></e>
-      
-    <e lm="mi"><i>mi</i><par n="mi__det"/></e>
+    <e lm="alcun"><i>alcun</i><par n="alcun__det"/></e>
+
+    <!-- Possessive Determinants -->
+    <e lm="mi"><i>mi</i><par n="possessive__det"/></e>
+    <e lm="tu"><i>tu</i><par n="possessive__det"/></e>
+    <e lm="su"><i>su</i><par n="possessive__det"/></e>
+    <e lm="nostre"><i>nostre</i><par n="possessive__det"/></e>
+    <e lm="vostre"><i>vostre</i><par n="possessive__det"/></e>
+    <e lm="lor"><i>lor</i><par n="possessive__det"/></e>
+
+     <!-- Object/Reflexive Pronouns -->
+     <e lm="me"><i>me</i><par n="me_obj__prn"/></e>
+     <e lm="te"><i>te</i><par n="te_obj__prn"/></e>
+     <e lm="le"><i>l</i><par n="l/e_obj__prn"/></e> <!-- le, la, les, las, lo, los -->
+     <e lm="se"><i>se</i><par n="se_obj__prn"/></e>
+     <e lm="nos"><i>nos</i><par n="nos_obj__prn"/></e>
+     <e lm="vos"><i>vos</i><par n="vos_obj__prn"/></e>
+
 
     <e lm="iste"><i>iste</i><par n="iste__det"/></e>
     <e lm="tote"><i>tote</i><par n="tote__prn"/></e>
 
     <e lm="iste"><i>ist</i><par n="ist/e__prn"/></e>
     <e lm="io"><i>io</i><par n="io__prn"/></e>
-    <e i=""><i>tu</i><par n="tu__prn"/></e>
-    <e i=""><i>illo</i><par n="illo__prn"/></e>
-    <e i=""><i>il</i><par n="illo__prn"/></e>
-    <e i=""><i>ill</i><par n="ill/e__prn"/></e>
-    <e i=""><i>nos</i><par n="nos__prn"/></e>
-    <e i=""><i>vos</i><par n="vos__prn"/></e>
-    <e i=""><i>illos</i><par n="illos__prn"/></e>
+    <e lm="tu"><i>tu</i><par n="tu__prn"/></e>
+     <e i=""><i>il</i><par n="il__prn"/></e>
+    <e lm="ille"><i>ill</i><par n="ill/e__prn"/></e> <!-- ille, illa, illo, illes, illas, illos -->
+    <e lm="nos"><i>nos</i><par n="nos__prn"/></e>
+    <e lm="vos"><i>vos</i><par n="vos__prn"/></e>
+
     <e lm="se"><i>se</i><par n="se__prn"/></e>
     <e lm="nihil"><i>nihil</i><par n="nihil__prn"/></e>
 
@@ -2919,12 +2952,15 @@ viste {prep} considering, in view of; viste que considering that
     <e lm="mal"><i>mal</i><par n="adjective__adj"/></e>
     <e lm="melior"><i>melior</i><par n="adjective__adj"/></e>
     <e lm="pejor"><i>pejor</i><par n="adjective__adj"/></e>
-    <e lm="ricamente"><i>ricamente</i><par n="excellent/e__adj"/></e>
     <e lm="san"><i>san</i><par n="adjective__adj"/></e>
     <e lm="secur"><i>asecurzur</i><par n="adjective__adj"/></e>
     <e lm="equal"><i>equal</i><par n="adjective__adj"/></e>
 
     <e lm="human"><i>human</i><par n="adjective__adj"/></e>
+
+     <!-- Adjectives added by rodmguerra - Testing Imperio Romano Book -->
+     <e lm="efficiente"><i>efficient</i><par n="excellent/e__adj"/></e>
+     <e lm="circuiente"><i>circuient</i><par n="excellent/e__adj"/></e>
 
     <e lm="abassar"><i>abassa</i><par n="canta/r__vblex"/></e>
     <e lm="abbreviar"><i>abbrevia</i><par n="canta/r__vblex"/></e>
@@ -3319,6 +3355,11 @@ viste {prep} considering, in view of; viste que considering that
 <e lm="colorar"><i>colora</i><par n="canta/r__vblex"/></e>
 <e lm="miscer"><i>misc</i><par n="cred/er__vblex"/></e>
 <e lm="committer"><i>committ</i><par n="cred/er__vblex"/></e>
+
+     <!-- Added by rodmguerra - Testing Imperio Romano book -->
+     <e lm="liberar"><i>libera</i><par n="canta/r__vblex"/></e>
+     <e lm="crear"><i>crea</i><par n="canta/r__vblex"/></e>
+     <e lm="elaborar"><i>elabora</i><par n="canta/r__vblex"/></e>
 
 <e lm="actualitate"><i>actualitate</i><par n="catto__n"/></e>
 <e lm="prorogar"><i>prorogar</i><par n="can__n"/></e>
@@ -4321,7 +4362,17 @@ viste {prep} considering, in view of; viste que considering that
 <e lm="zelo"><i>zelo</i><par n="catto__n"/></e>
 <e lm="zenit"><i>zenit</i><par n="can__n"/></e>
 
-      
+     <!-- Nouns added by rodmguerra - Testing Imperio Romano Book -->
+     <e lm="seculo"><i>seculo</i><par n="catto__n"/></e>
+     <e lm="romano"><i>romano</i><par n="catto__n"/></e>
+     <e lm="governamento"><i>governamento</i><par n="catto__n"/></e>
+     <e lm="domination"><i>domination</i><par n="can__n"/></e>
+     <e lm="region"><i>region</i><par n="can__n"/></e>
+     <e lm="systema"><i>systema</i><par n="catto__n"/></e>
+     <e lm="lege"><i>lege</i><par n="catto__n"/></e>
+     <e lm="rege"><i>rege</i><par n="catto__n"/></e>
+     <e lm="republica"><i>republica</i><par n="catto__n"/></e>
+
   </section>
    <section id="final" type="inconditional">
       <!--<e>                                     <par n="ordinales"/></e>-->
