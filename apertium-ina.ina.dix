@@ -4373,6 +4373,25 @@ viste {prep} considering, in view of; viste que considering that
      <e lm="rege"><i>rege</i><par n="catto__n"/></e>
      <e lm="republica"><i>republica</i><par n="catto__n"/></e>
 
+
+
+
+     <!-- Coordinating conjunctions, (only the basic, TODO: adapt more from Spanish and from interlingua dicts-->
+     <e lm="e"><p><l>e</l>          <r>e<s n="cnjcoo"/></r></p></e>
+     <e lm="o"><p><l>o</l>          <r>o<s n="cnjcoo"/></r></p></e>
+     <e lm="mais"><p><l>mais</l>       <r>mais<s n="cnjcoo"/></r></p></e>
+     <e lm="ma"><p><l>ma</l>         <r>ma<s n="cnjcoo"/></r></p></e>
+     <e lm="sed"><p><l>sed</l>        <r>sed<s n="cnjcoo"/></r></p></e>
+     <e lm="sinon"><p><l>sinon</l>      <r>sinon<s n="cnjcoo"/></r></p></e>
+     <e lm="ni"><p><l>ni</l>         <r>ni<s n="cnjcoo"/></r></p></e>
+     <e lm="nec"><p><l>nec</l>        <r>nec<s n="cnjcoo"/></r></p></e>
+
+
+     <e lm="non"><p><l></l>   <r>no<s n="adv"/></r></p></e>
+     <e lm="non"><p><l></l>   <r>non<s n="adv"/></r></p></e>
+
+
+
   </section>
    <section id="final" type="inconditional">
       <!--<e>                                     <par n="ordinales"/></e>-->
