@@ -158,30 +158,24 @@
     </pardef>
 
      <pardef n="le__det">
-        <e><p><l></l>               <r><s n="det"/><s n="def"/><s n="sp"/></r></p></e>
-        <e r="RL"><p><l></l>        <r><s n="det"/><s n="def"/><s n="sg"/></r></p></e>
-        <e r="RL"><p><l></l>        <r><s n="det"/><s n="def"/><s n="pl"/></r></p></e>
+        <e><p><l></l>               <r><s n="det"/><s n="def"/></r></p></e>
      </pardef>
 
     <pardef n="un__det">
       <e>
         <p>
           <l></l>
-          <r><s n="det"/><s n="ind"/><s n="sg"/></r>
+          <r><s n="det"/><s n="ind"/></r>
         </p>
       </e>
     </pardef>
 
      <pardef n="alcun__det">
-        <e><p><l></l><r><s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
-        <e r="RL"><p><l></l><r><s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
-        <e r="RL"><p><l></l><r><s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
+        <e><p><l></l><r><s n="det"/><s n="ind"/></r></p></e>
      </pardef>
 
     <pardef n="possessive__det">
-      <e><p><l></l><r><s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
-      <e r="RL"><p><l></l><r><s n="det"/><s n="pos"/><s n="sg"/></r></p></e>
-      <e r="RL"><p><l></l><r><s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+      <e><p><l></l><r><s n="det"/><s n="pos"/></r></p></e>
     </pardef>
 
     <pardef n="iste__det">
@@ -2937,7 +2931,8 @@ viste {prep} considering, in view of; viste que considering that
     <e lm="molle"><i>moll</i><par n="excellent/e__adj"/></e>
     <e lm="morte"><i>mort</i><par n="excellent/e__adj"/></e>
     <e lm="multe"><i>mult</i><par n="excellent/e__adj"/></e>
-    <e lm="nette"><i>nett</i><par n="excellent/e__adj"/></e>
+     <e lm="pauc"><i>pauc</i><par n="excellent/e__adj"/></e>
+     <e lm="nette"><i>nett</i><par n="excellent/e__adj"/></e>
     <e lm="parve"><i>parv</i><par n="excellent/e__adj"/></e>
     <e lm="paupere"><i>pauper</i><par n="excellent/e__adj"/></e>
     <e lm="pesante"><i>pesant</i><par n="excellent/e__adj"/></e>
@@ -4385,11 +4380,7 @@ viste {prep} considering, in view of; viste que considering that
      <e lm="sinon"><p><l>sinon</l>      <r>sinon<s n="cnjcoo"/></r></p></e>
      <e lm="ni"><p><l>ni</l>         <r>ni<s n="cnjcoo"/></r></p></e>
      <e lm="nec"><p><l>nec</l>        <r>nec<s n="cnjcoo"/></r></p></e>
-
-
-     <e lm="non"><p><l></l>   <r>no<s n="adv"/></r></p></e>
-     <e lm="non"><p><l></l>   <r>non<s n="adv"/></r></p></e>
-
+     <e lm="depost"><p><l>depost</l>   <r>depost<s n="adv"/></r></p></e>
 
 
   </section>
