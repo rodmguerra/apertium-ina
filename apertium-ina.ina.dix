@@ -450,16 +450,16 @@
 
 
 
-    <pardef n="canta/r__vblex">
-      <e><par n="vblex-common"/></e>
-      <e><par n="vblex-pp-common"/></e>
-      <e><par n="vblex-pprs-common"/></e>
+    <pardef n="cant/ar__vblex">
+      <e><i>a</i><par n="vblex-common"/></e>
+      <e><i>a</i><par n="vblex-pp-common"/></e>
+      <e><i>a</i><par n="vblex-pprs-common"/></e>
     </pardef>
 
-    <pardef n="parti/r__vblex">
-      <e><par n="vblex-common"/></e>
-      <e><par n="vblex-pp-common"/></e>
-      <e><p><l>e</l><r/></p><par n="vblex-pprs-common"/></e>
+    <pardef n="part/ir__vblex">
+      <e><i>i</i><par n="vblex-common"/></e>
+      <e><i>i</i><par n="vblex-pp-common"/></e>
+      <e><p><l>ie</l><r>i</r></p><par n="vblex-pprs-common"/></e>
     </pardef>
 
     <pardef n="cred/er__vblex">
@@ -1020,7 +1020,7 @@
       <e lm="usque"><i>usque</i><par n="in__pr"/></e>
       <e lm="verso"><i>verso</i><par n="in__pr"/></e>
       <e lm="durante"><i>durante</i><par n="in__pr"/></e>
-
+     <e lm="durante"><i>como</i><par n="in__pr"/></e>
 
 
      <!-- Less common -->
@@ -1471,67 +1471,26 @@ viste {prep} considering, in view of; viste que considering that
     <e lm="offerta"><i>offerta</i><par n="catto__n"/></e>
     <e lm="nihil"><i>nihil</i><par n="catto__n"/></e>
 
-<!--    Verbs -->
 
-    <e lm="esser"><i></i><par n="/esser__vblex"/></e>
-    <e lm="esser"><i></i><par n="/esser__vbser"/></e>
-    <e lm="cantar"><i>canta</i><par n="canta/r__vblex"/></e>
-    <e lm="mangiar"><i>mangia</i><par n="canta/r__vblex"/></e>
-    <e lm="amar"><i>ama</i><par n="canta/r__vblex"/></e>
-    <e lm="renunciar"><i>renuncia</i><par n="canta/r__vblex"/></e>
-    <e lm="contemplar"><i>contempla</i><par n="canta/r__vblex"/></e>
-    <e lm="demandar"><i>demanda</i><par n="canta/r__vblex"/></e>
-    <e lm="creder"><i>cred</i><par n="cred/er__vblex"/></e>
-    <e lm="vider"><i>vid</i><par n="cred/er__vblex"/></e>
-    <e lm="exceller"><i>excell</i><par n="cred/er__vblex"/></e>
-    <e lm="partir"><i>parti</i><par n="parti/r__vblex"/></e>
-    <e lm="sortir"><i>sorti</i><par n="parti/r__vblex"/></e>
-    <e lm="morir"><i>mori</i><par n="parti/r__vblex"/></e>
-    <e lm="audir"><i>audi</i><par n="parti/r__vblex"/></e>
-    <e lm="dormir"><i>dormi</i><par n="parti/r__vblex"/></e>
-    <e lm="parlar"><i>parla</i><par n="canta/r__vblex"/></e>
-    <e lm="comprender"><i>comprend</i><par n="cred/er__vblex"/></e>
-    <e lm="leger"><i>lege</i><par n="canta/r__vblex"/></e>       
-    <e lm="biber"><i>bib</i><par n="cred/er__vblex"/></e>       
-    <e lm="ambular"><i>ambula</i><par n="canta/r__vblex"/></e>  
-    <e lm="currer"><i>curr</i><par n="cred/er__vblex"/></e>       
-    <e lm="natar"><i>nata</i><par n="canta/r__vblex"/></e>  
-    <e lm="habitar"><i>habita</i><par n="canta/r__vblex"/></e>
-    <e lm="haber"><i>ha</i><par n="ha/ber__vbhaver"/></e>
-    <e lm="haber"><i>ha</i><par n="ha/ber__vblex"/></e>
-    <e lm="poter"><i>pot</i><par n="cred/er__vblex"/></e>
-    <e lm="poter"><i>pot</i><par n="pot/er__vbmod"/></e>
-    <e lm="ir"><i></i><par n="ir_vader__vblex"/></e>
 
-    <e lm="facer"><i>fac</i><par n="cred/er__vblex"/></e>
-    <e lm="mitter"><i>mitt</i><par n="cred/er__vblex"/></e>
-    <e lm="dicer"><i>dic</i><par n="cred/er__vblex"/></e>
-    <e lm="deber"><i>deb</i><par n="cred/er__vblex"/></e>
-    <e lm="ceder"><i>ced</i><par n="cred/er__vblex"/></e>
-    <e lm="deber"><i>deb</i><par n="pot/er__vbmod"/></e>
-    <e lm="pensar"><i>pensa</i><par n="canta/r__vblex"/></e>
-    <e lm="memorar"><i>memora</i><par n="canta/r__vblex"/></e>
-    <e lm="sperar"><i>spera</i><par n="canta/r__vblex"/></e>
 
-    <e lm="continuar"><i>continua</i><par n="canta/r__vblex"/></e>
-    <e lm="sequer"><i>sequ</i><par n="cred/er__vblex"/></e>
-    <e lm="cognoscer"><i>cognosc</i><par n="cred/er__vblex"/></e>
-    <e lm="comenciar"><i>comencia</i><par n="cred/er__vblex"/></e>
-    <e lm="contar"><i>conta</i><par n="cred/er__vblex"/></e>
-    <e lm="remitter"><i>remitt</i><par n="cred/er__vblex"/></e>
-    <e lm="appellar"><i>appella</i><par n="cred/er__vblex"/></e>
-    <e lm="permitter"><i>permitt</i><par n="cred/er__vblex"/></e>
-    <e lm="occupar"><i>occupa</i><par n="cred/er__vblex"/></e>
-    <e lm="devenir"><i>deveni</i><par n="parti/r__vblex"/></e>
-    <e lm="decider"><i>decid</i><par n="cred/er__vblex"/></e>
-    <e lm="arrivar"><i>arriva</i><par n="canta/r__vblex"/></e>
-    <e lm="servir"><i>servi</i><par n="cred/er__vblex"/></e>
-    <e lm="semblar"><i>sembla</i><par n="cred/er__vblex"/></e>
-    <e lm="retornar"><i>retorna</i><par n="cred/er__vblex"/></e>
-    <e lm="lassar"><i>lassa</i><par n="canta/r__vblex"/></e>
-    <e lm="reciper"><i>recip</i><par n="cred/er__vblex"/></e>
-    <e lm="responder"><i>respond</i><par n="cred/er__vblex"/></e>
-    <e lm="recordar"><i>recorda</i><par n="canta/r__vblex"/></e>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <e lm="abassamento"><i>abassamento</i><par n="adjective__adj"/></e>
 <e lm="abdominal"><i>abdominal</i><par n="adjective__adj"/></e>
@@ -2110,22 +2069,22 @@ viste {prep} considering, in view of; viste que considering that
 <e lm="voluptuose"><i>voluptuos</i><par n="excellent/e__adj"/></e>
 
     <e lm="prender"><i>prend</i><par n="cred/er__vblex"/></e>
-    <e lm="dar"><i>da</i><par n="canta/r__vblex"/></e>
-    <e lm="ambular"><i>ambula</i><par n="canta/r__vblex"/></e>
+    <e lm="dar"><i>d</i><par n="cant/ar__vblex"/></e>
+    <e lm="ambular"><i>ambul</i><par n="cant/ar__vblex"/></e>
     <e lm="voler"><i>vol</i><par n="cred/er__vblex"/></e>
     <e lm="saper"><i>sap</i><par n="cred/er__vblex"/></e>
     <e lm="vider"><i>vid</i><par n="cred/er__vblex"/></e>
-    <e lm="demandar"><i>demanda</i><par n="canta/r__vblex"/></e>
-    <e lm="trovar"><i>trova</i><par n="canta/r__vblex"/></e>
+    <e lm="demandar"><i>demand</i><par n="cant/ar__vblex"/></e>
+    <e lm="trovar"><i>trov</i><par n="cant/ar__vblex"/></e>
     <e lm="render"><i>rend</i><par n="cred/er__vblex"/></e>
-    <e lm="venir"><i>veni</i><par n="parti/r__vblex"/></e>
-    <e lm="passar"><i>passa</i><par n="canta/r__vblex"/></e>
+    <e lm="venir"><i>ven</i><par n="part/ir__vblex"/></e>
+    <e lm="passar"><i>pass</i><par n="cant/ar__vblex"/></e>
     <e lm="comprehender"><i>comprehend</i><par n="cred/er__vblex"/></e>
-    <e lm="restar"><i>resta</i><par n="canta/r__vblex"/></e>
+    <e lm="restar"><i>rest</i><par n="cant/ar__vblex"/></e>
     <e lm="tener"><i>ten</i><par n="cred/er__vblex"/></e>
-    <e lm="ambular"><i>porta</i><par n="canta/r__vblex"/></e>
-    <e lm="monstrar"><i>monstra</i><par n="canta/r__vblex"/></e>
-    <e lm="cercar"><i>cerca</i><par n="canta/r__vblex"/></e>
+    <e lm="ambular"><i>port</i><par n="cant/ar__vblex"/></e>
+    <e lm="monstrar"><i>monstr</i><par n="cant/ar__vblex"/></e>
+    <e lm="cercar"><i>cerc</i><par n="cant/ar__vblex"/></e>
     <e lm="viver"><i>viv</i><par n="cred/er__vblex"/></e>
     <e lm="attender"><i>attend</i><par n="cred/er__vblex"/></e>
 
@@ -2232,108 +2191,108 @@ viste {prep} considering, in view of; viste que considering that
     <e lm="clauder"><i>claud</i><par n="cred/er__vblex"/></e>
     <e lm="cader"><i>cad</i><par n="cred/er__vblex"/></e>
     <e lm="batter"><i>batt</i><par n="cred/er__vblex"/></e>
-    <e lm="adjutar"><i>adjuta</i><par n="canta/r__vblex"/></e>
-    <e lm="volar"><i>vola</i><par n="canta/r__vblex"/></e>
-    <e lm="visitar"><i>visita</i><par n="canta/r__vblex"/></e>
-    <e lm="viagiar"><i>viagia</i><par n="canta/r__vblex"/></e>
-    <e lm="usar"><i>usa</i><par n="canta/r__vblex"/></e>
-    <e lm="tractar"><i>tracta</i><par n="canta/r__vblex"/></e>
-    <e lm="toccar"><i>tocca</i><par n="canta/r__vblex"/></e>
-    <e lm="travaliar"><i>travalia</i><par n="canta/r__vblex"/></e>
-    <e lm="tornar"><i>torna</i><par n="canta/r__vblex"/></e>
-    <e lm="tirar"><i>tira</i><par n="canta/r__vblex"/></e>
-    <e lm="sperar"><i>spera</i><par n="canta/r__vblex"/></e>
-    <e lm="costar"><i>costa</i><par n="canta/r__vblex"/></e>
-    <e lm="salutar"><i>saluta</i><par n="canta/r__vblex"/></e>
-    <e lm="reguardar"><i>reguarda</i><par n="canta/r__vblex"/></e>
-    <e lm="regrettar"><i>regretta</i><par n="canta/r__vblex"/></e>
-    <e lm="regratiar"><i>regratia</i><par n="canta/r__vblex"/></e>
-    <e lm="pulsar"><i>pulsa</i><par n="canta/r__vblex"/></e>
-    <e lm="probar"><i>proba</i><par n="canta/r__vblex"/></e>
-    <e lm="portar"><i>porta</i><par n="canta/r__vblex"/></e>
-    <e lm="pagar"><i>paga</i><par n="canta/r__vblex"/></e>
-    <e lm="oblidar"><i>oblid</i><par n="canta/r__vblex"/></e>
-    <e lm="mentionar"><i>mention</i><par n="canta/r__vblex"/></e>
-    <e lm="jocar"><i>joc</i><par n="canta/r__vblex"/></e>
-    <e lm="mancar"><i>manca</i><par n="canta/r__vblex"/></e>
-    <e lm="levar"><i>leva</i><par n="canta/r__vblex"/></e>
-    <e lm="lavar"><i>lava</i><par n="canta/r__vblex"/></e>
-    <e lm="jectar"><i>jecta</i><par n="canta/r__vblex"/></e>
-    <e lm="inviar"><i>invia</i><par n="canta/r__vblex"/></e>
-    <e lm="inseniar"><i>insenia</i><par n="canta/r__vblex"/></e>
-    <e lm="incontrar"><i>incontra</i><par n="canta/r__vblex"/></e>
-    <e lm="hastar"><i>hasta</i><par n="canta/r__vblex"/></e>
-    <e lm="ganiar"><i>gania</i><par n="canta/r__vblex"/></e>
-    <e lm="fundar"><i>funda</i><par n="canta/r__vblex"/></e>
-    <e lm="fortiar"><i>fortia</i><par n="canta/r__vblex"/></e>
-    <e lm="comprar"><i>compra</i><par n="canta/r__vblex"/></e>
-    <e lm="cessar"><i>cessa</i><par n="canta/r__vblex"/></e>
-    <e lm="celar"><i>cela</i><par n="canta/r__vblex"/></e>
-    <e lm="caciar"><i>cacia</i><par n="canta/r__vblex"/></e>
-    <e lm="revenir"><i>reveni</i><par n="parti/r__vblex"/></e>
-    <e lm="sentir"><i>senti</i><par n="parti/r__vblex"/></e>
-    <e lm="sortir"><i>sorti</i><par n="parti/r__vblex"/></e>
-    <e lm="impedir"><i>impedi</i><par n="parti/r__vblex"/></e>
-    <e lm="finir"><i>fini</i><par n="parti/r__vblex"/></e>
-    <e lm="evenir"><i>eveni</i><par n="parti/r__vblex"/></e>
-    <e lm="coperir"><i>coperi</i><par n="parti/r__vblex"/></e>
-    <e lm="convenir"><i>conveni</i><par n="parti/r__vblex"/></e>
-    <e lm="ferir"><i>feri</i><par n="parti/r__vblex"/></e>
+    <e lm="adjutar"><i>adjut</i><par n="cant/ar__vblex"/></e>
+    <e lm="volar"><i>vol</i><par n="cant/ar__vblex"/></e>
+    <e lm="visitar"><i>visit</i><par n="cant/ar__vblex"/></e>
+    <e lm="viagiar"><i>viagi</i><par n="cant/ar__vblex"/></e>
+    <e lm="usar"><i>us</i><par n="cant/ar__vblex"/></e>
+    <e lm="tractar"><i>tract</i><par n="cant/ar__vblex"/></e>
+    <e lm="toccar"><i>tocc</i><par n="cant/ar__vblex"/></e>
+    <e lm="travaliar"><i>travali</i><par n="cant/ar__vblex"/></e>
+    <e lm="tornar"><i>torn</i><par n="cant/ar__vblex"/></e>
+    <e lm="tirar"><i>tir</i><par n="cant/ar__vblex"/></e>
+    <e lm="sperar"><i>sper</i><par n="cant/ar__vblex"/></e>
+    <e lm="costar"><i>cost</i><par n="cant/ar__vblex"/></e>
+    <e lm="salutar"><i>salut</i><par n="cant/ar__vblex"/></e>
+    <e lm="reguardar"><i>reguard</i><par n="cant/ar__vblex"/></e>
+    <e lm="regrettar"><i>regrett</i><par n="cant/ar__vblex"/></e>
+    <e lm="regratiar"><i>regrati</i><par n="cant/ar__vblex"/></e>
+    <e lm="pulsar"><i>puls</i><par n="cant/ar__vblex"/></e>
+    <e lm="probar"><i>prob</i><par n="cant/ar__vblex"/></e>
+    <e lm="portar"><i>port</i><par n="cant/ar__vblex"/></e>
+    <e lm="pagar"><i>pag</i><par n="cant/ar__vblex"/></e>
+    <e lm="oblidar"><i>oblid</i><par n="cant/ar__vblex"/></e>
+    <e lm="mentionar"><i>mention</i><par n="cant/ar__vblex"/></e>
+    <e lm="jocar"><i>joc</i><par n="cant/ar__vblex"/></e>
+    <e lm="mancar"><i>manc</i><par n="cant/ar__vblex"/></e>
+    <e lm="levar"><i>lev</i><par n="cant/ar__vblex"/></e>
+    <e lm="lavar"><i>lav</i><par n="cant/ar__vblex"/></e>
+    <e lm="jectar"><i>ject</i><par n="cant/ar__vblex"/></e>
+    <e lm="inviar"><i>invi</i><par n="cant/ar__vblex"/></e>
+    <e lm="inseniar"><i>inseni</i><par n="cant/ar__vblex"/></e>
+    <e lm="incontrar"><i>incontr</i><par n="cant/ar__vblex"/></e>
+    <e lm="hastar"><i>hast</i><par n="cant/ar__vblex"/></e>
+    <e lm="ganiar"><i>gani</i><par n="cant/ar__vblex"/></e>
+    <e lm="fundar"><i>fund</i><par n="cant/ar__vblex"/></e>
+    <e lm="fortiar"><i>forti</i><par n="cant/ar__vblex"/></e>
+    <e lm="comprar"><i>compr</i><par n="cant/ar__vblex"/></e>
+    <e lm="cessar"><i>cess</i><par n="cant/ar__vblex"/></e>
+    <e lm="celar"><i>cel</i><par n="cant/ar__vblex"/></e>
+    <e lm="caciar"><i>caci</i><par n="cant/ar__vblex"/></e>
+    <e lm="revenir"><i>reven</i><par n="part/ir__vblex"/></e>
+    <e lm="sentir"><i>sent</i><par n="part/ir__vblex"/></e>
+    <e lm="sortir"><i>sort</i><par n="part/ir__vblex"/></e>
+    <e lm="impedir"><i>imped</i><par n="part/ir__vblex"/></e>
+    <e lm="finir"><i>fin</i><par n="part/ir__vblex"/></e>
+    <e lm="evenir"><i>even</i><par n="part/ir__vblex"/></e>
+    <e lm="coperir"><i>coper</i><par n="part/ir__vblex"/></e>
+    <e lm="convenir"><i>conven</i><par n="part/ir__vblex"/></e>
+    <e lm="ferir"><i>fer</i><par n="part/ir__vblex"/></e>
       
-<e lm="abolir"><i>aboli</i><par n="parti/r__vblex"/></e>
+<e lm="abolir"><i>abol</i><par n="part/ir__vblex"/></e>
 <e lm="absolver"><i>absolv</i><par n="cred/er__vblex"/></e>
-<e lm="acceptar"><i>accepta</i><par n="canta/r__vblex"/></e>
-<e lm="accordar"><i>accorda</i><par n="canta/r__vblex"/></e>
+<e lm="acceptar"><i>accept</i><par n="cant/ar__vblex"/></e>
+<e lm="accordar"><i>accord</i><par n="cant/ar__vblex"/></e>
 <e lm="arder"><i>ard</i><par n="cred/er__vblex"/></e>
 <e lm="abatter"><i>abatt</i><par n="cred/er__vblex"/></e>
 
 <e lm="suspender"><i>suspend</i><par n="cred/er__vblex"/></e>
-<e lm="finir"><i>fini</i><par n="parti/r__vblex"/></e>
+<e lm="finir"><i>fin</i><par n="part/ir__vblex"/></e>
 <e lm="admitter"><i>admitt</i><par n="cred/er__vblex"/></e>
-<e lm="admirar"><i>admira</i><par n="canta/r__vblex"/></e>
-<e lm="adorar"><i>adora</i><par n="canta/r__vblex"/></e>
-<e lm="adressar"><i>adressa</i><par n="canta/r__vblex"/></e>
+<e lm="admirar"><i>admir</i><par n="cant/ar__vblex"/></e>
+<e lm="adorar"><i>ador</i><par n="cant/ar__vblex"/></e>
+<e lm="adressar"><i>adress</i><par n="cant/ar__vblex"/></e>
 <e lm="adjunger"><i>adjung</i><par n="cred/er__vblex"/></e>
-<e lm="apportar"><i>apporta</i><par n="canta/r__vblex"/></e>
-<e lm="animar"><i>anima</i><par n="canta/r__vblex"/></e>
+<e lm="apportar"><i>apport</i><par n="cant/ar__vblex"/></e>
+<e lm="animar"><i>anim</i><par n="cant/ar__vblex"/></e>
 <e lm="apprender"><i>apprend</i><par n="cred/er__vblex"/></e>
-<e lm="approchar"><i>approcha</i><par n="canta/r__vblex"/></e>
-<e lm="consentir"><i>consenti</i><par n="parti/r__vblex"/></e>
-<e lm="armar"><i>arma</i><par n="canta/r__vblex"/></e>
+<e lm="approchar"><i>approch</i><par n="cant/ar__vblex"/></e>
+<e lm="consentir"><i>consent</i><par n="part/ir__vblex"/></e>
+<e lm="armar"><i>arm</i><par n="cant/ar__vblex"/></e>
 <e lm="eveller"><i>evell</i><par n="cred/er__vblex"/></e>
-<e lm="arrangiar"><i>arrangia</i><par n="canta/r__vblex"/></e>
-<e lm="assaltar"><i>assalta</i><par n="canta/r__vblex"/></e>
+<e lm="arrangiar"><i>arrangi</i><par n="cant/ar__vblex"/></e>
+<e lm="assaltar"><i>assalt</i><par n="cant/ar__vblex"/></e>
 <e lm="seder"><i>sed</i><par n="cred/er__vblex"/></e>
-<e lm="adjutar"><i>adjuta</i><par n="canta/r__vblex"/></e>
-<e lm="assecurar"><i>assecura</i><par n="canta/r__vblex"/></e>
+<e lm="adjutar"><i>adjut</i><par n="cant/ar__vblex"/></e>
+<e lm="assecurar"><i>assecur</i><par n="cant/ar__vblex"/></e>
 <e lm="attinger"><i>atting</i><par n="cred/er__vblex"/></e>
 <e lm="attraher"><i>attrah</i><par n="cred/er__vblex"/></e>
-<e lm="augmentar"><i>augmenta</i><par n="canta/r__vblex"/></e>
-<e lm="avantiar"><i>avantia</i><par n="canta/r__vblex"/></e>
-<e lm="abassar"><i>abassa</i><par n="canta/r__vblex"/></e>
-<e lm="balanciar"><i>balancia</i><par n="canta/r__vblex"/></e>
-<e lm="scopar"><i>scopa</i><par n="canta/r__vblex"/></e>
-<e lm="burlar"><i>burla</i><par n="canta/r__vblex"/></e>
-<e lm="ferir"><i>feri</i><par n="parti/r__vblex"/></e>
+<e lm="augmentar"><i>augment</i><par n="cant/ar__vblex"/></e>
+<e lm="avantiar"><i>avanti</i><par n="cant/ar__vblex"/></e>
+<e lm="abassar"><i>abass</i><par n="cant/ar__vblex"/></e>
+<e lm="balanciar"><i>balanci</i><par n="cant/ar__vblex"/></e>
+<e lm="scopar"><i>scop</i><par n="cant/ar__vblex"/></e>
+<e lm="burlar"><i>burl</i><par n="cant/ar__vblex"/></e>
+<e lm="ferir"><i>fer</i><par n="part/ir__vblex"/></e>
 <e lm="mover"><i>mov</i><par n="cred/er__vblex"/></e>
-<e lm="bullir"><i>bulli</i><par n="parti/r__vblex"/></e>
+<e lm="bullir"><i>bull</i><par n="part/ir__vblex"/></e>
 <e lm="rumper"><i>rump</i><par n="cred/er__vblex"/></e>
-<e lm="brossar"><i>brossa</i><par n="canta/r__vblex"/></e>
+<e lm="brossar"><i>bross</i><par n="cant/ar__vblex"/></e>
 <e lm="abstruder"><i>abstrud</i><par n="cred/er__vblex"/></e>
 <e lm="rumper"><i>rump</i><par n="cred/er__vblex"/></e>
-<e lm="cambiar"><i>cambia</i><par n="canta/r__vblex"/></e>
-<e lm="chassar"><i>chassa</i><par n="canta/r__vblex"/></e>
-<e lm="susurrar"><i>susurra</i><par n="canta/r__vblex"/></e>
+<e lm="cambiar"><i>cambi</i><par n="cant/ar__vblex"/></e>
+<e lm="chassar"><i>chass</i><par n="cant/ar__vblex"/></e>
+<e lm="susurrar"><i>susurr</i><par n="cant/ar__vblex"/></e>
 <e lm="clauder"><i>claud</i><par n="cred/er__vblex"/></e>
-<e lm="glutinar"><i>glutina</i><par n="canta/r__vblex"/></e>
+<e lm="glutinar"><i>glutin</i><par n="cant/ar__vblex"/></e>
 <e lm="combatter"><i>combatt</i><par n="cred/er__vblex"/></e>
-<e lm="commensurar"><i>commensura</i><par n="canta/r__vblex"/></e>
-<e lm="terminar"><i>termina</i><par n="canta/r__vblex"/></e>
+<e lm="commensurar"><i>commensur</i><par n="cant/ar__vblex"/></e>
+<e lm="terminar"><i>termin</i><par n="cant/ar__vblex"/></e>
 <e lm="ducer"><i>duc</i><par n="cred/er__vblex"/></e>
 <e lm="confunder"><i>confund</i><par n="cred/er__vblex"/></e>
-<e lm="concordar"><i>concorda</i><par n="canta/r__vblex"/></e>
+<e lm="concordar"><i>concord</i><par n="cant/ar__vblex"/></e>
 <e lm="construer"><i>constru</i><par n="cred/er__vblex"/></e>
-<e lm="contar"><i>conta</i><par n="canta/r__vblex"/></e>
+<e lm="contar"><i>cont</i><par n="cant/ar__vblex"/></e>
 <e lm="constringer"><i>constring</i><par n="cred/er__vblex"/></e>
 <e lm="contradicer"><i>contradic</i><par n="cred/er__vblex"/></e>
 <e lm="convincer"><i>convinc</i><par n="cred/er__vblex"/></e>
@@ -2341,430 +2300,430 @@ viste {prep} considering, in view of; viste que considering that
 <e lm="corriger"><i>corrig</i><par n="cred/er__vblex"/></e>
 <e lm="jacer"><i>jac</i><par n="cred/er__vblex"/></e>
 <e lm="suer"><i>su</i><par n="cred/er__vblex"/></e>
-<e lm="secar"><i>seca</i><par n="canta/r__vblex"/></e>
-<e lm="coperir"><i>coperi</i><par n="parti/r__vblex"/></e>
+<e lm="secar"><i>sec</i><par n="cant/ar__vblex"/></e>
+<e lm="coperir"><i>coper</i><par n="part/ir__vblex"/></e>
 <e lm="colliger"><i>collig</i><par n="cred/er__vblex"/></e>
 <e lm="descender"><i>descend</i><par n="cred/er__vblex"/></e>
-<e lm="designar"><i>designa</i><par n="canta/r__vblex"/></e>
-<e lm="divinar"><i>divina</i><par n="canta/r__vblex"/></e>
-<e lm="commandar"><i>commanda</i><par n="canta/r__vblex"/></e>
-<e lm="confabular"><i>confabula</i><par n="canta/r__vblex"/></e>
+<e lm="designar"><i>design</i><par n="cant/ar__vblex"/></e>
+<e lm="divinar"><i>divin</i><par n="cant/ar__vblex"/></e>
+<e lm="commandar"><i>command</i><par n="cant/ar__vblex"/></e>
+<e lm="confabular"><i>confabul</i><par n="cant/ar__vblex"/></e>
 <e lm="dissolver"><i>dissolv</i><par n="cred/er__vblex"/></e>
-<e lm="questionar"><i>questiona</i><par n="canta/r__vblex"/></e>
+<e lm="questionar"><i>question</i><par n="cant/ar__vblex"/></e>
 <e lm="rader"><i>rad</i><par n="cred/er__vblex"/></e>
-<e lm="espaventar"><i>espaventa</i><par n="canta/r__vblex"/></e>
-<e lm="basiar"><i>basia</i><par n="canta/r__vblex"/></e>
-<e lm="emplear"><i>emplea</i><par n="canta/r__vblex"/></e>
-<e lm="imprestar"><i>impresta</i><par n="canta/r__vblex"/></e>
-<e lm="alleviar"><i>allevia</i><par n="canta/r__vblex"/></e>
-<e lm="linir"><i>lini</i><par n="parti/r__vblex"/></e>
-<e lm="pignorar"><i>pignora</i><par n="canta/r__vblex"/></e>
-<e lm="commandar"><i>commanda</i><par n="canta/r__vblex"/></e>
-<e lm="levar"><i>leva</i><par n="canta/r__vblex"/></e>
-<e lm="enoiar"><i>enoia</i><par n="canta/r__vblex"/></e>
-<e lm="registrar"><i>registra</i><par n="canta/r__vblex"/></e>
-<e lm="inseniar"><i>insenia</i><par n="canta/r__vblex"/></e>
-<e lm="interrar"><i>interra</i><par n="canta/r__vblex"/></e>
-<e lm="entrar"><i>entra</i><par n="canta/r__vblex"/></e>
-<e lm="inviar"><i>invia</i><par n="canta/r__vblex"/></e>
-<e lm="probar"><i>proba</i><par n="canta/r__vblex"/></e>
-<e lm="essugar"><i>essuga</i><par n="canta/r__vblex"/></e>
-<e lm="estimar"><i>estima</i><par n="canta/r__vblex"/></e>
-<e lm="excusar"><i>excusa</i><par n="canta/r__vblex"/></e>
+<e lm="espaventar"><i>espavent</i><par n="cant/ar__vblex"/></e>
+<e lm="basiar"><i>basi</i><par n="cant/ar__vblex"/></e>
+<e lm="emplear"><i>emple</i><par n="cant/ar__vblex"/></e>
+<e lm="imprestar"><i>imprest</i><par n="cant/ar__vblex"/></e>
+<e lm="alleviar"><i>allevi</i><par n="cant/ar__vblex"/></e>
+<e lm="linir"><i>lin</i><par n="part/ir__vblex"/></e>
+<e lm="pignorar"><i>pignor</i><par n="cant/ar__vblex"/></e>
+<e lm="commandar"><i>command</i><par n="cant/ar__vblex"/></e>
+<e lm="levar"><i>lev</i><par n="cant/ar__vblex"/></e>
+<e lm="enoiar"><i>enoi</i><par n="cant/ar__vblex"/></e>
+<e lm="registrar"><i>registr</i><par n="cant/ar__vblex"/></e>
+<e lm="inseniar"><i>inseni</i><par n="cant/ar__vblex"/></e>
+<e lm="interrar"><i>interr</i><par n="cant/ar__vblex"/></e>
+<e lm="entrar"><i>entr</i><par n="cant/ar__vblex"/></e>
+<e lm="inviar"><i>invi</i><par n="cant/ar__vblex"/></e>
+<e lm="probar"><i>prob</i><par n="cant/ar__vblex"/></e>
+<e lm="essugar"><i>essug</i><par n="cant/ar__vblex"/></e>
+<e lm="estimar"><i>estim</i><par n="cant/ar__vblex"/></e>
+<e lm="excusar"><i>excus</i><par n="cant/ar__vblex"/></e>
 <e lm="exiger"><i>exig</i><par n="cred/er__vblex"/></e>
 <e lm="exister"><i>exist</i><par n="cred/er__vblex"/></e>
-<e lm="explicar"><i>explica</i><par n="canta/r__vblex"/></e>
-<e lm="recercar"><i>recerca</i><par n="canta/r__vblex"/></e>
-<e lm="besoniar"><i>besonia</i><par n="canta/r__vblex"/></e>
+<e lm="explicar"><i>explic</i><par n="cant/ar__vblex"/></e>
+<e lm="recercar"><i>recerc</i><par n="cant/ar__vblex"/></e>
+<e lm="besoniar"><i>besoni</i><par n="cant/ar__vblex"/></e>
 <e lm="finger"><i>fing</i><par n="cred/er__vblex"/></e>
 <e lm="finder"><i>find</i><par n="cred/er__vblex"/></e>
 <e lm="fer"><i>f</i><par n="cred/er__vblex"/></e>
-<e lm="finir"><i>fini</i><par n="parti/r__vblex"/></e>
-<e lm="fundar"><i>funda</i><par n="canta/r__vblex"/></e>
-<e lm="recercar"><i>recerca</i><par n="canta/r__vblex"/></e>
-<e lm="fornir"><i>forni</i><par n="parti/r__vblex"/></e>
+<e lm="finir"><i>fin</i><par n="part/ir__vblex"/></e>
+<e lm="fundar"><i>fund</i><par n="cant/ar__vblex"/></e>
+<e lm="recercar"><i>recerc</i><par n="cant/ar__vblex"/></e>
+<e lm="fornir"><i>forn</i><par n="part/ir__vblex"/></e>
 <e lm="evader"><i>evad</i><par n="cred/er__vblex"/></e>
-<e lm="fumar"><i>fuma</i><par n="canta/r__vblex"/></e>
-<e lm="guardar"><i>guarda</i><par n="canta/r__vblex"/></e>
-<e lm="congelar"><i>congela</i><par n="canta/r__vblex"/></e>
-<e lm="grattar"><i>gratta</i><par n="canta/r__vblex"/></e>
-<e lm="escalar"><i>escala</i><par n="canta/r__vblex"/></e>
-<e lm="grunnir"><i>grunni</i><par n="parti/r__vblex"/></e>
-<e lm="vestir"><i>vesti</i><par n="parti/r__vblex"/></e>
-<e lm="ignorar"><i>ignora</i><par n="canta/r__vblex"/></e>
-<e lm="indicar"><i>indica</i><par n="canta/r__vblex"/></e>
+<e lm="fumar"><i>fum</i><par n="cant/ar__vblex"/></e>
+<e lm="guardar"><i>guard</i><par n="cant/ar__vblex"/></e>
+<e lm="congelar"><i>congel</i><par n="cant/ar__vblex"/></e>
+<e lm="grattar"><i>gratt</i><par n="cant/ar__vblex"/></e>
+<e lm="escalar"><i>escal</i><par n="cant/ar__vblex"/></e>
+<e lm="grunnir"><i>grunn</i><par n="part/ir__vblex"/></e>
+<e lm="vestir"><i>vest</i><par n="part/ir__vblex"/></e>
+<e lm="ignorar"><i>ignor</i><par n="cant/ar__vblex"/></e>
+<e lm="indicar"><i>indic</i><par n="cant/ar__vblex"/></e>
 <e lm="docer"><i>doc</i><par n="cred/er__vblex"/></e>
-<e lm="prohibir"><i>prohibi</i><par n="parti/r__vblex"/></e>
+<e lm="prohibir"><i>prohib</i><par n="part/ir__vblex"/></e>
 <e lm="interrumper"><i>interrump</i><par n="cred/er__vblex"/></e>
-<e lm="fabular"><i>fabula</i><par n="canta/r__vblex"/></e>
-<e lm="invitar"><i>invita</i><par n="canta/r__vblex"/></e>
-<e lm="jocar"><i>joca</i><par n="canta/r__vblex"/></e>
+<e lm="fabular"><i>fabul</i><par n="cant/ar__vblex"/></e>
+<e lm="invitar"><i>invit</i><par n="cant/ar__vblex"/></e>
+<e lm="jocar"><i>joc</i><par n="cant/ar__vblex"/></e>
 <e lm="gauder"><i>gaud</i><par n="cred/er__vblex"/></e>
-<e lm="judicar"><i>judica</i><par n="canta/r__vblex"/></e>
-<e lm="blasphemar"><i>blasphema</i><par n="canta/r__vblex"/></e>
-<e lm="sequestrar"><i>sequestra</i><par n="canta/r__vblex"/></e>
-<e lm="jectar"><i>jecta</i><par n="canta/r__vblex"/></e>
-<e lm="lavar"><i>lava</i><par n="canta/r__vblex"/></e>
-<e lm="quartierar"><i>quartiera</i><par n="canta/r__vblex"/></e>
-<e lm="laudar"><i>lauda</i><par n="canta/r__vblex"/></e>
-<e lm="brillar"><i>brilla</i><par n="canta/r__vblex"/></e>
-<e lm="magrir"><i>magri</i><par n="parti/r__vblex"/></e>
+<e lm="judicar"><i>judic</i><par n="cant/ar__vblex"/></e>
+<e lm="blasphemar"><i>blasphem</i><par n="cant/ar__vblex"/></e>
+<e lm="sequestrar"><i>sequestr</i><par n="cant/ar__vblex"/></e>
+<e lm="jectar"><i>ject</i><par n="cant/ar__vblex"/></e>
+<e lm="lavar"><i>lav</i><par n="cant/ar__vblex"/></e>
+<e lm="quartierar"><i>quartier</i><par n="cant/ar__vblex"/></e>
+<e lm="laudar"><i>laud</i><par n="cant/ar__vblex"/></e>
+<e lm="brillar"><i>brill</i><par n="cant/ar__vblex"/></e>
+<e lm="magrir"><i>magr</i><par n="part/ir__vblex"/></e>
 <e lm="mantener"><i>manten</i><par n="cred/er__vblex"/></e>
 <e lm="faller"><i>fall</i><par n="cred/er__vblex"/></e>
-<e lm="menaciar"><i>menacia</i><par n="canta/r__vblex"/></e>
-<e lm="mentir"><i>menti</i><par n="parti/r__vblex"/></e>
-<e lm="mesurar"><i>mesura</i><par n="canta/r__vblex"/></e>
-<e lm="montar"><i>monta</i><par n="canta/r__vblex"/></e>
+<e lm="menaciar"><i>menaci</i><par n="cant/ar__vblex"/></e>
+<e lm="mentir"><i>ment</i><par n="part/ir__vblex"/></e>
+<e lm="mesurar"><i>mesur</i><par n="cant/ar__vblex"/></e>
+<e lm="montar"><i>mont</i><par n="cant/ar__vblex"/></e>
 <e lm="derider"><i>derid</i><par n="cred/er__vblex"/></e>
 <e lm="morder"><i>mord</i><par n="cred/er__vblex"/></e>
 <e lm="moler"><i>mol</i><par n="cred/er__vblex"/></e>
-<e lm="molliar"><i>mollia</i><par n="canta/r__vblex"/></e>
-<e lm="navigar"><i>naviga</i><par n="canta/r__vblex"/></e>
-<e lm="nivar"><i>niva</i><par n="canta/r__vblex"/></e>
-<e lm="appurar"><i>appura</i><par n="canta/r__vblex"/></e>
-<e lm="neutralisar"><i>neutralisa</i><par n="canta/r__vblex"/></e>
-<e lm="negar"><i>nega</i><par n="canta/r__vblex"/></e>
-<e lm="nominar"><i>nomina</i><par n="canta/r__vblex"/></e>
+<e lm="molliar"><i>molli</i><par n="cant/ar__vblex"/></e>
+<e lm="navigar"><i>navig</i><par n="cant/ar__vblex"/></e>
+<e lm="nivar"><i>niv</i><par n="cant/ar__vblex"/></e>
+<e lm="appurar"><i>appur</i><par n="cant/ar__vblex"/></e>
+<e lm="neutralisar"><i>neutralis</i><par n="cant/ar__vblex"/></e>
+<e lm="negar"><i>neg</i><par n="cant/ar__vblex"/></e>
+<e lm="nominar"><i>nomin</i><par n="cant/ar__vblex"/></e>
 <e lm="nocer"><i>noc</i><par n="cred/er__vblex"/></e>
-<e lm="obligar"><i>obliga</i><par n="canta/r__vblex"/></e>
-<e lm="dar"><i>da</i><par n="canta/r__vblex"/></e>
+<e lm="obligar"><i>oblig</i><par n="cant/ar__vblex"/></e>
+<e lm="dar"><i>d</i><par n="cant/ar__vblex"/></e>
 <e lm="unguer"><i>ungu</i><par n="cred/er__vblex"/></e>
 <e lm="omitter"><i>omitt</i><par n="cred/er__vblex"/></e>
-<e lm="osar"><i>osa</i><par n="canta/r__vblex"/></e>
-<e lm="oblidar"><i>oblida</i><par n="canta/r__vblex"/></e>
-<e lm="aperir"><i>aperi</i><par n="parti/r__vblex"/></e>
-<e lm="pardonar"><i>pardona</i><par n="canta/r__vblex"/></e>
-<e lm="departir"><i>departi</i><par n="parti/r__vblex"/></e>
-<e lm="patinar"><i>patina</i><par n="canta/r__vblex"/></e>
-<e lm="pectinar"><i>pectina</i><par n="canta/r__vblex"/></e>
+<e lm="osar"><i>os</i><par n="cant/ar__vblex"/></e>
+<e lm="oblidar"><i>oblid</i><par n="cant/ar__vblex"/></e>
+<e lm="aperir"><i>aper</i><par n="part/ir__vblex"/></e>
+<e lm="pardonar"><i>pardon</i><par n="cant/ar__vblex"/></e>
+<e lm="departir"><i>depart</i><par n="part/ir__vblex"/></e>
+<e lm="patinar"><i>patin</i><par n="cant/ar__vblex"/></e>
+<e lm="pectinar"><i>pectin</i><par n="cant/ar__vblex"/></e>
 <e lm="pinger"><i>ping</i><par n="cred/er__vblex"/></e>
 <e lm="pender"><i>pend</i><par n="cred/er__vblex"/></e>
 <e lm="perciper"><i>percip</i><par n="cred/er__vblex"/></e>
-<e lm="pesar"><i>pesa</i><par n="canta/r__vblex"/></e>
+<e lm="pesar"><i>pes</i><par n="cant/ar__vblex"/></e>
 <e lm="poner"><i>pon</i><par n="cred/er__vblex"/></e>
 <e lm="placer"><i>plac</i><par n="cred/er__vblex"/></e>
-<e lm="burlar"><i>burla</i><par n="canta/r__vblex"/></e>
-<e lm="plantar"><i>planta</i><par n="canta/r__vblex"/></e>
-<e lm="lacrimar"><i>lacrima</i><par n="canta/r__vblex"/></e>
+<e lm="burlar"><i>burl</i><par n="cant/ar__vblex"/></e>
+<e lm="plantar"><i>plant</i><par n="cant/ar__vblex"/></e>
+<e lm="lacrimar"><i>lacrim</i><par n="cant/ar__vblex"/></e>
 <e lm="pluver"><i>pluv</i><par n="cred/er__vblex"/></e>
-<e lm="plicar"><i>plica</i><par n="canta/r__vblex"/></e>
+<e lm="plicar"><i>plic</i><par n="cant/ar__vblex"/></e>
 <e lm="persequer"><i>persequ</i><par n="cred/er__vblex"/></e>
 <e lm="crescer"><i>cresc</i><par n="cred/er__vblex"/></e>
 <e lm="comprimer"><i>comprim</i><par n="cred/er__vblex"/></e>
-<e lm="orar"><i>ora</i><par n="canta/r__vblex"/></e>
+<e lm="orar"><i>or</i><par n="cant/ar__vblex"/></e>
 <e lm="producer"><i>produc</i><par n="cred/er__vblex"/></e>
-<e lm="ambular"><i>ambula</i><par n="canta/r__vblex"/></e>
-<e lm="pronunciar"><i>pronuncia</i><par n="canta/r__vblex"/></e>
+<e lm="ambular"><i>ambul</i><par n="cant/ar__vblex"/></e>
+<e lm="pronunciar"><i>pronunci</i><par n="cant/ar__vblex"/></e>
 <e lm="proscriber"><i>proscrib</i><par n="cred/er__vblex"/></e>
-<e lm="probar"><i>proba</i><par n="canta/r__vblex"/></e>
+<e lm="probar"><i>prob</i><par n="cant/ar__vblex"/></e>
 <e lm="puter"><i>put</i><par n="cred/er__vblex"/></e>
-<e lm="abandonar"><i>abandona</i><par n="canta/r__vblex"/></e>
-<e lm="contar"><i>conta</i><par n="canta/r__vblex"/></e>
-<e lm="ordinar"><i>ordina</i><par n="canta/r__vblex"/></e>
-<e lm="sequestrar"><i>sequestra</i><par n="canta/r__vblex"/></e>
-<e lm="refusar"><i>refusa</i><par n="canta/r__vblex"/></e>
-<e lm="reguardar"><i>reguarda</i><par n="canta/r__vblex"/></e>
-<e lm="lamentar"><i>lamenta</i><par n="canta/r__vblex"/></e>
-<e lm="vomir"><i>vomi</i><par n="parti/r__vblex"/></e>
-<e lm="notar"><i>nota</i><par n="canta/r__vblex"/></e>
-<e lm="regratiar"><i>regratia</i><par n="canta/r__vblex"/></e>
-<e lm="reimplaciar"><i>reimplacia</i><par n="canta/r__vblex"/></e>
-<e lm="plenar"><i>plena</i><par n="canta/r__vblex"/></e>
-<e lm="repassar"><i>repassa</i><par n="canta/r__vblex"/></e>
+<e lm="abandonar"><i>abandon</i><par n="cant/ar__vblex"/></e>
+<e lm="contar"><i>cont</i><par n="cant/ar__vblex"/></e>
+<e lm="ordinar"><i>ordin</i><par n="cant/ar__vblex"/></e>
+<e lm="sequestrar"><i>sequestr</i><par n="cant/ar__vblex"/></e>
+<e lm="refusar"><i>refus</i><par n="cant/ar__vblex"/></e>
+<e lm="reguardar"><i>reguard</i><par n="cant/ar__vblex"/></e>
+<e lm="lamentar"><i>lament</i><par n="cant/ar__vblex"/></e>
+<e lm="vomir"><i>vom</i><par n="part/ir__vblex"/></e>
+<e lm="notar"><i>not</i><par n="cant/ar__vblex"/></e>
+<e lm="regratiar"><i>regrati</i><par n="cant/ar__vblex"/></e>
+<e lm="reimplaciar"><i>reimplaci</i><par n="cant/ar__vblex"/></e>
+<e lm="plenar"><i>plen</i><par n="cant/ar__vblex"/></e>
+<e lm="repassar"><i>repass</i><par n="cant/ar__vblex"/></e>
 <e lm="reproducer"><i>reproduc</i><par n="cred/er__vblex"/></e>
 <e lm="restringer"><i>restring</i><par n="cred/er__vblex"/></e>
 <e lm="retener"><i>reten</i><par n="cred/er__vblex"/></e>
-<e lm="reclamar"><i>reclama</i><par n="canta/r__vblex"/></e>
-<e lm="editar"><i>edita</i><par n="canta/r__vblex"/></e>
+<e lm="reclamar"><i>reclam</i><par n="cant/ar__vblex"/></e>
+<e lm="editar"><i>edit</i><par n="cant/ar__vblex"/></e>
 <e lm="rider"><i>rid</i><par n="cred/er__vblex"/></e>
 <e lm="rumper"><i>rump</i><par n="cred/er__vblex"/></e>
-<e lm="rolar"><i>rola</i><par n="canta/r__vblex"/></e>
-<e lm="attrappar"><i>attrappa</i><par n="canta/r__vblex"/></e>
-<e lm="appaciar"><i>appacia</i><par n="canta/r__vblex"/></e>
-<e lm="complir"><i>compli</i><par n="parti/r__vblex"/></e>
-<e lm="salvar"><i>salva</i><par n="canta/r__vblex"/></e>
+<e lm="rolar"><i>rol</i><par n="cant/ar__vblex"/></e>
+<e lm="attrappar"><i>attrapp</i><par n="cant/ar__vblex"/></e>
+<e lm="appaciar"><i>appaci</i><par n="cant/ar__vblex"/></e>
+<e lm="complir"><i>compl</i><par n="part/ir__vblex"/></e>
+<e lm="salvar"><i>salv</i><par n="cant/ar__vblex"/></e>
 <e lm="succuter"><i>succut</i><par n="cred/er__vblex"/></e>
-<e lm="adjutar"><i>adjuta</i><par n="canta/r__vblex"/></e>
+<e lm="adjutar"><i>adjut</i><par n="cant/ar__vblex"/></e>
 <e lm="olfacer"><i>olfac</i><par n="cred/er__vblex"/></e>
 <e lm="comprimer"><i>comprim</i><par n="cred/er__vblex"/></e>
-<e lm="sibilar"><i>sibila</i><par n="canta/r__vblex"/></e>
-<e lm="signar"><i>signa</i><par n="canta/r__vblex"/></e>
-<e lm="significar"><i>significa</i><par n="canta/r__vblex"/></e>
-<e lm="pensar"><i>pensa</i><par n="canta/r__vblex"/></e>
-<e lm="sufflar"><i>suffla</i><par n="canta/r__vblex"/></e>
-<e lm="patir"><i>pati</i><par n="parti/r__vblex"/></e>
-<e lm="sperar"><i>spera</i><par n="canta/r__vblex"/></e>
+<e lm="sibilar"><i>sibil</i><par n="cant/ar__vblex"/></e>
+<e lm="signar"><i>sign</i><par n="cant/ar__vblex"/></e>
+<e lm="significar"><i>signific</i><par n="cant/ar__vblex"/></e>
+<e lm="pensar"><i>pens</i><par n="cant/ar__vblex"/></e>
+<e lm="sufflar"><i>suffl</i><par n="cant/ar__vblex"/></e>
+<e lm="patir"><i>pat</i><par n="part/ir__vblex"/></e>
+<e lm="sperar"><i>sper</i><par n="cant/ar__vblex"/></e>
 <e lm="polluer"><i>pollu</i><par n="cred/er__vblex"/></e>
-<e lm="supportar"><i>supporta</i><par n="canta/r__vblex"/></e>
-<e lm="patir"><i>pati</i><par n="parti/r__vblex"/></e>
-<e lm="morir"><i>mori</i><par n="parti/r__vblex"/></e>
+<e lm="supportar"><i>support</i><par n="cant/ar__vblex"/></e>
+<e lm="patir"><i>pat</i><par n="part/ir__vblex"/></e>
+<e lm="morir"><i>mor</i><par n="part/ir__vblex"/></e>
 <e lm="suger"><i>sug</i><par n="cred/er__vblex"/></e>
-<e lm="bastar"><i>basta</i><par n="canta/r__vblex"/></e>
-<e lm="implorar"><i>implora</i><par n="canta/r__vblex"/></e>
+<e lm="bastar"><i>bast</i><par n="cant/ar__vblex"/></e>
+<e lm="implorar"><i>implor</i><par n="cant/ar__vblex"/></e>
 <e lm="surprender"><i>surprend</i><par n="cred/er__vblex"/></e>
 <e lm="superviver"><i>superviv</i><par n="cred/er__vblex"/></e>
-<e lm="terminar"><i>termina</i><par n="canta/r__vblex"/></e>
+<e lm="terminar"><i>termin</i><par n="cant/ar__vblex"/></e>
 <e lm="tonder"><i>tond</i><par n="cred/er__vblex"/></e>
-<e lm="tonar"><i>tona</i><par n="canta/r__vblex"/></e>
+<e lm="tonar"><i>ton</i><par n="cant/ar__vblex"/></e>
 <e lm="torquer"><i>torqu</i><par n="cred/er__vblex"/></e>
-<e lm="girar"><i>gira</i><par n="canta/r__vblex"/></e>
-<e lm="tussir"><i>tussi</i><par n="parti/r__vblex"/></e>
-<e lm="traciar"><i>tracia</i><par n="canta/r__vblex"/></e>
-<e lm="trair"><i>trai</i><par n="parti/r__vblex"/></e>
-<e lm="laborar"><i>labora</i><par n="canta/r__vblex"/></e>
-<e lm="transversar"><i>transversa</i><par n="canta/r__vblex"/></e>
+<e lm="girar"><i>gir</i><par n="cant/ar__vblex"/></e>
+<e lm="tussir"><i>tuss</i><par n="part/ir__vblex"/></e>
+<e lm="traciar"><i>traci</i><par n="cant/ar__vblex"/></e>
+<e lm="trair"><i>tra</i><par n="part/ir__vblex"/></e>
+<e lm="laborar"><i>labor</i><par n="cant/ar__vblex"/></e>
+<e lm="transversar"><i>transvers</i><par n="cant/ar__vblex"/></e>
 <e lm="deciper"><i>decip</i><par n="cred/er__vblex"/></e>
 <e lm="occider"><i>occid</i><par n="cred/er__vblex"/></e>
-<e lm="unificar"><i>unifica</i><par n="canta/r__vblex"/></e>
+<e lm="unificar"><i>unific</i><par n="cant/ar__vblex"/></e>
 <e lm="adjunger"><i>adjung</i><par n="cred/er__vblex"/></e>
 <e lm="valer"><i>val</i><par n="cred/er__vblex"/></e>
-<e lm="vengiar"><i>vengia</i><par n="canta/r__vblex"/></e>
-<e lm="pagar"><i>paga</i><par n="canta/r__vblex"/></e>
-<e lm="reguardar"><i>reguarda</i><par n="canta/r__vblex"/></e>
-      <e lm="abandonar"><i>abandona</i><par n="canta/r__vblex"/></e>
-<e lm="abordar"><i>aborda</i><par n="canta/r__vblex"/></e>
-<e lm="latrar"><i>latra</i><par n="canta/r__vblex"/></e>
-<e lm="albergar"><i>alberga</i><par n="canta/r__vblex"/></e>
+<e lm="vengiar"><i>vengi</i><par n="cant/ar__vblex"/></e>
+<e lm="pagar"><i>pag</i><par n="cant/ar__vblex"/></e>
+<e lm="reguardar"><i>reguard</i><par n="cant/ar__vblex"/></e>
+      <e lm="abandonar"><i>abandon</i><par n="cant/ar__vblex"/></e>
+<e lm="abordar"><i>abord</i><par n="cant/ar__vblex"/></e>
+<e lm="latrar"><i>latr</i><par n="cant/ar__vblex"/></e>
+<e lm="albergar"><i>alberg</i><par n="cant/ar__vblex"/></e>
 <e lm="absorber"><i>absorb</i><par n="cred/er__vblex"/></e>
-<e lm="accaparar"><i>accapara</i><par n="canta/r__vblex"/></e>
-<e lm="acclimatar"><i>acclimata</i><par n="canta/r__vblex"/></e>
-<e lm="complir"><i>compli</i><par n="parti/r__vblex"/></e>
-<e lm="accostumar"><i>accostuma</i><par n="canta/r__vblex"/></e>
+<e lm="accaparar"><i>accapar</i><par n="cant/ar__vblex"/></e>
+<e lm="acclimatar"><i>acclimat</i><par n="cant/ar__vblex"/></e>
+<e lm="complir"><i>compl</i><par n="part/ir__vblex"/></e>
+<e lm="accostumar"><i>accostum</i><par n="cant/ar__vblex"/></e>
 <e lm="acquiescer"><i>acquiesc</i><par n="cred/er__vblex"/></e>
-<e lm="activar"><i>activa</i><par n="canta/r__vblex"/></e>
-<e lm="adjudicar"><i>adjudica</i><par n="canta/r__vblex"/></e>
-<e lm="administrar"><i>administra</i><par n="canta/r__vblex"/></e>
-<e lm="adoptar"><i>adopta</i><par n="canta/r__vblex"/></e>
-<e lm="adorsar"><i>adorsa</i><par n="canta/r__vblex"/></e>
-<e lm="affectar"><i>affecta</i><par n="canta/r__vblex"/></e>
+<e lm="activar"><i>activ</i><par n="cant/ar__vblex"/></e>
+<e lm="adjudicar"><i>adjudic</i><par n="cant/ar__vblex"/></e>
+<e lm="administrar"><i>administr</i><par n="cant/ar__vblex"/></e>
+<e lm="adoptar"><i>adopt</i><par n="cant/ar__vblex"/></e>
+<e lm="adorsar"><i>adors</i><par n="cant/ar__vblex"/></e>
+<e lm="affectar"><i>affect</i><par n="cant/ar__vblex"/></e>
 <e lm="affiger"><i>affig</i><par n="cred/er__vblex"/></e>
-<e lm="affirmar"><i>affirma</i><par n="canta/r__vblex"/></e>
+<e lm="affirmar"><i>affirm</i><par n="cant/ar__vblex"/></e>
 <e lm="affliger"><i>afflig</i><par n="cred/er__vblex"/></e>
-<e lm="acutiar"><i>acutia</i><par n="canta/r__vblex"/></e>
-<e lm="adjustar"><i>adjusta</i><par n="canta/r__vblex"/></e>
-<e lm="alarmar"><i>alarma</i><par n="canta/r__vblex"/></e>
-<e lm="alinear"><i>alinea</i><par n="canta/r__vblex"/></e>
-<e lm="alimentar"><i>alimenta</i><par n="canta/r__vblex"/></e>
-<e lm="allactar"><i>allacta</i><par n="canta/r__vblex"/></e>
-<e lm="alliar"><i>allia</i><par n="canta/r__vblex"/></e>
+<e lm="acutiar"><i>acuti</i><par n="cant/ar__vblex"/></e>
+<e lm="adjustar"><i>adjust</i><par n="cant/ar__vblex"/></e>
+<e lm="alarmar"><i>alarm</i><par n="cant/ar__vblex"/></e>
+<e lm="alinear"><i>aline</i><par n="cant/ar__vblex"/></e>
+<e lm="alimentar"><i>aliment</i><par n="cant/ar__vblex"/></e>
+<e lm="allactar"><i>allact</i><par n="cant/ar__vblex"/></e>
+<e lm="alliar"><i>alli</i><par n="cant/ar__vblex"/></e>
 <e lm="accender"><i>accend</i><par n="cred/er__vblex"/></e>
-<e lm="alternar"><i>alterna</i><par n="canta/r__vblex"/></e>
-<e lm="magrir"><i>magri</i><par n="parti/r__vblex"/></e>
-<e lm="meliorar"><i>meliora</i><par n="canta/r__vblex"/></e>
-<e lm="amnestiar"><i>amnestia</i><par n="canta/r__vblex"/></e>
-<e lm="amortir"><i>amorti</i><par n="parti/r__vblex"/></e>
-<e lm="amputar"><i>amputa</i><par n="canta/r__vblex"/></e>
-<e lm="anchorar"><i>anchora</i><par n="canta/r__vblex"/></e>
-<e lm="anticipar"><i>anticipa</i><par n="canta/r__vblex"/></e>
-<e lm="pacificar"><i>pacifica</i><par n="canta/r__vblex"/></e>
-<e lm="impovrir"><i>impovri</i><par n="parti/r__vblex"/></e>
+<e lm="alternar"><i>altern</i><par n="cant/ar__vblex"/></e>
+<e lm="magrir"><i>magr</i><par n="part/ir__vblex"/></e>
+<e lm="meliorar"><i>melior</i><par n="cant/ar__vblex"/></e>
+<e lm="amnestiar"><i>amnesti</i><par n="cant/ar__vblex"/></e>
+<e lm="amortir"><i>amort</i><par n="part/ir__vblex"/></e>
+<e lm="amputar"><i>amput</i><par n="cant/ar__vblex"/></e>
+<e lm="anchorar"><i>anchor</i><par n="cant/ar__vblex"/></e>
+<e lm="anticipar"><i>anticip</i><par n="cant/ar__vblex"/></e>
+<e lm="pacificar"><i>pacific</i><par n="cant/ar__vblex"/></e>
+<e lm="impovrir"><i>impovr</i><par n="part/ir__vblex"/></e>
 <e lm="applauder"><i>applaud</i><par n="cred/er__vblex"/></e>
-<e lm="applicar"><i>applica</i><par n="canta/r__vblex"/></e>
+<e lm="applicar"><i>applic</i><par n="cant/ar__vblex"/></e>
 <e lm="apponer"><i>appon</i><par n="cred/er__vblex"/></e>
-<e lm="domesticar"><i>domestica</i><par n="canta/r__vblex"/></e>
-<e lm="archivar"><i>archiva</i><par n="canta/r__vblex"/></e>
+<e lm="domesticar"><i>domestic</i><par n="cant/ar__vblex"/></e>
+<e lm="archivar"><i>archiv</i><par n="cant/ar__vblex"/></e>
 <e lm="arguer"><i>argu</i><par n="cred/er__vblex"/></e>
-<e lm="aquar"><i>aqua</i><par n="canta/r__vblex"/></e>
-<e lm="articular"><i>articula</i><par n="canta/r__vblex"/></e>
-<e lm="aspirar"><i>aspira</i><par n="canta/r__vblex"/></e>
+<e lm="aquar"><i>aqu</i><par n="cant/ar__vblex"/></e>
+<e lm="articular"><i>articul</i><par n="cant/ar__vblex"/></e>
+<e lm="aspirar"><i>aspir</i><par n="cant/ar__vblex"/></e>
 <e lm="occider"><i>occid</i><par n="cred/er__vblex"/></e>
-<e lm="assignar"><i>assigna</i><par n="canta/r__vblex"/></e>
-<e lm="associar"><i>associa</i><par n="canta/r__vblex"/></e>
+<e lm="assignar"><i>assign</i><par n="cant/ar__vblex"/></e>
+<e lm="associar"><i>associ</i><par n="cant/ar__vblex"/></e>
 <e lm="attribuer"><i>attribu</i><par n="cred/er__vblex"/></e>
-<e lm="augurar"><i>augura</i><par n="canta/r__vblex"/></e>
-<e lm="autorisar"><i>autorisa</i><par n="canta/r__vblex"/></e>
-<e lm="advertir"><i>adverti</i><par n="parti/r__vblex"/></e>
-<e lm="avisar"><i>avisa</i><par n="canta/r__vblex"/></e>
-<e lm="confessar"><i>confessa</i><par n="canta/r__vblex"/></e>
-<e lm="concentrar"><i>concentra</i><par n="canta/r__vblex"/></e>
-<e lm="baniar"><i>bania</i><par n="canta/r__vblex"/></e>
-<e lm="balbutiar"><i>balbutia</i><par n="canta/r__vblex"/></e>
-<e lm="barrar"><i>barra</i><par n="canta/r__vblex"/></e>
-<e lm="oscillar"><i>oscilla</i><par n="canta/r__vblex"/></e>
-<e lm="basar"><i>basa</i><par n="canta/r__vblex"/></e>
-<e lm="bombar"><i>bomba</i><par n="canta/r__vblex"/></e>
-<e lm="laborar"><i>labora</i><par n="canta/r__vblex"/></e>
-<e lm="mangiar"><i>mangia</i><par n="canta/r__vblex"/></e>
-<e lm="brandir"><i>brandi</i><par n="parti/r__vblex"/></e>
-<e lm="expectar"><i>expecta</i><par n="canta/r__vblex"/></e>
-<e lm="quartierar"><i>quartiera</i><par n="canta/r__vblex"/></e>
-<e lm="censurar"><i>censura</i><par n="canta/r__vblex"/></e>
+<e lm="augurar"><i>augur</i><par n="cant/ar__vblex"/></e>
+<e lm="autorisar"><i>autoris</i><par n="cant/ar__vblex"/></e>
+<e lm="advertir"><i>advert</i><par n="part/ir__vblex"/></e>
+<e lm="avisar"><i>avis</i><par n="cant/ar__vblex"/></e>
+<e lm="confessar"><i>confess</i><par n="cant/ar__vblex"/></e>
+<e lm="concentrar"><i>concentr</i><par n="cant/ar__vblex"/></e>
+<e lm="baniar"><i>bani</i><par n="cant/ar__vblex"/></e>
+<e lm="balbutiar"><i>balbuti</i><par n="cant/ar__vblex"/></e>
+<e lm="barrar"><i>barr</i><par n="cant/ar__vblex"/></e>
+<e lm="oscillar"><i>oscill</i><par n="cant/ar__vblex"/></e>
+<e lm="basar"><i>bas</i><par n="cant/ar__vblex"/></e>
+<e lm="bombar"><i>bomb</i><par n="cant/ar__vblex"/></e>
+<e lm="laborar"><i>labor</i><par n="cant/ar__vblex"/></e>
+<e lm="mangiar"><i>mangi</i><par n="cant/ar__vblex"/></e>
+<e lm="brandir"><i>brand</i><par n="part/ir__vblex"/></e>
+<e lm="expectar"><i>expect</i><par n="cant/ar__vblex"/></e>
+<e lm="quartierar"><i>quartier</i><par n="cant/ar__vblex"/></e>
+<e lm="censurar"><i>censur</i><par n="cant/ar__vblex"/></e>
 <e lm="calefacer"><i>calefac</i><par n="cred/er__vblex"/></e>
-<e lm="defecar"><i>defeca</i><par n="canta/r__vblex"/></e>
-<e lm="numerar"><i>numera</i><par n="canta/r__vblex"/></e>
+<e lm="defecar"><i>defec</i><par n="cant/ar__vblex"/></e>
+<e lm="numerar"><i>numer</i><par n="cant/ar__vblex"/></e>
 <e lm="cader"><i>cad</i><par n="cred/er__vblex"/></e>
-<e lm="choccar"><i>chocca</i><par n="canta/r__vblex"/></e>
+<e lm="choccar"><i>chocc</i><par n="cant/ar__vblex"/></e>
 <e lm="cader"><i>cad</i><par n="cred/er__vblex"/></e>
-<e lm="cementar"><i>cementa</i><par n="canta/r__vblex"/></e>
-<e lm="tintinnar"><i>tintinna</i><par n="canta/r__vblex"/></e>
-<e lm="clavar"><i>clava</i><par n="canta/r__vblex"/></e>
-<e lm="pectinar"><i>pectina</i><par n="canta/r__vblex"/></e>
-<e lm="collaborar"><i>collabora</i><par n="canta/r__vblex"/></e>
-<e lm="colorar"><i>colora</i><par n="canta/r__vblex"/></e>
-<e lm="commentar"><i>commenta</i><par n="canta/r__vblex"/></e>
-      <e lm="commercialisar"><i>commercialisa</i><par n="canta/r__vblex"/></e>
-<e lm="comerciar"><i>comercia</i><par n="canta/r__vblex"/></e>
-<e lm="compensar"><i>compensa</i><par n="canta/r__vblex"/></e>
+<e lm="cementar"><i>cement</i><par n="cant/ar__vblex"/></e>
+<e lm="tintinnar"><i>tintinn</i><par n="cant/ar__vblex"/></e>
+<e lm="clavar"><i>clav</i><par n="cant/ar__vblex"/></e>
+<e lm="pectinar"><i>pectin</i><par n="cant/ar__vblex"/></e>
+<e lm="collaborar"><i>collabor</i><par n="cant/ar__vblex"/></e>
+<e lm="colorar"><i>color</i><par n="cant/ar__vblex"/></e>
+<e lm="commentar"><i>comment</i><par n="cant/ar__vblex"/></e>
+      <e lm="commercialisar"><i>commercialis</i><par n="cant/ar__vblex"/></e>
+<e lm="comerciar"><i>comerci</i><par n="cant/ar__vblex"/></e>
+<e lm="compensar"><i>compens</i><par n="cant/ar__vblex"/></e>
 <e lm="componer"><i>compon</i><par n="cred/er__vblex"/></e>
 <e lm="comprimer"><i>comprim</i><par n="cred/er__vblex"/></e>
 <e lm="compromitter"><i>compromitt</i><par n="cred/er__vblex"/></e>
 <e lm="concerner"><i>concern</i><par n="cred/er__vblex"/></e>
-<e lm="concertar"><i>concerta</i><par n="canta/r__vblex"/></e>
-<e lm="conciliar"><i>concilia</i><par n="canta/r__vblex"/></e>
-<e lm="concordar"><i>concorda</i><par n="canta/r__vblex"/></e>
-<e lm="complir"><i>compli</i><par n="parti/r__vblex"/></e>
-<e lm="consecrar"><i>consecra</i><par n="canta/r__vblex"/></e>
-<e lm="consolar"><i>consola</i><par n="canta/r__vblex"/></e>
-<e lm="consolidar"><i>consolida</i><par n="canta/r__vblex"/></e>
-<e lm="contagiar"><i>contagia</i><par n="canta/r__vblex"/></e>
+<e lm="concertar"><i>concert</i><par n="cant/ar__vblex"/></e>
+<e lm="conciliar"><i>concili</i><par n="cant/ar__vblex"/></e>
+<e lm="concordar"><i>concord</i><par n="cant/ar__vblex"/></e>
+<e lm="complir"><i>compl</i><par n="part/ir__vblex"/></e>
+<e lm="consecrar"><i>consecr</i><par n="cant/ar__vblex"/></e>
+<e lm="consolar"><i>consol</i><par n="cant/ar__vblex"/></e>
+<e lm="consolidar"><i>consolid</i><par n="cant/ar__vblex"/></e>
+<e lm="contagiar"><i>contagi</i><par n="cant/ar__vblex"/></e>
 <e lm="contener"><i>conten</i><par n="cred/er__vblex"/></e>
 <e lm="consumer"><i>consum</i><par n="cred/er__vblex"/></e>
 
-<e lm="contemplar"><i>contempla</i><par n="canta/r__vblex"/></e>
-<e lm="disputar"><i>disputa</i><par n="canta/r__vblex"/></e>
+<e lm="contemplar"><i>contempl</i><par n="cant/ar__vblex"/></e>
+<e lm="disputar"><i>disput</i><par n="cant/ar__vblex"/></e>
 <e lm="contribuer"><i>contribu</i><par n="cred/er__vblex"/></e>
-<e lm="advocar"><i>advoca</i><par n="canta/r__vblex"/></e>
-<e lm="coordinar"><i>coordina</i><par n="canta/r__vblex"/></e>
-<e lm="copiar"><i>copia</i><par n="canta/r__vblex"/></e>
+<e lm="advocar"><i>advoc</i><par n="cant/ar__vblex"/></e>
+<e lm="coordinar"><i>coordin</i><par n="cant/ar__vblex"/></e>
+<e lm="copiar"><i>copi</i><par n="cant/ar__vblex"/></e>
 <e lm="fluer"><i>flu</i><par n="cred/er__vblex"/></e>
-<e lm="criticar"><i>critica</i><par n="canta/r__vblex"/></e>
-<e lm="cultivar"><i>cultiva</i><par n="canta/r__vblex"/></e>
-<e lm="pavimentar"><i>pavimenta</i><par n="canta/r__vblex"/></e>
-<e lm="congedar"><i>congeda</i><par n="canta/r__vblex"/></e>
-<e lm="diagnosticar"><i>diagnostica</i><par n="canta/r__vblex"/></e>
+<e lm="criticar"><i>critic</i><par n="cant/ar__vblex"/></e>
+<e lm="cultivar"><i>cultiv</i><par n="cant/ar__vblex"/></e>
+<e lm="pavimentar"><i>paviment</i><par n="cant/ar__vblex"/></e>
+<e lm="congedar"><i>conged</i><par n="cant/ar__vblex"/></e>
+<e lm="diagnosticar"><i>diagnostic</i><par n="cant/ar__vblex"/></e>
 <e lm="diffunder"><i>diffund</i><par n="cred/er__vblex"/></e>
-<e lm="discriminar"><i>discrimina</i><par n="canta/r__vblex"/></e>
-<e lm="irradiar"><i>irradia</i><par n="canta/r__vblex"/></e>
-<e lm="rivalisar"><i>rivalisa</i><par n="canta/r__vblex"/></e>
+<e lm="discriminar"><i>discrimin</i><par n="cant/ar__vblex"/></e>
+<e lm="irradiar"><i>irradi</i><par n="cant/ar__vblex"/></e>
+<e lm="rivalisar"><i>rivalis</i><par n="cant/ar__vblex"/></e>
 <e lm="dispender"><i>dispend</i><par n="cred/er__vblex"/></e>
-<e lm="distillar"><i>distilla</i><par n="canta/r__vblex"/></e>
+<e lm="distillar"><i>distill</i><par n="cant/ar__vblex"/></e>
 <e lm="distinguer"><i>distingu</i><par n="cred/er__vblex"/></e>
 <e lm="intertener"><i>interten</i><par n="cred/er__vblex"/></e>
 <e lm="distribuer"><i>distribu</i><par n="cred/er__vblex"/></e>
-<e lm="domar"><i>doma</i><par n="canta/r__vblex"/></e>
-<e lm="aurar"><i>aura</i><par n="canta/r__vblex"/></e>
-<e lm="captar"><i>capta</i><par n="canta/r__vblex"/></e>
-<e lm="capturar"><i>captura</i><par n="canta/r__vblex"/></e>
-<e lm="durar"><i>dura</i><par n="canta/r__vblex"/></e>
-<e lm="effectuar"><i>effectua</i><par n="canta/r__vblex"/></e>
-<e lm="imbarcar"><i>imbarca</i><par n="canta/r__vblex"/></e>
-<e lm="embarassar"><i>embarassa</i><par n="canta/r__vblex"/></e>
+<e lm="domar"><i>dom</i><par n="cant/ar__vblex"/></e>
+<e lm="aurar"><i>aur</i><par n="cant/ar__vblex"/></e>
+<e lm="captar"><i>capt</i><par n="cant/ar__vblex"/></e>
+<e lm="capturar"><i>captur</i><par n="cant/ar__vblex"/></e>
+<e lm="durar"><i>dur</i><par n="cant/ar__vblex"/></e>
+<e lm="effectuar"><i>effectu</i><par n="cant/ar__vblex"/></e>
+<e lm="imbarcar"><i>imbarc</i><par n="cant/ar__vblex"/></e>
+<e lm="embarassar"><i>embarass</i><par n="cant/ar__vblex"/></e>
 <e lm="polluer"><i>pollu</i><par n="cred/er__vblex"/></e>
-<e lm="inrichir"><i>inrichi</i><par n="parti/r__vblex"/></e>
+<e lm="inrichir"><i>inrich</i><par n="part/ir__vblex"/></e>
 <e lm="circumferer"><i>circumfer</i><par n="cred/er__vblex"/></e>
-<e lm="impedir"><i>impedi</i><par n="parti/r__vblex"/></e>
+<e lm="impedir"><i>imped</i><par n="part/ir__vblex"/></e>
 <e lm="invader"><i>invad</i><par n="cred/er__vblex"/></e>
-<e lm="inveloppar"><i>inveloppa</i><par n="canta/r__vblex"/></e>
-<e lm="invidiar"><i>invidia</i><par n="canta/r__vblex"/></e>
-<e lm="escalar"><i>escala</i><par n="canta/r__vblex"/></e>
-<e lm="escortar"><i>escorta</i><par n="canta/r__vblex"/></e>
-<e lm="recercar"><i>recerca</i><par n="canta/r__vblex"/></e>
+<e lm="inveloppar"><i>invelopp</i><par n="cant/ar__vblex"/></e>
+<e lm="invidiar"><i>invidi</i><par n="cant/ar__vblex"/></e>
+<e lm="escalar"><i>escal</i><par n="cant/ar__vblex"/></e>
+<e lm="escortar"><i>escort</i><par n="cant/ar__vblex"/></e>
+<e lm="recercar"><i>recerc</i><par n="cant/ar__vblex"/></e>
 <e lm="exercer"><i>exerc</i><par n="cred/er__vblex"/></e>
-<e lm="exhortar"><i>exhorta</i><par n="canta/r__vblex"/></e>
-<e lm="exploitar"><i>exploita</i><par n="canta/r__vblex"/></e>
+<e lm="exhortar"><i>exhort</i><par n="cant/ar__vblex"/></e>
+<e lm="exploitar"><i>exploit</i><par n="cant/ar__vblex"/></e>
 <e lm="exponer"><i>expon</i><par n="cred/er__vblex"/></e>
 <e lm="evincer"><i>evinc</i><par n="cred/er__vblex"/></e>
-<e lm="besoniar"><i>besonia</i><par n="canta/r__vblex"/></e>
-<e lm="filmar"><i>filma</i><par n="canta/r__vblex"/></e>
+<e lm="besoniar"><i>besoni</i><par n="cant/ar__vblex"/></e>
+<e lm="filmar"><i>film</i><par n="cant/ar__vblex"/></e>
 <e lm="ager"><i>ag</i><par n="cred/er__vblex"/></e>
-<e lm="idear"><i>idea</i><par n="canta/r__vblex"/></e>
-<e lm="trainar"><i>traina</i><par n="canta/r__vblex"/></e>
+<e lm="idear"><i>ide</i><par n="cant/ar__vblex"/></e>
+<e lm="trainar"><i>train</i><par n="cant/ar__vblex"/></e>
 <e lm="futuer"><i>futu</i><par n="cred/er__vblex"/></e>
-<e lm="transversar"><i>transversa</i><par n="canta/r__vblex"/></e>
-<e lm="fricar"><i>frica</i><par n="canta/r__vblex"/></e>
-<e lm="fusilar"><i>fusila</i><par n="canta/r__vblex"/></e>
-<e lm="garantir"><i>garanti</i><par n="parti/r__vblex"/></e>
-<e lm="parcar"><i>parca</i><par n="canta/r__vblex"/></e>
-<e lm="guarnir"><i>guarni</i><par n="parti/r__vblex"/></e>
-<e lm="vomir"><i>vomi</i><par n="parti/r__vblex"/></e>
-<e lm="congelar"><i>congela</i><par n="canta/r__vblex"/></e>
-<e lm="glissar"><i>glissa</i><par n="canta/r__vblex"/></e>
-<e lm="inflar"><i>infla</i><par n="canta/r__vblex"/></e>
-<e lm="governar"><i>governa</i><par n="canta/r__vblex"/></e>
-<e lm="tostar"><i>tosta</i><par n="canta/r__vblex"/></e>
-<e lm="insidiar"><i>insidia</i><par n="canta/r__vblex"/></e>
-<e lm="guidar"><i>guida</i><par n="canta/r__vblex"/></e>
-<e lm="abassar"><i>abassa</i><par n="canta/r__vblex"/></e>
-<e lm="identificar"><i>identifica</i><par n="canta/r__vblex"/></e>
-<e lm="illuminar"><i>illumina</i><par n="canta/r__vblex"/></e>
-<e lm="illustrar"><i>illustra</i><par n="canta/r__vblex"/></e>
-<e lm="imitar"><i>imita</i><par n="canta/r__vblex"/></e>
+<e lm="transversar"><i>transvers</i><par n="cant/ar__vblex"/></e>
+<e lm="fricar"><i>fric</i><par n="cant/ar__vblex"/></e>
+<e lm="fusilar"><i>fusil</i><par n="cant/ar__vblex"/></e>
+<e lm="garantir"><i>garant</i><par n="part/ir__vblex"/></e>
+<e lm="parcar"><i>parc</i><par n="cant/ar__vblex"/></e>
+<e lm="guarnir"><i>guarn</i><par n="part/ir__vblex"/></e>
+<e lm="vomir"><i>vom</i><par n="part/ir__vblex"/></e>
+<e lm="congelar"><i>congel</i><par n="cant/ar__vblex"/></e>
+<e lm="glissar"><i>gliss</i><par n="cant/ar__vblex"/></e>
+<e lm="inflar"><i>infl</i><par n="cant/ar__vblex"/></e>
+<e lm="governar"><i>govern</i><par n="cant/ar__vblex"/></e>
+<e lm="tostar"><i>tost</i><par n="cant/ar__vblex"/></e>
+<e lm="insidiar"><i>insidi</i><par n="cant/ar__vblex"/></e>
+<e lm="guidar"><i>guid</i><par n="cant/ar__vblex"/></e>
+<e lm="abassar"><i>abass</i><par n="cant/ar__vblex"/></e>
+<e lm="identificar"><i>identific</i><par n="cant/ar__vblex"/></e>
+<e lm="illuminar"><i>illumin</i><par n="cant/ar__vblex"/></e>
+<e lm="illustrar"><i>illustr</i><par n="cant/ar__vblex"/></e>
+<e lm="imitar"><i>imit</i><par n="cant/ar__vblex"/></e>
 <e lm="imprimer"><i>imprim</i><par n="cred/er__vblex"/></e>
-<e lm="improvisar"><i>improvisa</i><par n="canta/r__vblex"/></e>
-<e lm="incorporar"><i>incorpora</i><par n="canta/r__vblex"/></e>
-<e lm="accusar"><i>accusa</i><par n="canta/r__vblex"/></e>
-<e lm="accumular"><i>accumula</i><par n="canta/r__vblex"/></e>
+<e lm="improvisar"><i>improvis</i><par n="cant/ar__vblex"/></e>
+<e lm="incorporar"><i>incorpor</i><par n="cant/ar__vblex"/></e>
+<e lm="accusar"><i>accus</i><par n="cant/ar__vblex"/></e>
+<e lm="accumular"><i>accumul</i><par n="cant/ar__vblex"/></e>
 
-<e lm="compensar"><i>compensa</i><par n="canta/r__vblex"/></e>
-<e lm="affectar"><i>affecta</i><par n="canta/r__vblex"/></e>
-<e lm="affectar"><i>affecta</i><par n="canta/r__vblex"/></e>
-<e lm="injuriar"><i>injuria</i><par n="canta/r__vblex"/></e>
-<e lm="inundar"><i>inunda</i><par n="canta/r__vblex"/></e>
-<e lm="injuriar"><i>injuria</i><par n="canta/r__vblex"/></e>
-<e lm="intoxicar"><i>intoxica</i><par n="canta/r__vblex"/></e>
-<e lm="investir"><i>investi</i><par n="parti/r__vblex"/></e>
-<e lm="advocar"><i>advoca</i><par n="canta/r__vblex"/></e>
-<e lm="ironisar"><i>ironisa</i><par n="canta/r__vblex"/></e>
-<e lm="isolar"><i>isola</i><par n="canta/r__vblex"/></e>
-<e lm="lapidar"><i>lapida</i><par n="canta/r__vblex"/></e>
-<e lm="congedar"><i>congeda</i><par n="canta/r__vblex"/></e>
-<e lm="ligar"><i>liga</i><par n="canta/r__vblex"/></e>
-<e lm="liquidar"><i>liquida</i><par n="canta/r__vblex"/></e>
-<e lm="battaliar"><i>battalia</i><par n="canta/r__vblex"/></e>
-<e lm="manear"><i>manea</i><par n="canta/r__vblex"/></e>
-<e lm="manipular"><i>manipula</i><par n="canta/r__vblex"/></e>
-<e lm="maritar"><i>marita</i><par n="canta/r__vblex"/></e>
-<e lm="marcar"><i>marca</i><par n="canta/r__vblex"/></e>
-<e lm="mascar"><i>masca</i><par n="canta/r__vblex"/></e>
-<e lm="mentionar"><i>mentiona</i><par n="canta/r__vblex"/></e>
-<e lm="miaular"><i>miaula</i><par n="canta/r__vblex"/></e>
-<e lm="modellar"><i>modella</i><par n="canta/r__vblex"/></e>
-<e lm="editar"><i>edita</i><par n="canta/r__vblex"/></e>
-<e lm="multiplicar"><i>multiplica</i><par n="canta/r__vblex"/></e>
-<e lm="susurrar"><i>susurra</i><par n="canta/r__vblex"/></e>
-<e lm="contar"><i>conta</i><par n="canta/r__vblex"/></e>
-<e lm="observar"><i>observa</i><par n="canta/r__vblex"/></e>
+<e lm="compensar"><i>compens</i><par n="cant/ar__vblex"/></e>
+<e lm="affectar"><i>affect</i><par n="cant/ar__vblex"/></e>
+<e lm="affectar"><i>affect</i><par n="cant/ar__vblex"/></e>
+<e lm="injuriar"><i>injuri</i><par n="cant/ar__vblex"/></e>
+<e lm="inundar"><i>inund</i><par n="cant/ar__vblex"/></e>
+<e lm="injuriar"><i>injuri</i><par n="cant/ar__vblex"/></e>
+<e lm="intoxicar"><i>intoxic</i><par n="cant/ar__vblex"/></e>
+<e lm="investir"><i>invest</i><par n="part/ir__vblex"/></e>
+<e lm="advocar"><i>advoc</i><par n="cant/ar__vblex"/></e>
+<e lm="ironisar"><i>ironis</i><par n="cant/ar__vblex"/></e>
+<e lm="isolar"><i>isol</i><par n="cant/ar__vblex"/></e>
+<e lm="lapidar"><i>lapid</i><par n="cant/ar__vblex"/></e>
+<e lm="congedar"><i>conged</i><par n="cant/ar__vblex"/></e>
+<e lm="ligar"><i>lig</i><par n="cant/ar__vblex"/></e>
+<e lm="liquidar"><i>liquid</i><par n="cant/ar__vblex"/></e>
+<e lm="battaliar"><i>battali</i><par n="cant/ar__vblex"/></e>
+<e lm="manear"><i>mane</i><par n="cant/ar__vblex"/></e>
+<e lm="manipular"><i>manipul</i><par n="cant/ar__vblex"/></e>
+<e lm="maritar"><i>marit</i><par n="cant/ar__vblex"/></e>
+<e lm="marcar"><i>marc</i><par n="cant/ar__vblex"/></e>
+<e lm="mascar"><i>masc</i><par n="cant/ar__vblex"/></e>
+<e lm="mentionar"><i>mention</i><par n="cant/ar__vblex"/></e>
+<e lm="miaular"><i>miaul</i><par n="cant/ar__vblex"/></e>
+<e lm="modellar"><i>modell</i><par n="cant/ar__vblex"/></e>
+<e lm="editar"><i>edit</i><par n="cant/ar__vblex"/></e>
+<e lm="multiplicar"><i>multiplic</i><par n="cant/ar__vblex"/></e>
+<e lm="susurrar"><i>susurr</i><par n="cant/ar__vblex"/></e>
+<e lm="contar"><i>cont</i><par n="cant/ar__vblex"/></e>
+<e lm="observar"><i>observ</i><par n="cant/ar__vblex"/></e>
 <e lm="offender"><i>offend</i><par n="cred/er__vblex"/></e>
-<e lm="opinar"><i>opina</i><par n="canta/r__vblex"/></e>
-<e lm="adversar"><i>adversa</i><par n="canta/r__vblex"/></e>
-<e lm="ordinar"><i>ordina</i><par n="canta/r__vblex"/></e>
-<e lm="ornar"><i>orna</i><par n="canta/r__vblex"/></e>
-<e lm="oscillar"><i>oscilla</i><par n="canta/r__vblex"/></e>
-<e lm="exaggerar"><i>exaggera</i><par n="canta/r__vblex"/></e>
+<e lm="opinar"><i>opin</i><par n="cant/ar__vblex"/></e>
+<e lm="adversar"><i>advers</i><par n="cant/ar__vblex"/></e>
+<e lm="ordinar"><i>ordin</i><par n="cant/ar__vblex"/></e>
+<e lm="ornar"><i>orn</i><par n="cant/ar__vblex"/></e>
+<e lm="oscillar"><i>oscill</i><par n="cant/ar__vblex"/></e>
+<e lm="exaggerar"><i>exagger</i><par n="cant/ar__vblex"/></e>
 <e lm="sponder"><i>spond</i><par n="cred/er__vblex"/></e>
 <e lm="pinger"><i>ping</i><par n="cred/er__vblex"/></e>
-<e lm="forar"><i>fora</i><par n="canta/r__vblex"/></e>
-<e lm="perturbar"><i>perturba</i><par n="canta/r__vblex"/></e>
-<e lm="photographar"><i>photographa</i><par n="canta/r__vblex"/></e>
-<e lm="reguardar"><i>reguarda</i><par n="canta/r__vblex"/></e>
-<e lm="despoliar"><i>despolia</i><par n="canta/r__vblex"/></e>
-<e lm="pilotar"><i>pilota</i><par n="canta/r__vblex"/></e>
-<e lm="piccar"><i>picca</i><par n="canta/r__vblex"/></e>
+<e lm="forar"><i>for</i><par n="cant/ar__vblex"/></e>
+<e lm="perturbar"><i>perturb</i><par n="cant/ar__vblex"/></e>
+<e lm="photographar"><i>photograph</i><par n="cant/ar__vblex"/></e>
+<e lm="reguardar"><i>reguard</i><par n="cant/ar__vblex"/></e>
+<e lm="despoliar"><i>despoli</i><par n="cant/ar__vblex"/></e>
+<e lm="pilotar"><i>pilot</i><par n="cant/ar__vblex"/></e>
+<e lm="piccar"><i>picc</i><par n="cant/ar__vblex"/></e>
 <e lm="defender"><i>defend</i><par n="cred/er__vblex"/></e>
-<e lm="displumar"><i>displuma</i><par n="canta/r__vblex"/></e>
-<e lm="dagar"><i>daga</i><par n="canta/r__vblex"/></e>
-<e lm="indicar"><i>indica</i><par n="canta/r__vblex"/></e>
-<e lm="pumpar"><i>pumpa</i><par n="canta/r__vblex"/></e>
+<e lm="displumar"><i>displum</i><par n="cant/ar__vblex"/></e>
+<e lm="dagar"><i>dag</i><par n="cant/ar__vblex"/></e>
+<e lm="indicar"><i>indic</i><par n="cant/ar__vblex"/></e>
+<e lm="pumpar"><i>pump</i><par n="cant/ar__vblex"/></e>
 <e lm="dispender"><i>dispend</i><par n="cred/er__vblex"/></e>
-<e lm="desecrar"><i>desecra</i><par n="canta/r__vblex"/></e>
-<e lm="profitar"><i>profita</i><par n="canta/r__vblex"/></e>
-<e lm="programmar"><i>programma</i><par n="canta/r__vblex"/></e>
-<e lm="protestar"><i>protesta</i><par n="canta/r__vblex"/></e>
-<e lm="purgar"><i>purga</i><par n="canta/r__vblex"/></e>
+<e lm="desecrar"><i>desecr</i><par n="cant/ar__vblex"/></e>
+<e lm="profitar"><i>profit</i><par n="cant/ar__vblex"/></e>
+<e lm="programmar"><i>programm</i><par n="cant/ar__vblex"/></e>
+<e lm="protestar"><i>protest</i><par n="cant/ar__vblex"/></e>
+<e lm="purgar"><i>purg</i><par n="cant/ar__vblex"/></e>
 <e lm="redimer"><i>redim</i><par n="cred/er__vblex"/></e>
-<e lm="alleviar"><i>allevia</i><par n="canta/r__vblex"/></e>
-<e lm="cogitar"><i>cogita</i><par n="canta/r__vblex"/></e>
-<e lm="reunir"><i>reuni</i><par n="parti/r__vblex"/></e>
-<e lm="assemblar"><i>assembla</i><par n="canta/r__vblex"/></e>
-<e lm="remar"><i>rema</i><par n="canta/r__vblex"/></e>
-<e lm="approchar"><i>approcha</i><par n="canta/r__vblex"/></e>
-<e lm="rasar"><i>rasa</i><par n="canta/r__vblex"/></e>
-<e lm="assemblar"><i>assembla</i><par n="canta/r__vblex"/></e>
-<e lm="rationar"><i>rationa</i><par n="canta/r__vblex"/></e>
-<e lm="cancellar"><i>cancella</i><par n="canta/r__vblex"/></e>
-<e lm="recercar"><i>recerca</i><par n="canta/r__vblex"/></e>
-<e lm="refrigidar"><i>refrigida</i><par n="canta/r__vblex"/></e>
-<e lm="restaurar"><i>restaura</i><par n="canta/r__vblex"/></e>
+<e lm="alleviar"><i>allevi</i><par n="cant/ar__vblex"/></e>
+<e lm="cogitar"><i>cogit</i><par n="cant/ar__vblex"/></e>
+<e lm="reunir"><i>reun</i><par n="part/ir__vblex"/></e>
+<e lm="assemblar"><i>assembl</i><par n="cant/ar__vblex"/></e>
+<e lm="remar"><i>rem</i><par n="cant/ar__vblex"/></e>
+<e lm="approchar"><i>approch</i><par n="cant/ar__vblex"/></e>
+<e lm="rasar"><i>ras</i><par n="cant/ar__vblex"/></e>
+<e lm="assemblar"><i>assembl</i><par n="cant/ar__vblex"/></e>
+<e lm="rationar"><i>ration</i><par n="cant/ar__vblex"/></e>
+<e lm="cancellar"><i>cancell</i><par n="cant/ar__vblex"/></e>
+<e lm="recercar"><i>recerc</i><par n="cant/ar__vblex"/></e>
+<e lm="refrigidar"><i>refrigid</i><par n="cant/ar__vblex"/></e>
+<e lm="restaurar"><i>restaur</i><par n="cant/ar__vblex"/></e>
 
 
     <e lm="ab"><i>ab</i><par n="in__pr"/></e>
@@ -2957,404 +2916,404 @@ viste {prep} considering, in view of; viste que considering that
      <e lm="efficiente"><i>efficient</i><par n="excellent/e__adj"/></e>
      <e lm="circuiente"><i>circuient</i><par n="excellent/e__adj"/></e>
 
-    <e lm="abassar"><i>abassa</i><par n="canta/r__vblex"/></e>
-    <e lm="abbreviar"><i>abbrevia</i><par n="canta/r__vblex"/></e>
-    <e lm="abccentuar"><i>abccentua</i><par n="canta/r__vblex"/></e>
-    <e lm="abdicar"><i>abdica</i><par n="canta/r__vblex"/></e>
-    <e lm="abortar"><i>aborta</i><par n="canta/r__vblex"/></e>
-    <e lm="abundar"><i>abunda</i><par n="canta/r__vblex"/></e>
-    <e lm="acclamar"><i>acclama</i><par n="canta/r__vblex"/></e>
-    <e lm="accompaniar"><i>accompania</i><par n="canta/r__vblex"/></e>
-    <e lm="accreditar"><i>accredita</i><par n="canta/r__vblex"/></e>
-    <e lm="accular"><i>accula</i><par n="canta/r__vblex"/></e>
-    <e lm="accurtar"><i>accurta</i><par n="canta/r__vblex"/></e>
-    <e lm="accusar"><i>accusa</i><par n="canta/r__vblex"/></e>
-    <e lm="adaptar"><i>adapta</i><par n="canta/r__vblex"/></e>
-    <e lm="additionar"><i>additiona</i><par n="canta/r__vblex"/></e>
-    <e lm="advocar"><i>advoca</i><par n="canta/r__vblex"/></e>
-    <e lm="agitar"><i>agita</i><par n="canta/r__vblex"/></e>
-    <e lm="ajornar"><i>ajorna</i><par n="canta/r__vblex"/></e>
-    <e lm="alienar"><i>aliena</i><par n="canta/r__vblex"/></e>
-    <e lm="allargar"><i>allarga</i><par n="canta/r__vblex"/></e>
-    <e lm="alterar"><i>altera</i><par n="canta/r__vblex"/></e>
-    <e lm="altercar"><i>alterca</i><par n="canta/r__vblex"/></e>
-    <e lm="amalgamar"><i>amalgama</i><par n="canta/r__vblex"/></e>
-    <e lm="amassar"><i>amassa</i><par n="canta/r__vblex"/></e>
-    <e lm="amblar"><i>ambla</i><par n="canta/r__vblex"/></e>
-    <e lm="amontar"><i>amonta</i><par n="canta/r__vblex"/></e>
-    <e lm="amplificar"><i>amplifica</i><par n="canta/r__vblex"/></e>
-    <e lm="amputar"><i>amputa</i><par n="canta/r__vblex"/></e>
-    <e lm="amusar"><i>amusa</i><par n="canta/r__vblex"/></e>
-    <e lm="analysar"><i>analysa</i><par n="canta/r__vblex"/></e>
-    <e lm="animar"><i>anima</i><par n="canta/r__vblex"/></e>
-    <e lm="annexar"><i>annexa</i><par n="canta/r__vblex"/></e>
-    <e lm="annihilar"><i>annihila</i><par n="canta/r__vblex"/></e>
-    <e lm="annullar"><i>annulla</i><par n="canta/r__vblex"/></e>
-    <e lm="annunciar"><i>annuncia</i><par n="canta/r__vblex"/></e>
-    <e lm="apparer"><i>appare</i><par n="canta/r__vblex"/></e>
-    <e lm="appellar"><i>appella</i><par n="canta/r__vblex"/></e>
+    <e lm="abassar"><i>abass</i><par n="cant/ar__vblex"/></e>
+    <e lm="abbreviar"><i>abbrevi</i><par n="cant/ar__vblex"/></e>
+    <e lm="abccentuar"><i>abccentu</i><par n="cant/ar__vblex"/></e>
+    <e lm="abdicar"><i>abdic</i><par n="cant/ar__vblex"/></e>
+    <e lm="abortar"><i>abort</i><par n="cant/ar__vblex"/></e>
+    <e lm="abundar"><i>abund</i><par n="cant/ar__vblex"/></e>
+    <e lm="acclamar"><i>acclam</i><par n="cant/ar__vblex"/></e>
+    <e lm="accompaniar"><i>accompani</i><par n="cant/ar__vblex"/></e>
+    <e lm="accreditar"><i>accredit</i><par n="cant/ar__vblex"/></e>
+    <e lm="accular"><i>accul</i><par n="cant/ar__vblex"/></e>
+    <e lm="accurtar"><i>accurt</i><par n="cant/ar__vblex"/></e>
+    <e lm="accusar"><i>accus</i><par n="cant/ar__vblex"/></e>
+    <e lm="adaptar"><i>adapt</i><par n="cant/ar__vblex"/></e>
+    <e lm="additionar"><i>addition</i><par n="cant/ar__vblex"/></e>
+    <e lm="advocar"><i>advoc</i><par n="cant/ar__vblex"/></e>
+    <e lm="agitar"><i>agit</i><par n="cant/ar__vblex"/></e>
+    <e lm="ajornar"><i>ajorn</i><par n="cant/ar__vblex"/></e>
+    <e lm="alienar"><i>alien</i><par n="cant/ar__vblex"/></e>
+    <e lm="allargar"><i>allarg</i><par n="cant/ar__vblex"/></e>
+    <e lm="alterar"><i>alter</i><par n="cant/ar__vblex"/></e>
+    <e lm="altercar"><i>alterc</i><par n="cant/ar__vblex"/></e>
+    <e lm="amalgamar"><i>amalgam</i><par n="cant/ar__vblex"/></e>
+    <e lm="amassar"><i>amass</i><par n="cant/ar__vblex"/></e>
+    <e lm="amblar"><i>ambl</i><par n="cant/ar__vblex"/></e>
+    <e lm="amontar"><i>amont</i><par n="cant/ar__vblex"/></e>
+    <e lm="amplificar"><i>amplific</i><par n="cant/ar__vblex"/></e>
+    <e lm="amputar"><i>amput</i><par n="cant/ar__vblex"/></e>
+    <e lm="amusar"><i>amus</i><par n="cant/ar__vblex"/></e>
+    <e lm="analysar"><i>analys</i><par n="cant/ar__vblex"/></e>
+    <e lm="animar"><i>anim</i><par n="cant/ar__vblex"/></e>
+    <e lm="annexar"><i>annex</i><par n="cant/ar__vblex"/></e>
+    <e lm="annihilar"><i>annihil</i><par n="cant/ar__vblex"/></e>
+    <e lm="annullar"><i>annull</i><par n="cant/ar__vblex"/></e>
+    <e lm="annunciar"><i>annunci</i><par n="cant/ar__vblex"/></e>
+    <e lm="apparer"><i>appar</i><par n="cred/er__vblex"/></e>
+    <e lm="appellar"><i>appell</i><par n="cant/ar__vblex"/></e>
     <e lm="appertiner"><i>appertin</i><par n="cred/er__vblex"/></e>
-    <e lm="accommodar"><i>accommoda</i><par n="canta/r__vblex"/></e>
+    <e lm="accommodar"><i>accommod</i><par n="cant/ar__vblex"/></e>
 
-    <e lm="appoiar"><i>appoia</i><par n="canta/r__vblex"/></e>
-    <e lm="apportar"><i>apporta</i><par n="canta/r__vblex"/></e>
-    <e lm="approvisionar"><i>approvisiona</i><par n="canta/r__vblex"/></e>
-    <e lm="arbitrar"><i>arbitra</i><par n="canta/r__vblex"/></e>
-    <e lm="arrestar"><i>arresta</i><par n="canta/r__vblex"/></e>
-    <e lm="arretrar"><i>arretra</i><par n="canta/r__vblex"/></e>
-    <e lm="assediar"><i>assedia</i><par n="canta/r__vblex"/></e>
-    <e lm="assimilar"><i>assimila</i><par n="canta/r__vblex"/></e>
-    <e lm="attestar"><i>attesta</i><par n="canta/r__vblex"/></e>
-    <e lm="avisar"><i>avisa</i><par n="canta/r__vblex"/></e>
-    <e lm="basiar"><i>basia</i><par n="canta/r__vblex"/></e>
+    <e lm="appoiar"><i>appoi</i><par n="cant/ar__vblex"/></e>
+    <e lm="apportar"><i>apport</i><par n="cant/ar__vblex"/></e>
+    <e lm="approvisionar"><i>approvision</i><par n="cant/ar__vblex"/></e>
+    <e lm="arbitrar"><i>arbitr</i><par n="cant/ar__vblex"/></e>
+    <e lm="arrestar"><i>arrest</i><par n="cant/ar__vblex"/></e>
+    <e lm="arretrar"><i>arretr</i><par n="cant/ar__vblex"/></e>
+    <e lm="assediar"><i>assedi</i><par n="cant/ar__vblex"/></e>
+    <e lm="assimilar"><i>assimil</i><par n="cant/ar__vblex"/></e>
+    <e lm="attestar"><i>attest</i><par n="cant/ar__vblex"/></e>
+    <e lm="avisar"><i>avis</i><par n="cant/ar__vblex"/></e>
+    <e lm="basiar"><i>basi</i><par n="cant/ar__vblex"/></e>
 
-    <e lm="balar"><i>bala</i><par n="canta/r__vblex"/></e>
-    <e lm="bandar"><i>banda</i><par n="canta/r__vblex"/></e>
-    <e lm="baptisar"><i>baptisa</i><par n="canta/r__vblex"/></e>
-    <e lm="barbar"><i>barba</i><par n="canta/r__vblex"/></e>
-    <e lm="bastonar"><i>bastona</i><par n="canta/r__vblex"/></e>
-    <e lm="beneficiar"><i>beneficia</i><par n="canta/r__vblex"/></e>
-    <e lm="bicyclar"><i>bicycla</i><par n="canta/r__vblex"/></e>
-    <e lm="blasphemar"><i>blasphema</i><par n="canta/r__vblex"/></e>
-    <e lm="blocar"><i>bloca</i><par n="canta/r__vblex"/></e>
-    <e lm="bluffar"><i>bluffa</i><par n="canta/r__vblex"/></e>
-    <e lm="boxar"><i>boxa</i><par n="canta/r__vblex"/></e>
-    <e lm="brasar"><i>brasa</i><par n="canta/r__vblex"/></e>
-    <e lm="bravar"><i>brava</i><par n="canta/r__vblex"/></e>
-    <e lm="bridad"><i>brida</i><par n="canta/r__vblex"/></e>
-    <e lm="bronzar"><i>bronza</i><par n="canta/r__vblex"/></e>
-    <e lm="budgetar"><i>budgeta</i><par n="canta/r__vblex"/></e>
-    <e lm="calcular"><i>calcula</i><par n="canta/r__vblex"/></e>
-    <e lm="calmar"><i>calma</i><par n="canta/r__vblex"/></e>
-    <e lm="campar"><i>campa</i><par n="canta/r__vblex"/></e>
-    <e lm="cancellar"><i>cancella</i><par n="canta/r__vblex"/></e>
-    <e lm="cannar"><i>canna</i><par n="canta/r__vblex"/></e>
-    <e lm="capsular"><i>capsula</i><par n="canta/r__vblex"/></e>
-    <e lm="captivar"><i>captiva</i><par n="canta/r__vblex"/></e>
-    <e lm="carbonisar"><i>carbonisa</i><par n="canta/r__vblex"/></e>
-    <e lm="caressar"><i>caressa</i><par n="canta/r__vblex"/></e>
-    <e lm="cargar"><i>carga</i><par n="canta/r__vblex"/></e>
-    <e lm="castigar"><i>castiga</i><par n="canta/r__vblex"/></e>
-    <e lm="castrar"><i>castra</i><par n="canta/r__vblex"/></e>
-    <e lm="catalogar"><i>cataloga</i><par n="canta/r__vblex"/></e>
-    <e lm="causar"><i>causa</i><par n="canta/r__vblex"/></e>
-    <e lm="cavar"><i>cava</i><par n="canta/r__vblex"/></e>
-    <e lm="cecar"><i>ceca</i><par n="canta/r__vblex"/></e>
-    <e lm="centralisar"><i>centralisa</i><par n="canta/r__vblex"/></e>
-    <e lm="certificar"><i>certifica</i><par n="canta/r__vblex"/></e>
-    <e lm="cessar"><i>cessa</i><par n="canta/r__vblex"/></e>
-    <e lm="cincturar"><i>cinctura</i><par n="canta/r__vblex"/></e>
-    <e lm="incitar"><i>incita</i><par n="canta/r__vblex"/></e>
+    <e lm="balar"><i>bal</i><par n="cant/ar__vblex"/></e>
+    <e lm="bandar"><i>band</i><par n="cant/ar__vblex"/></e>
+    <e lm="baptisar"><i>baptis</i><par n="cant/ar__vblex"/></e>
+    <e lm="barbar"><i>barb</i><par n="cant/ar__vblex"/></e>
+    <e lm="bastonar"><i>baston</i><par n="cant/ar__vblex"/></e>
+    <e lm="beneficiar"><i>benefici</i><par n="cant/ar__vblex"/></e>
+    <e lm="bicyclar"><i>bicycl</i><par n="cant/ar__vblex"/></e>
+    <e lm="blasphemar"><i>blasphem</i><par n="cant/ar__vblex"/></e>
+    <e lm="blocar"><i>bloc</i><par n="cant/ar__vblex"/></e>
+    <e lm="bluffar"><i>bluff</i><par n="cant/ar__vblex"/></e>
+    <e lm="boxar"><i>box</i><par n="cant/ar__vblex"/></e>
+    <e lm="brasar"><i>bras</i><par n="cant/ar__vblex"/></e>
+    <e lm="bravar"><i>brav</i><par n="cant/ar__vblex"/></e>
+    <e lm="bridad"><i>brid</i><par n="cant/ar__vblex"/></e>
+    <e lm="bronzar"><i>bronz</i><par n="cant/ar__vblex"/></e>
+    <e lm="budgetar"><i>budget</i><par n="cant/ar__vblex"/></e>
+    <e lm="calcular"><i>calcul</i><par n="cant/ar__vblex"/></e>
+    <e lm="calmar"><i>calm</i><par n="cant/ar__vblex"/></e>
+    <e lm="campar"><i>camp</i><par n="cant/ar__vblex"/></e>
+    <e lm="cancellar"><i>cancell</i><par n="cant/ar__vblex"/></e>
+    <e lm="cannar"><i>cann</i><par n="cant/ar__vblex"/></e>
+    <e lm="capsular"><i>capsul</i><par n="cant/ar__vblex"/></e>
+    <e lm="captivar"><i>captiv</i><par n="cant/ar__vblex"/></e>
+    <e lm="carbonisar"><i>carbonis</i><par n="cant/ar__vblex"/></e>
+    <e lm="caressar"><i>caress</i><par n="cant/ar__vblex"/></e>
+    <e lm="cargar"><i>carg</i><par n="cant/ar__vblex"/></e>
+    <e lm="castigar"><i>castig</i><par n="cant/ar__vblex"/></e>
+    <e lm="castrar"><i>castr</i><par n="cant/ar__vblex"/></e>
+    <e lm="catalogar"><i>catalog</i><par n="cant/ar__vblex"/></e>
+    <e lm="causar"><i>caus</i><par n="cant/ar__vblex"/></e>
+    <e lm="cavar"><i>cav</i><par n="cant/ar__vblex"/></e>
+    <e lm="cecar"><i>cec</i><par n="cant/ar__vblex"/></e>
+    <e lm="centralisar"><i>centralis</i><par n="cant/ar__vblex"/></e>
+    <e lm="certificar"><i>certific</i><par n="cant/ar__vblex"/></e>
+    <e lm="cessar"><i>cess</i><par n="cant/ar__vblex"/></e>
+    <e lm="cincturar"><i>cinctur</i><par n="cant/ar__vblex"/></e>
+    <e lm="incitar"><i>incit</i><par n="cant/ar__vblex"/></e>
 
-    <e lm="circular"><i>circula</i><par n="canta/r__vblex"/></e>
-    <e lm="citar"><i>cita</i><par n="canta/r__vblex"/></e>
-    <e lm="civilisar"><i>civilisa</i><par n="canta/r__vblex"/></e>
-    <e lm="clarar"><i>clara</i><par n="canta/r__vblex"/></e>
-    <e lm="classificar"><i>classifica</i><par n="canta/r__vblex"/></e>
-    <e lm="coagular"><i>coagula</i><par n="canta/r__vblex"/></e>
-    <e lm="colpar"><i>colpa</i><par n="canta/r__vblex"/></e>
-    <e lm="comenciar"><i>comencia</i><par n="canta/r__vblex"/></e>
-    <e lm="commandar"><i>commanda</i><par n="canta/r__vblex"/></e>
-    <e lm="comgratiasalisar"><i>comgratiasalisa</i><par n="canta/r__vblex"/></e>
-    <e lm="commiserar"><i>commisera</i><par n="canta/r__vblex"/></e>
-    <e lm="commissionar"><i>commissiona</i><par n="canta/r__vblex"/></e>
-    <e lm="comportar"><i>comporta</i><par n="canta/r__vblex"/></e>
-    <e lm="condemnar"><i>condemna</i><par n="canta/r__vblex"/></e>
-    <e lm="confabular"><i>confabula</i><par n="canta/r__vblex"/></e>
-    <e lm="confirmar"><i>confirma</i><par n="canta/r__vblex"/></e>
-    <e lm="confortar"><i>conforta</i><par n="canta/r__vblex"/></e>
-    <e lm="conservar"><i>conserva</i><par n="canta/r__vblex"/></e>
-    <e lm="consiliar"><i>consilia</i><par n="canta/r__vblex"/></e>
-    <e lm="convocar"><i>convoca</i><par n="canta/r__vblex"/></e>
-    <e lm="costear"><i>costea</i><par n="canta/r__vblex"/></e>
-    <e lm="covar"><i>cova</i><par n="canta/r__vblex"/></e>
-    <e lm="critar"><i>crita</i><par n="canta/r__vblex"/></e>
-    <e lm="curvar"><i>curva</i><par n="canta/r__vblex"/></e>
-    <e lm="dansar"><i>dansa</i><par n="canta/r__vblex"/></e>
-    <e lm="declarar"><i>declara</i><par n="canta/r__vblex"/></e>
-    <e lm="defiar"><i>defia</i><par n="canta/r__vblex"/></e>
-    <e lm="degradar"><i>degrada</i><par n="canta/r__vblex"/></e>
-    <e lm="demarcar"><i>demarca</i><par n="canta/r__vblex"/></e>
-    <e lm="demorar"><i>demora</i><par n="canta/r__vblex"/></e>
-    <e lm="deramar"><i>derama</i><par n="canta/r__vblex"/></e>
-    <e lm="derivar"><i>deriva</i><par n="canta/r__vblex"/></e>
-    <e lm="desertar"><i>deserta</i><par n="canta/r__vblex"/></e>
-    <e lm="destinar"><i>destina</i><par n="canta/r__vblex"/></e>
-    <e lm="devastar"><i>devasta</i><par n="canta/r__vblex"/></e>
-    <e lm="discampar"><i>discampa</i><par n="canta/r__vblex"/></e>
-    <e lm="disconcertar"><i>disconcerta</i><par n="canta/r__vblex"/></e>
-    <e lm="disfigurar"><i>disfigura</i><par n="canta/r__vblex"/></e>
-    <e lm="disorientar"><i>disorienta</i><par n="canta/r__vblex"/></e>
-    <e lm="disseminar"><i>dissemina</i><par n="canta/r__vblex"/></e>
-    <e lm="divulgar"><i>divulga</i><par n="canta/r__vblex"/></e>
-    <e lm="educar"><i>educa</i><par n="canta/r__vblex"/></e>
-    <e lm="effectuar"><i>effectua</i><par n="canta/r__vblex"/></e>
-    <e lm="elevar"><i>eleva</i><par n="canta/r__vblex"/></e>
-    <e lm="elucidar"><i>elucida</i><par n="canta/r__vblex"/></e>
-    <e lm="emendar"><i>emenda</i><par n="canta/r__vblex"/></e>
-    <e lm="ericiar"><i>ericia</i><par n="canta/r__vblex"/></e>
-    <e lm="errar"><i>erra</i><par n="canta/r__vblex"/></e>
-    <e lm="eructar"><i>eructa</i><par n="canta/r__vblex"/></e>
-    <e lm="escar"><i>esca</i><par n="canta/r__vblex"/></e>
-    <e lm="evitar"><i>evita</i><par n="canta/r__vblex"/></e>
-    <e lm="expirar"><i>expira</i><par n="canta/r__vblex"/></e>
-    <e lm="fabricar"><i>fabrica</i><par n="canta/r__vblex"/></e>
-    <e lm="favorar"><i>favora</i><par n="canta/r__vblex"/></e>
-    <e lm="filiar"><i>filia</i><par n="canta/r__vblex"/></e>
-    <e lm="fixar"><i>fixa</i><par n="canta/r__vblex"/></e>
-    <e lm="flagrar"><i>flagra</i><par n="canta/r__vblex"/></e>
-    <e lm="fortificar"><i>fortifica</i><par n="canta/r__vblex"/></e>
-    <e lm="fracassar"><i>fracassa</i><par n="canta/r__vblex"/></e>
-    <e lm="fragmentar"><i>fragmenta</i><par n="canta/r__vblex"/></e>
-    <e lm="fraudar"><i>frauda</i><par n="canta/r__vblex"/></e>
-    <e lm="frenar"><i>frena</i><par n="canta/r__vblex"/></e>
-    <e lm="frequentar"><i>frequenta</i><par n="canta/r__vblex"/></e>
-    <e lm="frictionar"><i>frictiona</i><par n="canta/r__vblex"/></e>
-    <e lm="fructar"><i>fructa</i><par n="canta/r__vblex"/></e>
-    <e lm="funicular"><i>funicula</i><par n="canta/r__vblex"/></e>
-    <e lm="furcar"><i>furca</i><par n="canta/r__vblex"/></e>
-    <e lm="fustigar"><i>fustiga</i><par n="canta/r__vblex"/></e>
-    <e lm="garrular"><i>garrula</i><par n="canta/r__vblex"/></e>
-    <e lm="gemmar"><i>gemma</i><par n="canta/r__vblex"/></e>
-    <e lm="grepar"><i>grepa</i><par n="canta/r__vblex"/></e>
-    <e lm="guardar"><i>guarda</i><par n="canta/r__vblex"/></e>
-    <e lm="guastar"><i>guasta</i><par n="canta/r__vblex"/></e>
-    <e lm="hachar"><i>hacha</i><par n="canta/r__vblex"/></e>
-    <e lm="imballar"><i>imballa</i><par n="canta/r__vblex"/></e>
-    <e lm="imbuccar"><i>imbucca</i><par n="canta/r__vblex"/></e>
-    <e lm="implorar"><i>implora</i><par n="canta/r__vblex"/></e>
-    <e lm="importar"><i>importa</i><par n="canta/r__vblex"/></e>
-    <e lm="importunar"><i>importuna</i><par n="canta/r__vblex"/></e>
-    <e lm="incatenar"><i>incatena</i><par n="canta/r__vblex"/></e>
-    <e lm="inclinar"><i>inclina</i><par n="canta/r__vblex"/></e>
-    <e lm="incontrar"><i>incontra</i><par n="canta/r__vblex"/></e>
-    <e lm="informar"><i>informa</i><par n="canta/r__vblex"/></e>
-    <e lm="insaccar"><i>insacca</i><par n="canta/r__vblex"/></e>
-    <e lm="inspirar"><i>inspira</i><par n="canta/r__vblex"/></e>
-    <e lm="intimidar"><i>intimida</i><par n="canta/r__vblex"/></e>
-    <e lm="irritar"><i>irrita</i><par n="canta/r__vblex"/></e>
-    <e lm="jentar"><i>jenta</i><par n="canta/r__vblex"/></e>
-    <e lm="legar"><i>lega</i><par n="canta/r__vblex"/></e>
-    <e lm="lentar"><i>lenta</i><par n="canta/r__vblex"/></e>
-    <e lm="ligar"><i>liga</i><par n="canta/r__vblex"/></e>
-    <e lm="lustrar"><i>lustra</i><par n="canta/r__vblex"/></e>
-    <e lm="macular"><i>macula</i><par n="canta/r__vblex"/></e>
-    <e lm="manifestar"><i>manifesta</i><par n="canta/r__vblex"/></e>
-    <e lm="masticar"><i>mastica</i><par n="canta/r__vblex"/></e>
-    <e lm="matar"><i>mata</i><par n="canta/r__vblex"/></e>
-    <e lm="meditar"><i>medita</i><par n="canta/r__vblex"/></e>
-    <e lm="meliorar"><i>meliora</i><par n="canta/r__vblex"/></e>
-    <e lm="mendicar"><i>mendica</i><par n="canta/r__vblex"/></e>
-    <e lm="meriter"><i>merite</i><par n="canta/r__vblex"/></e>
-    <e lm="molestar"><i>molesta</i><par n="canta/r__vblex"/></e>
-    <e lm="obligar"><i>obliga</i><par n="canta/r__vblex"/></e>
-    <e lm="obscurar"><i>obscura</i><par n="canta/r__vblex"/></e>
-    <e lm="osar"><i>osa</i><par n="canta/r__vblex"/></e>
-    <e lm="palpebrar"><i>palpebra</i><par n="canta/r__vblex"/></e>
-    <e lm="parer"><i>pare</i><par n="canta/r__vblex"/></e>
-    <e lm="pasturar"><i>pastura</i><par n="canta/r__vblex"/></e>
-    <e lm="pectinar"><i>pectina</i><par n="canta/r__vblex"/></e>
-    <e lm="penetrar"><i>penetra</i><par n="canta/r__vblex"/></e>
-    <e lm="pipar"><i>pipa</i><par n="canta/r__vblex"/></e>
-    <e lm="piscar"><i>pisca</i><par n="canta/r__vblex"/></e>
-    <e lm="plicar"><i>plica</i><par n="canta/r__vblex"/></e>
-    <e lm="pontar"><i>ponta</i><par n="canta/r__vblex"/></e>
-    <e lm="portar"><i>porta</i><par n="canta/r__vblex"/></e>
-    <e lm="precar"><i>preca</i><par n="canta/r__vblex"/></e>
-    <e lm="preparar"><i>prepara</i><par n="canta/r__vblex"/></e>
-    <e lm="prestar"><i>presta</i><par n="canta/r__vblex"/></e>
-    <e lm="privar"><i>priva</i><par n="canta/r__vblex"/></e>
-    <e lm="projectar"><i>projecta</i><par n="canta/r__vblex"/></e>
-    <e lm="prolificar"><i>prolifica</i><par n="canta/r__vblex"/></e>
-    <e lm="propagar"><i>propaga</i><par n="canta/r__vblex"/></e>
-    <e lm="provocar"><i>provoca</i><par n="canta/r__vblex"/></e>
-    <e lm="publicar"><i>publica</i><par n="canta/r__vblex"/></e>
-    <e lm="querelar"><i>querela</i><par n="canta/r__vblex"/></e>
-    <e lm="questionar"><i>questiona</i><par n="canta/r__vblex"/></e>
-    <e lm="quitar"><i>quita</i><par n="canta/r__vblex"/></e>
-    <e lm="quotisar"><i>quotisa</i><par n="canta/r__vblex"/></e>
-    <e lm="recommendar"><i>recommenda</i><par n="canta/r__vblex"/></e>
-    <e lm="refrenar"><i>refrena</i><par n="canta/r__vblex"/></e>
-    <e lm="reinfortiar"><i>reinfortia</i><par n="canta/r__vblex"/></e>
-    <e lm="reparar"><i>repara</i><par n="canta/r__vblex"/></e>
-    <e lm="replicar"><i>replica</i><par n="canta/r__vblex"/></e>
-    <e lm="reportar"><i>reporta</i><par n="canta/r__vblex"/></e>
-    <e lm="reprimendar"><i>reprimenda</i><par n="canta/r__vblex"/></e>
-    <e lm="repulsar"><i>repulsa</i><par n="canta/r__vblex"/></e>
-    <e lm="respirar"><i>respira</i><par n="canta/r__vblex"/></e>
-    <e lm="retirar"><i>retira</i><par n="canta/r__vblex"/></e>
-    <e lm="revelar"><i>revela</i><par n="canta/r__vblex"/></e>
-    <e lm="reversar"><i>reversa</i><par n="canta/r__vblex"/></e>
-    <e lm="revocar"><i>revoca</i><par n="canta/r__vblex"/></e>
-    <e lm="ructar"><i>ructa</i><par n="canta/r__vblex"/></e>
-    <e lm="ruinar"><i>ruina</i><par n="canta/r__vblex"/></e>
-    <e lm="saltar"><i>salta</i><par n="canta/r__vblex"/></e>
-    <e lm="sanguinar"><i>sanguina</i><par n="canta/r__vblex"/></e>
-    <e lm="selectionar"><i>selectiona</i><par n="canta/r__vblex"/></e>
-    <e lm="serrar"><i>serra</i><par n="canta/r__vblex"/></e>
-    <e lm="sonar"><i>sona</i><par n="canta/r__vblex"/></e>
-    <e lm="stigmatisar"><i>stigmatisa</i><par n="canta/r__vblex"/></e>
-    <e lm="stimular"><i>stimula</i><par n="canta/r__vblex"/></e>
-    <e lm="sufflar"><i>suffla</i><par n="canta/r__vblex"/></e>
-    <e lm="suffocar"><i>suffoca</i><par n="canta/r__vblex"/></e>
-    <e lm="summar"><i>summa</i><par n="canta/r__vblex"/></e>
-    <e lm="superar"><i>supera</i><par n="canta/r__vblex"/></e>
-    <e lm="telephonar"><i>telephona</i><par n="canta/r__vblex"/></e>
-    <e lm="tolerar"><i>tolera</i><par n="canta/r__vblex"/></e>
-    <e lm="tormentar"><i>tormenta</i><par n="canta/r__vblex"/></e>
-    <e lm="tranquilisar"><i>tranquilisa</i><par n="canta/r__vblex"/></e>
-    <e lm="transvasar"><i>transvasa</i><par n="canta/r__vblex"/></e>
-    <e lm="trocar"><i>troca</i><par n="canta/r__vblex"/></e>
-    <e lm="trompettar"><i>trompetta</i><par n="canta/r__vblex"/></e>
-    <e lm="ultrapassar"><i>ultrapassa</i><par n="canta/r__vblex"/></e>
-    <e lm="vacuar"><i>vacua</i><par n="canta/r__vblex"/></e>
-    <e lm="vantar"><i>vanta</i><par n="canta/r__vblex"/></e>
-    <e lm="verificar"><i>verifica</i><par n="canta/r__vblex"/></e>
-    <e lm="vesicar"><i>vesica</i><par n="canta/r__vblex"/></e>
-    <e lm="vexar"><i>vexa</i><par n="canta/r__vblex"/></e>
-    <e lm="vociferar"><i>vocifera</i><par n="canta/r__vblex"/></e>
+    <e lm="circular"><i>circul</i><par n="cant/ar__vblex"/></e>
+    <e lm="citar"><i>cit</i><par n="cant/ar__vblex"/></e>
+    <e lm="civilisar"><i>civilis</i><par n="cant/ar__vblex"/></e>
+    <e lm="clarar"><i>clar</i><par n="cant/ar__vblex"/></e>
+    <e lm="classificar"><i>classific</i><par n="cant/ar__vblex"/></e>
+    <e lm="coagular"><i>coagul</i><par n="cant/ar__vblex"/></e>
+    <e lm="colpar"><i>colp</i><par n="cant/ar__vblex"/></e>
+    <e lm="comenciar"><i>comenci</i><par n="cant/ar__vblex"/></e>
+    <e lm="commandar"><i>command</i><par n="cant/ar__vblex"/></e>
+    <e lm="comgratiasalisar"><i>comgratiasalis</i><par n="cant/ar__vblex"/></e>
+    <e lm="commiserar"><i>commiser</i><par n="cant/ar__vblex"/></e>
+    <e lm="commissionar"><i>commission</i><par n="cant/ar__vblex"/></e>
+    <e lm="comportar"><i>comport</i><par n="cant/ar__vblex"/></e>
+    <e lm="condemnar"><i>condemn</i><par n="cant/ar__vblex"/></e>
+    <e lm="confabular"><i>confabul</i><par n="cant/ar__vblex"/></e>
+    <e lm="confirmar"><i>confirm</i><par n="cant/ar__vblex"/></e>
+    <e lm="confortar"><i>confort</i><par n="cant/ar__vblex"/></e>
+    <e lm="conservar"><i>conserv</i><par n="cant/ar__vblex"/></e>
+    <e lm="consiliar"><i>consili</i><par n="cant/ar__vblex"/></e>
+    <e lm="convocar"><i>convoc</i><par n="cant/ar__vblex"/></e>
+    <e lm="costear"><i>coste</i><par n="cant/ar__vblex"/></e>
+    <e lm="covar"><i>cov</i><par n="cant/ar__vblex"/></e>
+    <e lm="critar"><i>crit</i><par n="cant/ar__vblex"/></e>
+    <e lm="curvar"><i>curv</i><par n="cant/ar__vblex"/></e>
+    <e lm="dansar"><i>dans</i><par n="cant/ar__vblex"/></e>
+    <e lm="declarar"><i>declar</i><par n="cant/ar__vblex"/></e>
+    <e lm="defiar"><i>defi</i><par n="cant/ar__vblex"/></e>
+    <e lm="degradar"><i>degrad</i><par n="cant/ar__vblex"/></e>
+    <e lm="demarcar"><i>demarc</i><par n="cant/ar__vblex"/></e>
+    <e lm="demorar"><i>demor</i><par n="cant/ar__vblex"/></e>
+    <e lm="deramar"><i>deram</i><par n="cant/ar__vblex"/></e>
+    <e lm="derivar"><i>deriv</i><par n="cant/ar__vblex"/></e>
+    <e lm="desertar"><i>desert</i><par n="cant/ar__vblex"/></e>
+    <e lm="destinar"><i>destin</i><par n="cant/ar__vblex"/></e>
+    <e lm="devastar"><i>devast</i><par n="cant/ar__vblex"/></e>
+    <e lm="discampar"><i>discamp</i><par n="cant/ar__vblex"/></e>
+    <e lm="disconcertar"><i>disconcert</i><par n="cant/ar__vblex"/></e>
+    <e lm="disfigurar"><i>disfigur</i><par n="cant/ar__vblex"/></e>
+    <e lm="disorientar"><i>disorient</i><par n="cant/ar__vblex"/></e>
+    <e lm="disseminar"><i>dissemin</i><par n="cant/ar__vblex"/></e>
+    <e lm="divulgar"><i>divulg</i><par n="cant/ar__vblex"/></e>
+    <e lm="educar"><i>educ</i><par n="cant/ar__vblex"/></e>
+    <e lm="effectuar"><i>effectu</i><par n="cant/ar__vblex"/></e>
+    <e lm="elevar"><i>elev</i><par n="cant/ar__vblex"/></e>
+    <e lm="elucidar"><i>elucid</i><par n="cant/ar__vblex"/></e>
+    <e lm="emendar"><i>emend</i><par n="cant/ar__vblex"/></e>
+    <e lm="ericiar"><i>erici</i><par n="cant/ar__vblex"/></e>
+    <e lm="errar"><i>err</i><par n="cant/ar__vblex"/></e>
+    <e lm="eructar"><i>eruct</i><par n="cant/ar__vblex"/></e>
+    <e lm="escar"><i>esc</i><par n="cant/ar__vblex"/></e>
+    <e lm="evitar"><i>evit</i><par n="cant/ar__vblex"/></e>
+    <e lm="expirar"><i>expir</i><par n="cant/ar__vblex"/></e>
+    <e lm="fabricar"><i>fabric</i><par n="cant/ar__vblex"/></e>
+    <e lm="favorar"><i>favor</i><par n="cant/ar__vblex"/></e>
+    <e lm="filiar"><i>fili</i><par n="cant/ar__vblex"/></e>
+    <e lm="fixar"><i>fix</i><par n="cant/ar__vblex"/></e>
+    <e lm="flagrar"><i>flagr</i><par n="cant/ar__vblex"/></e>
+    <e lm="fortificar"><i>fortific</i><par n="cant/ar__vblex"/></e>
+    <e lm="fracassar"><i>fracass</i><par n="cant/ar__vblex"/></e>
+    <e lm="fragmentar"><i>fragment</i><par n="cant/ar__vblex"/></e>
+    <e lm="fraudar"><i>fraud</i><par n="cant/ar__vblex"/></e>
+    <e lm="frenar"><i>fren</i><par n="cant/ar__vblex"/></e>
+    <e lm="frequentar"><i>frequent</i><par n="cant/ar__vblex"/></e>
+    <e lm="frictionar"><i>friction</i><par n="cant/ar__vblex"/></e>
+    <e lm="fructar"><i>fruct</i><par n="cant/ar__vblex"/></e>
+    <e lm="funicular"><i>funicul</i><par n="cant/ar__vblex"/></e>
+    <e lm="furcar"><i>furc</i><par n="cant/ar__vblex"/></e>
+    <e lm="fustigar"><i>fustig</i><par n="cant/ar__vblex"/></e>
+    <e lm="garrular"><i>garrul</i><par n="cant/ar__vblex"/></e>
+    <e lm="gemmar"><i>gemm</i><par n="cant/ar__vblex"/></e>
+    <e lm="grepar"><i>grep</i><par n="cant/ar__vblex"/></e>
+    <e lm="guardar"><i>guard</i><par n="cant/ar__vblex"/></e>
+    <e lm="guastar"><i>guast</i><par n="cant/ar__vblex"/></e>
+    <e lm="hachar"><i>hach</i><par n="cant/ar__vblex"/></e>
+    <e lm="imballar"><i>imball</i><par n="cant/ar__vblex"/></e>
+    <e lm="imbuccar"><i>imbucc</i><par n="cant/ar__vblex"/></e>
+    <e lm="implorar"><i>implor</i><par n="cant/ar__vblex"/></e>
+    <e lm="importar"><i>import</i><par n="cant/ar__vblex"/></e>
+    <e lm="importunar"><i>importun</i><par n="cant/ar__vblex"/></e>
+    <e lm="incatenar"><i>incaten</i><par n="cant/ar__vblex"/></e>
+    <e lm="inclinar"><i>inclin</i><par n="cant/ar__vblex"/></e>
+    <e lm="incontrar"><i>incontr</i><par n="cant/ar__vblex"/></e>
+    <e lm="informar"><i>inform</i><par n="cant/ar__vblex"/></e>
+    <e lm="insaccar"><i>insacc</i><par n="cant/ar__vblex"/></e>
+    <e lm="inspirar"><i>inspir</i><par n="cant/ar__vblex"/></e>
+    <e lm="intimidar"><i>intimid</i><par n="cant/ar__vblex"/></e>
+    <e lm="irritar"><i>irrit</i><par n="cant/ar__vblex"/></e>
+    <e lm="jentar"><i>jent</i><par n="cant/ar__vblex"/></e>
+    <e lm="legar"><i>leg</i><par n="cant/ar__vblex"/></e>
+    <e lm="lentar"><i>lent</i><par n="cant/ar__vblex"/></e>
+    <e lm="ligar"><i>lig</i><par n="cant/ar__vblex"/></e>
+    <e lm="lustrar"><i>lustr</i><par n="cant/ar__vblex"/></e>
+    <e lm="macular"><i>macul</i><par n="cant/ar__vblex"/></e>
+    <e lm="manifestar"><i>manifest</i><par n="cant/ar__vblex"/></e>
+    <e lm="masticar"><i>mastic</i><par n="cant/ar__vblex"/></e>
+    <e lm="matar"><i>mat</i><par n="cant/ar__vblex"/></e>
+    <e lm="meditar"><i>medit</i><par n="cant/ar__vblex"/></e>
+    <e lm="meliorar"><i>melior</i><par n="cant/ar__vblex"/></e>
+    <e lm="mendicar"><i>mendic</i><par n="cant/ar__vblex"/></e>
+    <e lm="meritar"><i>merit</i><par n="cant/ar__vblex"/></e>
+    <e lm="molestar"><i>molest</i><par n="cant/ar__vblex"/></e>
+    <e lm="obligar"><i>oblig</i><par n="cant/ar__vblex"/></e>
+    <e lm="obscurar"><i>obscur</i><par n="cant/ar__vblex"/></e>
+    <e lm="osar"><i>os</i><par n="cant/ar__vblex"/></e>
+    <e lm="palpebrar"><i>palpebr</i><par n="cant/ar__vblex"/></e>
+    <e lm="parer"><i>pare</i><par n="cant/ar__vblex"/></e>
+    <e lm="pasturar"><i>pastur</i><par n="cant/ar__vblex"/></e>
+    <e lm="pectinar"><i>pectin</i><par n="cant/ar__vblex"/></e>
+    <e lm="penetrar"><i>penetr</i><par n="cant/ar__vblex"/></e>
+    <e lm="pipar"><i>pip</i><par n="cant/ar__vblex"/></e>
+    <e lm="piscar"><i>pisc</i><par n="cant/ar__vblex"/></e>
+    <e lm="plicar"><i>plic</i><par n="cant/ar__vblex"/></e>
+    <e lm="pontar"><i>pont</i><par n="cant/ar__vblex"/></e>
+    <e lm="portar"><i>port</i><par n="cant/ar__vblex"/></e>
+    <e lm="precar"><i>prec</i><par n="cant/ar__vblex"/></e>
+    <e lm="preparar"><i>prepar</i><par n="cant/ar__vblex"/></e>
+    <e lm="prestar"><i>prest</i><par n="cant/ar__vblex"/></e>
+    <e lm="privar"><i>priv</i><par n="cant/ar__vblex"/></e>
+    <e lm="projectar"><i>project</i><par n="cant/ar__vblex"/></e>
+    <e lm="prolificar"><i>prolific</i><par n="cant/ar__vblex"/></e>
+    <e lm="propagar"><i>propag</i><par n="cant/ar__vblex"/></e>
+    <e lm="provocar"><i>provoc</i><par n="cant/ar__vblex"/></e>
+    <e lm="publicar"><i>public</i><par n="cant/ar__vblex"/></e>
+    <e lm="querelar"><i>querel</i><par n="cant/ar__vblex"/></e>
+    <e lm="questionar"><i>question</i><par n="cant/ar__vblex"/></e>
+    <e lm="quitar"><i>quit</i><par n="cant/ar__vblex"/></e>
+    <e lm="quotisar"><i>quotis</i><par n="cant/ar__vblex"/></e>
+    <e lm="recommendar"><i>recommend</i><par n="cant/ar__vblex"/></e>
+    <e lm="refrenar"><i>refren</i><par n="cant/ar__vblex"/></e>
+    <e lm="reinfortiar"><i>reinforti</i><par n="cant/ar__vblex"/></e>
+    <e lm="reparar"><i>repar</i><par n="cant/ar__vblex"/></e>
+    <e lm="replicar"><i>replic</i><par n="cant/ar__vblex"/></e>
+    <e lm="reportar"><i>report</i><par n="cant/ar__vblex"/></e>
+    <e lm="reprimendar"><i>reprimend</i><par n="cant/ar__vblex"/></e>
+    <e lm="repulsar"><i>repuls</i><par n="cant/ar__vblex"/></e>
+    <e lm="respirar"><i>respir</i><par n="cant/ar__vblex"/></e>
+    <e lm="retirar"><i>retir</i><par n="cant/ar__vblex"/></e>
+    <e lm="revelar"><i>revel</i><par n="cant/ar__vblex"/></e>
+    <e lm="reversar"><i>revers</i><par n="cant/ar__vblex"/></e>
+    <e lm="revocar"><i>revoc</i><par n="cant/ar__vblex"/></e>
+    <e lm="ructar"><i>ruct</i><par n="cant/ar__vblex"/></e>
+    <e lm="ruinar"><i>ruin</i><par n="cant/ar__vblex"/></e>
+    <e lm="saltar"><i>salt</i><par n="cant/ar__vblex"/></e>
+    <e lm="sanguinar"><i>sanguin</i><par n="cant/ar__vblex"/></e>
+    <e lm="selectionar"><i>selection</i><par n="cant/ar__vblex"/></e>
+    <e lm="serrar"><i>serr</i><par n="cant/ar__vblex"/></e>
+    <e lm="sonar"><i>son</i><par n="cant/ar__vblex"/></e>
+    <e lm="stigmatisar"><i>stigmatis</i><par n="cant/ar__vblex"/></e>
+    <e lm="stimular"><i>stimul</i><par n="cant/ar__vblex"/></e>
+    <e lm="sufflar"><i>suffl</i><par n="cant/ar__vblex"/></e>
+    <e lm="suffocar"><i>suffoc</i><par n="cant/ar__vblex"/></e>
+    <e lm="summar"><i>summ</i><par n="cant/ar__vblex"/></e>
+    <e lm="superar"><i>super</i><par n="cant/ar__vblex"/></e>
+    <e lm="telephonar"><i>telephon</i><par n="cant/ar__vblex"/></e>
+    <e lm="tolerar"><i>toler</i><par n="cant/ar__vblex"/></e>
+    <e lm="tormentar"><i>torment</i><par n="cant/ar__vblex"/></e>
+    <e lm="tranquilisar"><i>tranquilis</i><par n="cant/ar__vblex"/></e>
+    <e lm="transvasar"><i>transvas</i><par n="cant/ar__vblex"/></e>
+    <e lm="trocar"><i>troc</i><par n="cant/ar__vblex"/></e>
+    <e lm="trompettar"><i>trompett</i><par n="cant/ar__vblex"/></e>
+    <e lm="ultrapassar"><i>ultrapass</i><par n="cant/ar__vblex"/></e>
+    <e lm="vacuar"><i>vacu</i><par n="cant/ar__vblex"/></e>
+    <e lm="vantar"><i>vant</i><par n="cant/ar__vblex"/></e>
+    <e lm="verificar"><i>verific</i><par n="cant/ar__vblex"/></e>
+    <e lm="vesicar"><i>vesic</i><par n="cant/ar__vblex"/></e>
+    <e lm="vexar"><i>vex</i><par n="cant/ar__vblex"/></e>
+    <e lm="vociferar"><i>vocifer</i><par n="cant/ar__vblex"/></e>
 
   <e lm="confunder"><i>confund</i><par n="cred/er__vblex"/></e>
-<e lm="signar"><i>signa</i><par n="canta/r__vblex"/></e>
+<e lm="signar"><i>sign</i><par n="cant/ar__vblex"/></e>
 <e lm="stupefacer"><i>stupefac</i><par n="cred/er__vblex"/></e>
-<e lm="distantiar"><i>distantia</i><par n="canta/r__vblex"/></e>
+<e lm="distantiar"><i>distanti</i><par n="cant/ar__vblex"/></e>
 <e lm="abstiner"><i>abstin</i><par n="cred/er__vblex"/></e>
 <e lm="deluder"><i>delud</i><par n="cred/er__vblex"/></e>
 <e lm="premer"><i>prem</i><par n="cred/er__vblex"/></e>
-<e lm="tranquillisar"><i>tranquillisa</i><par n="canta/r__vblex"/></e>
-<e lm="accentuar"><i>accentua</i><par n="canta/r__vblex"/></e>
-<e lm="variar"><i>varia</i><par n="canta/r__vblex"/></e>
+<e lm="tranquillisar"><i>tranquillis</i><par n="cant/ar__vblex"/></e>
+<e lm="accentuar"><i>accentu</i><par n="cant/ar__vblex"/></e>
+<e lm="variar"><i>vari</i><par n="cant/ar__vblex"/></e>
 <e lm="adjunger"><i>adjung</i><par n="cred/er__vblex"/></e>
-<e lm="approchar"><i>approcha</i><par n="canta/r__vblex"/></e>
+<e lm="approchar"><i>approch</i><par n="cant/ar__vblex"/></e>
 <e lm="conjunger"><i>conjung</i><par n="cred/er__vblex"/></e>
-<e lm="obstinar"><i>obstina</i><par n="canta/r__vblex"/></e>
-<e lm="inviar"><i>invia</i><par n="canta/r__vblex"/></e>
-<e lm="renovar"><i>renova</i><par n="canta/r__vblex"/></e>
-<e lm="reprimendar"><i>reprimenda</i><par n="canta/r__vblex"/></e>
-<e lm="consecrar"><i>consecra</i><par n="canta/r__vblex"/></e>
-<e lm="debilitar"><i>debilita</i><par n="canta/r__vblex"/></e>
-<e lm="agitar"><i>agita</i><par n="canta/r__vblex"/></e>
+<e lm="obstinar"><i>obstin</i><par n="cant/ar__vblex"/></e>
+<e lm="inviar"><i>invi</i><par n="cant/ar__vblex"/></e>
+<e lm="renovar"><i>renov</i><par n="cant/ar__vblex"/></e>
+<e lm="reprimendar"><i>reprimend</i><par n="cant/ar__vblex"/></e>
+<e lm="consecrar"><i>consecr</i><par n="cant/ar__vblex"/></e>
+<e lm="debilitar"><i>debilit</i><par n="cant/ar__vblex"/></e>
+<e lm="agitar"><i>agit</i><par n="cant/ar__vblex"/></e>
 <e lm="cader"><i>cad</i><par n="cred/er__vblex"/></e>
-<e lm="assecurar"><i>assecura</i><par n="canta/r__vblex"/></e>
+<e lm="assecurar"><i>assecur</i><par n="cant/ar__vblex"/></e>
 <e lm="apparer"><i>appar</i><par n="cred/er__vblex"/></e>
 <e lm="fluer"><i>flu</i><par n="cred/er__vblex"/></e>
-<e lm="espaventar"><i>espaventa</i><par n="canta/r__vblex"/></e>
+<e lm="espaventar"><i>espavent</i><par n="cant/ar__vblex"/></e>
 <e lm="attraher"><i>attrah</i><par n="cred/er__vblex"/></e>
-<e lm="affrontar"><i>affronta</i><par n="canta/r__vblex"/></e>
-<e lm="vestir"><i>vesti</i><par n="parti/r__vblex"/></e>
-<e lm="agglutinar"><i>agglutina</i><par n="canta/r__vblex"/></e>
-<e lm="exasperar"><i>exaspera</i><par n="canta/r__vblex"/></e>
-<e lm="agonisar"><i>agonisa</i><par n="canta/r__vblex"/></e>
-<e lm="augmentar"><i>augmenta</i><par n="canta/r__vblex"/></e>
-<e lm="attaccar"><i>attacca</i><par n="canta/r__vblex"/></e>
+<e lm="affrontar"><i>affront</i><par n="cant/ar__vblex"/></e>
+<e lm="vestir"><i>vest</i><par n="part/ir__vblex"/></e>
+<e lm="agglutinar"><i>agglutin</i><par n="cant/ar__vblex"/></e>
+<e lm="exasperar"><i>exasper</i><par n="cant/ar__vblex"/></e>
+<e lm="agonisar"><i>agonis</i><par n="cant/ar__vblex"/></e>
+<e lm="augmentar"><i>augment</i><par n="cant/ar__vblex"/></e>
+<e lm="attaccar"><i>attacc</i><par n="cant/ar__vblex"/></e>
 <e lm="diriger"><i>dirig</i><par n="cred/er__vblex"/></e>
-<e lm="alarmar"><i>alarma</i><par n="canta/r__vblex"/></e>
-<e lm="dar"><i>da</i><par n="canta/r__vblex"/></e>
-<e lm="pesar"><i>pesa</i><par n="canta/r__vblex"/></e>
-<e lm="ligar"><i>liga</i><par n="canta/r__vblex"/></e>
+<e lm="alarmar"><i>alarm</i><par n="cant/ar__vblex"/></e>
+<e lm="dar"><i>d</i><par n="cant/ar__vblex"/></e>
+<e lm="pesar"><i>pes</i><par n="cant/ar__vblex"/></e>
+<e lm="ligar"><i>lig</i><par n="cant/ar__vblex"/></e>
 <e lm="diminuer"><i>diminu</i><par n="cred/er__vblex"/></e>
-<e lm="adjutar"><i>adjuta</i><par n="canta/r__vblex"/></e>
-<e lm="angustiar"><i>angustia</i><par n="canta/r__vblex"/></e>
+<e lm="adjutar"><i>adjut</i><par n="cant/ar__vblex"/></e>
+<e lm="angustiar"><i>angusti</i><par n="cant/ar__vblex"/></e>
 <e lm="distinguer"><i>distingu</i><par n="cred/er__vblex"/></e>
 <e lm="vider"><i>vid</i><par n="cred/er__vblex"/></e>
-<e lm="applanar"><i>applana</i><par n="canta/r__vblex"/></e>
-<e lm="equipar"><i>equipa</i><par n="canta/r__vblex"/></e>
-<e lm="similar"><i>simila</i><par n="canta/r__vblex"/></e>
-<e lm="impovrir"><i>impovri</i><par n="parti/r__vblex"/></e>
-<e lm="pagar"><i>paga</i><par n="canta/r__vblex"/></e>
-<e lm="excavar"><i>excava</i><par n="canta/r__vblex"/></e>
-<e lm="adaptar"><i>adapta</i><par n="canta/r__vblex"/></e>
-<e lm="projectar"><i>projecta</i><par n="canta/r__vblex"/></e>
-<e lm="arrotundar"><i>arrotunda</i><par n="canta/r__vblex"/></e>
-<e lm="curar"><i>cura</i><par n="canta/r__vblex"/></e>
+<e lm="applanar"><i>applan</i><par n="cant/ar__vblex"/></e>
+<e lm="equipar"><i>equip</i><par n="cant/ar__vblex"/></e>
+<e lm="similar"><i>simil</i><par n="cant/ar__vblex"/></e>
+<e lm="impovrir"><i>impovr</i><par n="part/ir__vblex"/></e>
+<e lm="pagar"><i>pag</i><par n="cant/ar__vblex"/></e>
+<e lm="excavar"><i>excav</i><par n="cant/ar__vblex"/></e>
+<e lm="adaptar"><i>adapt</i><par n="cant/ar__vblex"/></e>
+<e lm="projectar"><i>project</i><par n="cant/ar__vblex"/></e>
+<e lm="arrotundar"><i>arrotund</i><par n="cant/ar__vblex"/></e>
+<e lm="curar"><i>cur</i><par n="cant/ar__vblex"/></e>
 <e lm="sculper"><i>sculp</i><par n="cred/er__vblex"/></e>
-<e lm="obscurar"><i>obscura</i><par n="canta/r__vblex"/></e>
+<e lm="obscurar"><i>obscur</i><par n="cant/ar__vblex"/></e>
 <e lm="occider"><i>occid</i><par n="cred/er__vblex"/></e>
-<e lm="dormir"><i>dormi</i><par n="parti/r__vblex"/></e>
-<e lm="amortir"><i>amorti</i><par n="parti/r__vblex"/></e>
+<e lm="dormir"><i>dorm</i><par n="part/ir__vblex"/></e>
+<e lm="amortir"><i>amort</i><par n="part/ir__vblex"/></e>
 <e lm="prender"><i>prend</i><par n="cred/er__vblex"/></e>
-<e lm="ligar"><i>liga</i><par n="canta/r__vblex"/></e>
-<e lm="attaccar"><i>attacca</i><par n="canta/r__vblex"/></e>
-<e lm="flanar"><i>flana</i><par n="canta/r__vblex"/></e>
-<e lm="harnesar"><i>harnesa</i><par n="canta/r__vblex"/></e>
-<e lm="attaccar"><i>attacca</i><par n="canta/r__vblex"/></e>
-<e lm="atterrar"><i>atterra</i><par n="canta/r__vblex"/></e>
+<e lm="ligar"><i>lig</i><par n="cant/ar__vblex"/></e>
+<e lm="attaccar"><i>attacc</i><par n="cant/ar__vblex"/></e>
+<e lm="flanar"><i>flan</i><par n="cant/ar__vblex"/></e>
+<e lm="harnesar"><i>harnes</i><par n="cant/ar__vblex"/></e>
+<e lm="attaccar"><i>attacc</i><par n="cant/ar__vblex"/></e>
+<e lm="atterrar"><i>atterr</i><par n="cant/ar__vblex"/></e>
 <e lm="accender"><i>accend</i><par n="cred/er__vblex"/></e>
 <e lm="affliger"><i>afflig</i><par n="cred/er__vblex"/></e>
 <e lm="revider"><i>revid</i><par n="cred/er__vblex"/></e>
-<e lm="garantir"><i>garanti</i><par n="parti/r__vblex"/></e>
+<e lm="garantir"><i>garant</i><par n="part/ir__vblex"/></e>
 <e lm="preferer"><i>prefer</i><par n="cred/er__vblex"/></e>
-<e lm="damnificar"><i>damnifica</i><par n="canta/r__vblex"/></e>
-<e lm="osar"><i>osa</i><par n="canta/r__vblex"/></e>
-<e lm="concentrar"><i>concentra</i><par n="canta/r__vblex"/></e>
-<e lm="luctar"><i>lucta</i><par n="canta/r__vblex"/></e>
-<e lm="dansar"><i>dansa</i><par n="canta/r__vblex"/></e>
-<e lm="disobligar"><i>disobliga</i><par n="canta/r__vblex"/></e>
-<e lm="barricadar"><i>barricada</i><par n="canta/r__vblex"/></e>
-<e lm="luctar"><i>lucta</i><par n="canta/r__vblex"/></e>
-<e lm="travaliar"><i>travalia</i><par n="canta/r__vblex"/></e>
+<e lm="damnificar"><i>damnific</i><par n="cant/ar__vblex"/></e>
+<e lm="osar"><i>os</i><par n="cant/ar__vblex"/></e>
+<e lm="concentrar"><i>concentr</i><par n="cant/ar__vblex"/></e>
+<e lm="luctar"><i>luct</i><par n="cant/ar__vblex"/></e>
+<e lm="dansar"><i>dans</i><par n="cant/ar__vblex"/></e>
+<e lm="disobligar"><i>disoblig</i><par n="cant/ar__vblex"/></e>
+<e lm="barricadar"><i>barricad</i><par n="cant/ar__vblex"/></e>
+<e lm="luctar"><i>luct</i><par n="cant/ar__vblex"/></e>
+<e lm="travaliar"><i>travali</i><par n="cant/ar__vblex"/></e>
 <e lm="tumer"><i>tum</i><par n="cred/er__vblex"/></e>
-<e lm="saltar"><i>salta</i><par n="canta/r__vblex"/></e>
-<e lm="meliorar"><i>meliora</i><par n="canta/r__vblex"/></e>
-<e lm="bordar"><i>borda</i><par n="canta/r__vblex"/></e>
-<e lm="limitar"><i>limita</i><par n="canta/r__vblex"/></e>
-<e lm="calcar"><i>calca</i><par n="canta/r__vblex"/></e>
+<e lm="saltar"><i>salt</i><par n="cant/ar__vblex"/></e>
+<e lm="meliorar"><i>melior</i><par n="cant/ar__vblex"/></e>
+<e lm="bordar"><i>bord</i><par n="cant/ar__vblex"/></e>
+<e lm="limitar"><i>limit</i><par n="cant/ar__vblex"/></e>
+<e lm="calcar"><i>calc</i><par n="cant/ar__vblex"/></e>
 <e lm="clauder"><i>claud</i><par n="cred/er__vblex"/></e>
 <e lm="clauder"><i>claud</i><par n="cred/er__vblex"/></e>
-<e lm="rolar"><i>rola</i><par n="canta/r__vblex"/></e>
-<e lm="perturbar"><i>perturba</i><par n="canta/r__vblex"/></e>
-<e lm="plenar"><i>plena</i><par n="canta/r__vblex"/></e>
-<e lm="buttonar"><i>buttona</i><par n="canta/r__vblex"/></e>
+<e lm="rolar"><i>rol</i><par n="cant/ar__vblex"/></e>
+<e lm="perturbar"><i>perturb</i><par n="cant/ar__vblex"/></e>
+<e lm="plenar"><i>plen</i><par n="cant/ar__vblex"/></e>
+<e lm="buttonar"><i>button</i><par n="cant/ar__vblex"/></e>
 <e lm="accender"><i>accend</i><par n="cred/er__vblex"/></e>
-<e lm="ligar"><i>liga</i><par n="canta/r__vblex"/></e>
+<e lm="ligar"><i>lig</i><par n="cant/ar__vblex"/></e>
 <e lm="suer"><i>su</i><par n="cred/er__vblex"/></e>
-<e lm="mentir"><i>menti</i><par n="parti/r__vblex"/></e>
-<e lm="hesitar"><i>hesita</i><par n="canta/r__vblex"/></e>
-<e lm="apportar"><i>apporta</i><par n="canta/r__vblex"/></e>
-<e lm="sigillar"><i>sigilla</i><par n="canta/r__vblex"/></e>
-<e lm="concordar"><i>concorda</i><par n="canta/r__vblex"/></e>
-<e lm="congelar"><i>congela</i><par n="canta/r__vblex"/></e>
+<e lm="mentir"><i>ment</i><par n="part/ir__vblex"/></e>
+<e lm="hesitar"><i>hesit</i><par n="cant/ar__vblex"/></e>
+<e lm="apportar"><i>apport</i><par n="cant/ar__vblex"/></e>
+<e lm="sigillar"><i>sigill</i><par n="cant/ar__vblex"/></e>
+<e lm="concordar"><i>concord</i><par n="cant/ar__vblex"/></e>
+<e lm="congelar"><i>congel</i><par n="cant/ar__vblex"/></e>
 <e lm="accender"><i>accend</i><par n="cred/er__vblex"/></e>
-<e lm="appoiar"><i>appoia</i><par n="canta/r__vblex"/></e>
-<e lm="adressar"><i>adressa</i><par n="canta/r__vblex"/></e>
+<e lm="appoiar"><i>appoi</i><par n="cant/ar__vblex"/></e>
+<e lm="adressar"><i>adress</i><par n="cant/ar__vblex"/></e>
 <e lm="prender"><i>prend</i><par n="cred/er__vblex"/></e>
-<e lm="caricaturar"><i>caricatura</i><par n="canta/r__vblex"/></e>
-<e lm="editar"><i>edita</i><par n="canta/r__vblex"/></e>
+<e lm="caricaturar"><i>caricatur</i><par n="cant/ar__vblex"/></e>
+<e lm="editar"><i>edit</i><par n="cant/ar__vblex"/></e>
 <e lm="poner"><i>pon</i><par n="cred/er__vblex"/></e>
-<e lm="quartierar"><i>quartiera</i><par n="canta/r__vblex"/></e>
-<e lm="pulverisar"><i>pulverisa</i><par n="canta/r__vblex"/></e>
-<e lm="garantir"><i>garanti</i><par n="parti/r__vblex"/></e>
+<e lm="quartierar"><i>quartier</i><par n="cant/ar__vblex"/></e>
+<e lm="pulverisar"><i>pulveris</i><par n="cant/ar__vblex"/></e>
+<e lm="garantir"><i>garant</i><par n="part/ir__vblex"/></e>
 <e lm="caver"><i>cav</i><par n="cred/er__vblex"/></e>
 <e lm="finder"><i>find</i><par n="cred/er__vblex"/></e>
-<e lm="celar"><i>cela</i><par n="canta/r__vblex"/></e>
-<e lm="centrar"><i>centra</i><par n="canta/r__vblex"/></e>
-<e lm="incircular"><i>incircula</i><par n="canta/r__vblex"/></e>
-<e lm="decorar"><i>decora</i><par n="canta/r__vblex"/></e>
-<e lm="isolar"><i>isola</i><par n="canta/r__vblex"/></e>
-<e lm="reprimendar"><i>reprimenda</i><par n="canta/r__vblex"/></e>
-<e lm="incantar"><i>incanta</i><par n="canta/r__vblex"/></e>
-<e lm="portar"><i>porta</i><par n="canta/r__vblex"/></e>
+<e lm="celar"><i>cel</i><par n="cant/ar__vblex"/></e>
+<e lm="centrar"><i>centr</i><par n="cant/ar__vblex"/></e>
+<e lm="incircular"><i>incircul</i><par n="cant/ar__vblex"/></e>
+<e lm="decorar"><i>decor</i><par n="cant/ar__vblex"/></e>
+<e lm="isolar"><i>isol</i><par n="cant/ar__vblex"/></e>
+<e lm="reprimendar"><i>reprimend</i><par n="cant/ar__vblex"/></e>
+<e lm="incantar"><i>incant</i><par n="cant/ar__vblex"/></e>
+<e lm="portar"><i>port</i><par n="cant/ar__vblex"/></e>
 <e lm="inverter"><i>invert</i><par n="cred/er__vblex"/></e>
-<e lm="promenar"><i>promena</i><par n="canta/r__vblex"/></e>
+<e lm="promenar"><i>promen</i><par n="cant/ar__vblex"/></e>
 <e lm="ascender"><i>ascend</i><par n="cred/er__vblex"/></e>
-<e lm="vexar"><i>vexa</i><par n="canta/r__vblex"/></e>
+<e lm="vexar"><i>vex</i><par n="cant/ar__vblex"/></e>
 <e lm="cader"><i>cad</i><par n="cred/er__vblex"/></e>
-<e lm="polir"><i>poli</i><par n="parti/r__vblex"/></e>
-<e lm="critar"><i>crita</i><par n="canta/r__vblex"/></e>
-<e lm="ordinar"><i>ordina</i><par n="canta/r__vblex"/></e>
-<e lm="palpebrar"><i>palpebra</i><par n="canta/r__vblex"/></e>
-<e lm="imprisionar"><i>imprisiona</i><par n="canta/r__vblex"/></e>
-<e lm="morir"><i>mori</i><par n="parti/r__vblex"/></e>
+<e lm="polir"><i>pol</i><par n="part/ir__vblex"/></e>
+<e lm="critar"><i>crit</i><par n="cant/ar__vblex"/></e>
+<e lm="ordinar"><i>ordin</i><par n="cant/ar__vblex"/></e>
+<e lm="palpebrar"><i>palpebr</i><par n="cant/ar__vblex"/></e>
+<e lm="imprisionar"><i>imprision</i><par n="cant/ar__vblex"/></e>
+<e lm="morir"><i>mor</i><par n="part/ir__vblex"/></e>
 <e lm="superviver"><i>superviv</i><par n="cred/er__vblex"/></e>
 <e lm="colliger"><i>collig</i><par n="cred/er__vblex"/></e>
-<e lm="colorar"><i>colora</i><par n="canta/r__vblex"/></e>
+<e lm="colorar"><i>color</i><par n="cant/ar__vblex"/></e>
 <e lm="miscer"><i>misc</i><par n="cred/er__vblex"/></e>
 <e lm="committer"><i>committ</i><par n="cred/er__vblex"/></e>
 
      <!-- Added by rodmguerra - Testing Imperio Romano book -->
-     <e lm="liberar"><i>libera</i><par n="canta/r__vblex"/></e>
-     <e lm="crear"><i>crea</i><par n="canta/r__vblex"/></e>
-     <e lm="elaborar"><i>elabora</i><par n="canta/r__vblex"/></e>
+     <e lm="liberar"><i>liber</i><par n="cant/ar__vblex"/></e>
+     <e lm="crear"><i>cre</i><par n="cant/ar__vblex"/></e>
+     <e lm="elaborar"><i>elabor</i><par n="cant/ar__vblex"/></e>
 
 <e lm="actualitate"><i>actualitate</i><par n="catto__n"/></e>
 <e lm="prorogar"><i>prorogar</i><par n="can__n"/></e>
@@ -4381,6 +4340,323 @@ viste {prep} considering, in view of; viste que considering that
      <e lm="ni"><p><l>ni</l>         <r>ni<s n="cnjcoo"/></r></p></e>
      <e lm="nec"><p><l>nec</l>        <r>nec<s n="cnjcoo"/></r></p></e>
      <e lm="depost"><p><l>depost</l>   <r>depost<s n="adv"/></r></p></e>
+
+
+     <!--    Verbs -->
+
+
+     <e lm="esser"><i></i><par n="/esser__vblex"/></e>
+     <e lm="esser"><i></i><par n="/esser__vbser"/></e>
+     <e lm="haber"><i>ha</i><par n="ha/ber__vbhaver"/></e>
+     <e lm="haber"><i>ha</i><par n="ha/ber__vblex"/></e>
+     <e lm="poter"><i>pot</i><par n="cred/er__vblex"/></e>
+     <e lm="poter"><i>pot</i><par n="pot/er__vbmod"/></e>
+     <e lm="ir"><i></i><par n="ir_vader__vblex"/></e>
+     <e lm="soler"><i>sol</i><par n="cred/er__vblex"/></e>
+     <e lm="soler"><i>sol</i><par n="pot/er__vbmod"/></e>
+     <e lm="deber"><i>deb</i><par n="cred/er__vblex"/></e>
+     <e lm="deber"><i>deb</i><par n="pot/er__vbmod"/></e>
+
+
+     <!-- 300 most common verbs (based on Spanish corpus) -->
+     <e lm="facer"><i>fac</i><par n="cred/er__vblex"/></e>
+     <e lm="dicer"><i>dic</i><par n="cred/er__vblex"/></e>
+     <e lm="vider"><i>vid</i><par n="cred/er__vblex"/></e>
+     <e lm="dar"><i>d</i><par n="cant/ar__vblex"/></e>
+     <e lm="deber"><i>deb</i><par n="cred/er__vblex"/></e>
+     <e lm="voler"><i>vol</i><par n="cred/er__vblex"/></e>
+     <e lm="saper"><i>sap</i><par n="cred/er__vblex"/></e>
+     <e lm="passar"><i>pass</i><par n="cant/ar__vblex"/></e>
+     <e lm="lassar"><i>lass</i><par n="cant/ar__vblex"/></e>
+     <e lm="trovar"><i>trov</i><par n="cant/ar__vblex"/></e>
+     <e lm="arrivar"><i>arriv</i><par n="cant/ar__vblex"/></e>
+     <e lm="sequer"><i>sequ</i><par n="cred/er__vblex"/></e>
+     <e lm="creder"><i>cred</i><par n="cred/er__vblex"/></e>
+     <e lm="poner"><i>pon</i><par n="cred/er__vblex"/></e>
+     <e lm="levar"><i>lev</i><par n="cant/ar__vblex"/></e>
+     <e lm="cognoscer"><i>cognosc</i><par n="cred/er__vblex"/></e>
+     <e lm="parlar"><i>parl</i><par n="cant/ar__vblex"/></e>
+     <e lm="pensar"><i>pens</i><par n="cant/ar__vblex"/></e>
+     <e lm="parer"><i>par</i><par n="cred/er__vblex"/></e>
+     <e lm="remaner"><i>reman</i><par n="cred/er__vblex"/></e>
+     <e lm="prender"><i>prend</i><par n="cred/er__vblex"/></e>
+     <e lm="realisar"><i>realis</i><par n="cant/ar__vblex"/></e>
+     <e lm="viver"><i>viv</i><par n="cred/er__vblex"/></e>
+     <e lm="tractar"><i>tract</i><par n="cant/ar__vblex"/></e>
+     <e lm="sentir"><i>sent</i><par n="part/ir__vblex"/></e>
+     <e lm="exir"><i>ex</i><par n="part/ir__vblex"/></e>
+     <e lm="exister"><i>exist</i><par n="cred/er__vblex"/></e>
+     <e lm="permitter"><i>permitt</i><par n="cred/er__vblex"/></e>
+     <e lm="attender"><i>attend</i><par n="cred/er__vblex"/></e>
+     <e lm="leger"><i>leg</i><par n="cred/er__vblex"/></e>
+     <e lm="appellar"><i>appell</i><par n="cant/ar__vblex"/></e>
+     <e lm="cercar"><i>cerc</i><par n="cant/ar__vblex"/></e>
+     <e lm="crear"><i>cre</i><par n="cant/ar__vblex"/></e>
+     <e lm="venir"><i>ven</i><par n="part/ir__vblex"/></e>
+     <e lm="placer"><i>plac</i><par n="cred/er__vblex"/></e>
+     <e lm="retornar"><i>retorn</i><par n="cant/ar__vblex"/></e>
+     <e lm="contar"><i>cont</i><par n="cant/ar__vblex"/></e>
+     <e lm="laborar"><i>labor</i><par n="cant/ar__vblex"/></e>
+     <e lm="scriber"><i>scrib</i><par n="cred/er__vblex"/></e>
+     <e lm="utilisar"><i>utilis</i><par n="cant/ar__vblex"/></e>
+     <e lm="presentar"><i>present</i><par n="cant/ar__vblex"/></e>
+     <e lm="usar"><i>us</i><par n="cant/ar__vblex"/></e>
+     <e lm="reciper"><i>recip</i><par n="cred/er__vblex"/></e>
+     <e lm="considerar"><i>consider</i><par n="cant/ar__vblex"/></e>
+     <e lm="adjutar"><i>adjut</i><par n="cant/ar__vblex"/></e>
+     <e lm="necessitar"><i>necessit</i><par n="cant/ar__vblex"/></e>
+     <e lm="succeder"><i>succed</i><par n="cred/er__vblex"/></e>
+     <e lm="comprender"><i>comprend</i><par n="cred/er__vblex"/></e>
+     <e lm="perder"><i>perd</i><par n="cred/er__vblex"/></e>
+     <e lm="cambiar"><i>cambi</i><par n="cant/ar__vblex"/></e>
+     <e lm="peter"><i>pet</i><par n="cred/er__vblex"/></e>
+     <e lm="comenciar"><i>comenci</i><par n="cant/ar__vblex"/></e>
+     <e lm="memorar"><i>memor</i><par n="cant/ar__vblex"/></e>
+     <e lm="mantener"><i>manten</i><par n="cred/er__vblex"/></e>
+     <e lm="devenir"><i>deven</i><par n="part/ir__vblex"/></e>
+     <e lm="monstrar"><i>monstr</i><par n="cant/ar__vblex"/></e>
+     <e lm="comenciar"><i>comenci</i><par n="cant/ar__vblex"/></e>
+     <e lm="producer"><i>produc</i><par n="cred/er__vblex"/></e>
+     <e lm="publicar"><i>public</i><par n="cant/ar__vblex"/></e>
+     <e lm="explicar"><i>explic</i><par n="cant/ar__vblex"/></e>
+     <e lm="includer"><i>includ</i><par n="cred/er__vblex"/></e>
+     <e lm="offerer"><i>offer</i><par n="cred/er__vblex"/></e>
+     <e lm="ganiar"><i>gani</i><par n="cant/ar__vblex"/></e>
+     <e lm="terminar"><i>termin</i><par n="cant/ar__vblex"/></e>
+     <e lm="aperir"><i>aper</i><par n="part/ir__vblex"/></e>
+     <e lm="questionar"><i>question</i><par n="cant/ar__vblex"/></e>
+     <e lm="entrar"><i>entr</i><par n="cant/ar__vblex"/></e>
+     <e lm="resultar"><i>result</i><par n="cant/ar__vblex"/></e>
+     <e lm="pagar"><i>pag</i><par n="cant/ar__vblex"/></e>
+     <e lm="developpar"><i>developp</i><par n="cant/ar__vblex"/></e>
+     <e lm="complir"><i>compl</i><par n="part/ir__vblex"/></e>
+     <e lm="occurrer"><i>occurr</i><par n="cred/er__vblex"/></e>
+     <e lm="condivider"><i>condivid</i><par n="cred/er__vblex"/></e>
+     <e lm="apparer"><i>appar</i><par n="cred/er__vblex"/></e>
+     <e lm="jocar"><i>joc</i><par n="cant/ar__vblex"/></e>
+     <e lm="servir"><i>serv</i><par n="part/ir__vblex"/></e>
+     <e lm="decider"><i>decid</i><par n="cred/er__vblex"/></e>
+     <e lm="obtener"><i>obten</i><par n="cred/er__vblex"/></e>
+     <e lm="apprender"><i>apprend</i><par n="cred/er__vblex"/></e>
+     <e lm="establir"><i>establ</i><par n="part/ir__vblex"/></e>
+     <e lm="formar"><i>form</i><par n="cant/ar__vblex"/></e>
+     <e lm="generar"><i>gener</i><par n="cant/ar__vblex"/></e>
+     <e lm="ascoltar"><i>ascolt</i><par n="cant/ar__vblex"/></e>
+     <e lm="assecurar"><i>assecur</i><par n="cant/ar__vblex"/></e>
+     <e lm="comprar"><i>compr</i><par n="cant/ar__vblex"/></e>
+     <e lm="morir"><i>mor</i><par n="part/ir__vblex"/></e>
+     <e lm="recognoscer"><i>recognosc</i><par n="cred/er__vblex"/></e>
+     <e lm="obtener"><i>obten</i><par n="cred/er__vblex"/></e>
+     <e lm="signalar"><i>signal</i><par n="cant/ar__vblex"/></e>
+     <e lm="reguardar"><i>reguard</i><par n="cant/ar__vblex"/></e>
+     <e lm="retirar"><i>retir</i><par n="cant/ar__vblex"/></e>
+     <e lm="indicar"><i>indic</i><par n="cant/ar__vblex"/></e>
+     <e lm="evitar"><i>evit</i><par n="cant/ar__vblex"/></e>
+     <e lm="tentar"><i>tent</i><par n="cant/ar__vblex"/></e>
+     <e lm="finir"><i>fin</i><par n="part/ir__vblex"/></e>
+     <e lm="participar"><i>particip</i><par n="cant/ar__vblex"/></e>
+     <e lm="cader"><i>cad</i><par n="cred/er__vblex"/></e>
+     <e lm="responder"><i>respond</i><par n="cred/er__vblex"/></e>
+     <e lm="significar"><i>signific</i><par n="cant/ar__vblex"/></e>
+     <e lm="desirar"><i>desir</i><par n="cant/ar__vblex"/></e>
+     <e lm="inviar"><i>invi</i><par n="cant/ar__vblex"/></e>
+     <e lm="referer"><i>refer</i><par n="cred/er__vblex"/></e>
+     <e lm="demonstrar"><i>demonstr</i><par n="cant/ar__vblex"/></e>
+     <e lm="acceptar"><i>accept</i><par n="cant/ar__vblex"/></e>
+     <e lm="affirmar"><i>affirm</i><par n="cant/ar__vblex"/></e>
+     <e lm="diriger"><i>dirig</i><par n="cred/er__vblex"/></e>
+     <e lm="nascer"><i>nasc</i><par n="cred/er__vblex"/></e>
+     <e lm="meliorar"><i>melior</i><par n="cant/ar__vblex"/></e>
+     <e lm="mangiar"><i>mangi</i><par n="cant/ar__vblex"/></e>
+     <e lm="commentar"><i>comment</i><par n="cant/ar__vblex"/></e>
+     <e lm="attinger"><i>atting</i><par n="cred/er__vblex"/></e>
+     <e lm="suffrer"><i>suffr</i><par n="cred/er__vblex"/></e>
+     <e lm="evenir"><i>even</i><par n="part/ir__vblex"/></e>
+     <e lm="exprimer"><i>exprim</i><par n="cred/er__vblex"/></e>
+     <e lm="representar"><i>represent</i><par n="cant/ar__vblex"/></e>
+     <e lm="continuar"><i>continu</i><par n="cant/ar__vblex"/></e>
+     <e lm="applicar"><i>applic</i><par n="cant/ar__vblex"/></e>
+     <e lm="vender"><i>vend</i><par n="cred/er__vblex"/></e>
+     <e lm="dedicar"><i>dedic</i><par n="cant/ar__vblex"/></e>
+     <e lm="functionar"><i>function</i><par n="cant/ar__vblex"/></e>
+     <e lm="toccar"><i>tocc</i><par n="cant/ar__vblex"/></e>
+     <e lm="informar"><i>inform</i><par n="cant/ar__vblex"/></e>
+     <e lm="eliger"><i>elig</i><par n="cred/er__vblex"/></e>
+     <e lm="oblidar"><i>oblid</i><par n="cant/ar__vblex"/></e>
+     <e lm="construer"><i>constru</i><par n="cred/er__vblex"/></e>
+     <e lm="supponer"><i>suppon</i><par n="cred/er__vblex"/></e>
+     <e lm="affectar"><i>affect</i><par n="cant/ar__vblex"/></e>
+     <e lm="discoperir"><i>discoper</i><par n="part/ir__vblex"/></e>
+     <e lm="apportar"><i>apport</i><par n="cant/ar__vblex"/></e>
+     <e lm="initiar"><i>initi</i><par n="cant/ar__vblex"/></e>
+     <e lm="requirer"><i>requir</i><par n="cred/er__vblex"/></e>
+     <e lm="emphatisar"><i>emphatis</i><par n="cant/ar__vblex"/></e>
+     <e lm="amar"><i>am</i><par n="cant/ar__vblex"/></e>
+     <e lm="disponer"><i>dispon</i><par n="cred/er__vblex"/></e>
+     <e lm="basar"><i>bas</i><par n="cant/ar__vblex"/></e>
+     <e lm="crescer"><i>cresc</i><par n="cred/er__vblex"/></e>
+     <e lm="fruer"><i>fru</i><par n="cred/er__vblex"/></e>
+     <e lm="augmentar"><i>augment</i><par n="cant/ar__vblex"/></e>
+     <e lm="preparar"><i>prepar</i><par n="cant/ar__vblex"/></e>
+     <e lm="studiar"><i>studi</i><par n="cant/ar__vblex"/></e>
+     <e lm="soler"><i>sol</i><par n="cred/er__vblex"/></e>
+     <e lm="depender"><i>depend</i><par n="cred/er__vblex"/></e>
+     <e lm="proponer"><i>propon</i><par n="cred/er__vblex"/></e>
+     <e lm="livrar"><i>livr</i><par n="cant/ar__vblex"/></e>
+     <e lm="appoiar"><i>appoi</i><par n="cant/ar__vblex"/></e>
+     <e lm="importar"><i>import</i><par n="cant/ar__vblex"/></e>
+     <e lm="continer"><i>contin</i><par n="cred/er__vblex"/></e>
+     <e lm="recommendar"><i>recommend</i><par n="cant/ar__vblex"/></e>
+     <e lm="actuar"><i>actu</i><par n="cant/ar__vblex"/></e>
+     <e lm="observar"><i>observ</i><par n="cant/ar__vblex"/></e>
+     <e lm="comprender"><i>comprend</i><par n="cred/er__vblex"/></e>
+     <e lm="accompaniar"><i>accompani</i><par n="cant/ar__vblex"/></e>
+     <e lm="definir"><i>defin</i><par n="part/ir__vblex"/></e>
+     <e lm="causar"><i>caus</i><par n="cant/ar__vblex"/></e>
+     <e lm="reducer"><i>reduc</i><par n="cred/er__vblex"/></e>
+     <e lm="ascender"><i>ascend</i><par n="cred/er__vblex"/></e>
+     <e lm="inseniar"><i>inseni</i><par n="cant/ar__vblex"/></e>
+     <e lm="adder"><i>add</i><par n="cred/er__vblex"/></e>
+     <e lm="defender"><i>defend</i><par n="cred/er__vblex"/></e>
+     <e lm="determinar"><i>determin</i><par n="cant/ar__vblex"/></e>
+     <e lm="currer"><i>curr</i><par n="cred/er__vblex"/></e>
+     <e lm="constituer"><i>constitu</i><par n="cred/er__vblex"/></e>
+     <e lm="cessar"><i>cess</i><par n="cant/ar__vblex"/></e>
+     <e lm="provocar"><i>provoc</i><par n="cant/ar__vblex"/></e>
+     <e lm="visitar"><i>visit</i><par n="cant/ar__vblex"/></e>
+     <e lm="mentionar"><i>mention</i><par n="cant/ar__vblex"/></e>
+     <e lm="bassar"><i>bass</i><par n="cant/ar__vblex"/></e>
+     <e lm="mitter"><i>mitt</i><par n="cred/er__vblex"/></e>
+     <e lm="unir"><i>un</i><par n="part/ir__vblex"/></e>
+     <e lm="pretender"><i>pretend</i><par n="cred/er__vblex"/></e>
+     <e lm="mancar"><i>manc</i><par n="cant/ar__vblex"/></e>
+     <e lm="exponer"><i>expon</i><par n="cred/er__vblex"/></e>
+     <e lm="manifestar"><i>manifest</i><par n="cant/ar__vblex"/></e>
+     <e lm="affrontar"><i>affront</i><par n="cant/ar__vblex"/></e>
+     <e lm="identificar"><i>identific</i><par n="cant/ar__vblex"/></e>
+     <e lm="occupar"><i>occup</i><par n="cant/ar__vblex"/></e>
+     <e lm="declarar"><i>declar</i><par n="cant/ar__vblex"/></e>
+     <e lm="interessar"><i>interess</i><par n="cant/ar__vblex"/></e>
+     <e lm="resolver"><i>resolv</i><par n="cred/er__vblex"/></e>
+     <e lm="probar"><i>prob</i><par n="cant/ar__vblex"/></e>
+     <e lm="obligar"><i>oblig</i><par n="cant/ar__vblex"/></e>
+     <e lm="notar"><i>not</i><par n="cant/ar__vblex"/></e>
+     <e lm="clauder"><i>claud</i><par n="cred/er__vblex"/></e>
+     <e lm="sustener"><i>susten</i><par n="cred/er__vblex"/></e>
+     <e lm="superar"><i>super</i><par n="cant/ar__vblex"/></e>
+     <e lm="occider"><i>occid</i><par n="cred/er__vblex"/></e>
+     <e lm="mover"><i>mov</i><par n="cred/er__vblex"/></e>
+     <e lm="surger"><i>surg</i><par n="cred/er__vblex"/></e>
+     <e lm="collocar"><i>colloc</i><par n="cant/ar__vblex"/></e>
+     <e lm="invitar"><i>invit</i><par n="cant/ar__vblex"/></e>
+     <e lm="annunciar"><i>annunci</i><par n="cant/ar__vblex"/></e>
+     <e lm="celebrar"><i>celebr</i><par n="cant/ar__vblex"/></e>
+     <e lm="adjunger"><i>adjung</i><par n="cred/er__vblex"/></e>
+     <e lm="valer"><i>val</i><par n="cred/er__vblex"/></e>
+     <e lm="marcar"><i>marc</i><par n="cant/ar__vblex"/></e>
+     <e lm="exiger"><i>exig</i><par n="cred/er__vblex"/></e>
+     <e lm="imaginar"><i>imagin</i><par n="cant/ar__vblex"/></e>
+     <e lm="analysar"><i>analys</i><par n="cant/ar__vblex"/></e>
+     <e lm="incantar"><i>incant</i><par n="cant/ar__vblex"/></e>
+     <e lm="profitar"><i>profit</i><par n="cant/ar__vblex"/></e>
+     <e lm="proteger"><i>proteg</i><par n="cred/er__vblex"/></e>
+     <e lm="retirar"><i>retir</i><par n="cant/ar__vblex"/></e>
+     <e lm="preoccupar"><i>preoccup</i><par n="cant/ar__vblex"/></e>
+     <e lm="assumer"><i>assum</i><par n="cred/er__vblex"/></e>
+     <e lm="eliminar"><i>elimin</i><par n="cant/ar__vblex"/></e>
+     <e lm="organisar"><i>organis</i><par n="cant/ar__vblex"/></e>
+     <e lm="corresponder"><i>correspond</i><par n="cred/er__vblex"/></e>
+     <e lm="controllar"><i>controll</i><par n="cant/ar__vblex"/></e>
+     <e lm="implicar"><i>implic</i><par n="cant/ar__vblex"/></e>
+     <e lm="levar"><i>lev</i><par n="cant/ar__vblex"/></e>
+     <e lm="approximar"><i>approxim</i><par n="cant/ar__vblex"/></e>
+     <e lm="sollicitar"><i>sollicit</i><par n="cant/ar__vblex"/></e>
+     <e lm="mandar"><i>mand</i><par n="cant/ar__vblex"/></e>
+     <e lm="negar"><i>neg</i><par n="cant/ar__vblex"/></e>
+     <e lm="apportar"><i>apport</i><par n="cant/ar__vblex"/></e>
+     <e lm="lassar"><i>lass</i><par n="cant/ar__vblex"/></e>
+     <e lm="seder"><i>sed</i><par n="cred/er__vblex"/></e>
+     <e lm="posseder"><i>possed</i><par n="cred/er__vblex"/></e>
+     <e lm="partir"><i>part</i><par n="part/ir__vblex"/></e>
+     <e lm="lancear"><i>lance</i><par n="cant/ar__vblex"/></e>
+     <e lm="repeter"><i>repet</i><par n="cred/er__vblex"/></e>
+     <e lm="camminar"><i>cammin</i><par n="cant/ar__vblex"/></e>
+     <e lm="imponer"><i>impon</i><par n="cred/er__vblex"/></e>
+     <e lm="curar"><i>cur</i><par n="cant/ar__vblex"/></e>
+     <e lm="custar"><i>cust</i><par n="cant/ar__vblex"/></e>
+     <e lm="garantir"><i>garant</i><par n="part/ir__vblex"/></e>
+     <e lm="promover"><i>promov</i><par n="cred/er__vblex"/></e>
+     <e lm="acquirer"><i>acquir</i><par n="cred/er__vblex"/></e>
+     <e lm="regratiar"><i>regrati</i><par n="cant/ar__vblex"/></e>
+     <e lm="registrar"><i>registr</i><par n="cant/ar__vblex"/></e>
+     <e lm="reunir"><i>reun</i><par n="part/ir__vblex"/></e>
+     <e lm="installar"><i>install</i><par n="cant/ar__vblex"/></e>
+     <e lm="viagiar"><i>viagi</i><par n="cant/ar__vblex"/></e>
+     <e lm="regressar"><i>regress</i><par n="cant/ar__vblex"/></e>
+     <e lm="preferer"><i>prefer</i><par n="cred/er__vblex"/></e>
+     <e lm="adjunger"><i>adjung</i><par n="cred/er__vblex"/></e>
+     <e lm="luctar"><i>luct</i><par n="cant/ar__vblex"/></e>
+     <e lm="dormir"><i>dorm</i><par n="part/ir__vblex"/></e>
+     <e lm="exponer"><i>expon</i><par n="cred/er__vblex"/></e>
+     <e lm="audir"><i>aud</i><par n="part/ir__vblex"/></e>
+     <e lm="approbar"><i>approb</i><par n="cant/ar__vblex"/></e>
+     <e lm="confirmar"><i>confirm</i><par n="cant/ar__vblex"/></e>
+     <e lm="detener"><i>deten</i><par n="cred/er__vblex"/></e>
+     <e lm="manear"><i>mane</i><par n="cant/ar__vblex"/></e>
+     <e lm="avantiar"><i>avanti</i><par n="cant/ar__vblex"/></e>
+     <e lm="offerer"><i>offer</i><par n="cred/er__vblex"/></e>
+     <e lm="attender"><i>attend</i><par n="cred/er__vblex"/></e>
+     <e lm="pertiner"><i>pertin</i><par n="cred/er__vblex"/></e>
+     <e lm="meritar"><i>merit</i><par n="cant/ar__vblex"/></e>
+     <e lm="guardar"><i>guard</i><par n="cant/ar__vblex"/></e>
+     <e lm="recuperar"><i>recuper</i><par n="cant/ar__vblex"/></e>
+     <e lm="coperir"><i>coper</i><par n="part/ir__vblex"/></e>
+     <e lm="integrar"><i>integr</i><par n="cant/ar__vblex"/></e>
+     <e lm="revelar"><i>revel</i><par n="cant/ar__vblex"/></e>
+     <e lm="committer"><i>committ</i><par n="cred/er__vblex"/></e>
+     <e lm="respectar"><i>respect</i><par n="cant/ar__vblex"/></e>
+     <e lm="consister"><i>consist</i><par n="cred/er__vblex"/></e>
+     <e lm="conducer"><i>conduc</i><par n="cred/er__vblex"/></e>
+     <e lm="rumper"><i>rump</i><par n="cred/er__vblex"/></e>
+     <e lm="impedir"><i>imped</i><par n="part/ir__vblex"/></e>
+     <e lm="contribuer"><i>contribu</i><par n="cred/er__vblex"/></e>
+     <e lm="describer"><i>describ</i><par n="cred/er__vblex"/></e>
+     <e lm="transmitter"><i>transmitt</i><par n="cred/er__vblex"/></e>
+     <e lm="abandonar"><i>abandon</i><par n="cant/ar__vblex"/></e>
+     <e lm="communicar"><i>communic</i><par n="cant/ar__vblex"/></e>
+     <e lm="disparer"><i>dispar</i><par n="cred/er__vblex"/></e>
+     <e lm="exiger"><i>exig</i><par n="cred/er__vblex"/></e>
+     <e lm="exercer"><i>exerc</i><par n="cred/er__vblex"/></e>
+     <e lm="firmar"><i>firm</i><par n="cant/ar__vblex"/></e>
+     <e lm="prestar"><i>prest</i><par n="cant/ar__vblex"/></e>
+     <e lm="appunctar"><i>appunct</i><par n="cant/ar__vblex"/></e>
+     <e lm="permaner"><i>perman</i><par n="cred/er__vblex"/></e>
+     <e lm="limitar"><i>limit</i><par n="cant/ar__vblex"/></e>
+     <e lm="denunciar"><i>denunci</i><par n="cant/ar__vblex"/></e>
+     <e lm="acceder"><i>acced</i><par n="cred/er__vblex"/></e>
+     <e lm="connecter"><i>connect</i><par n="cred/er__vblex"/></e>
+     <e lm="cargar"><i>carg</i><par n="cant/ar__vblex"/></e>
+     <e lm="transformar"><i>transform</i><par n="cant/ar__vblex"/></e>
+     <e lm="emitter"><i>emitt</i><par n="cred/er__vblex"/></e>
+     <e lm="mensurar"><i>mensur</i><par n="cant/ar__vblex"/></e>
+     <e lm="plenar"><i>plen</i><par n="cant/ar__vblex"/></e>
+     <e lm="camminar"><i>cammin</i><par n="cant/ar__vblex"/></e>
+     <e lm="proportionar"><i>proportion</i><par n="cant/ar__vblex"/></e>
+     <e lm="tirar"><i>tir</i><par n="cant/ar__vblex"/></e>
+     <e lm="votar"><i>vot</i><par n="cant/ar__vblex"/></e>
+     <e lm="recolliger"><i>recollig</i><par n="cred/er__vblex"/></e>
+     <e lm="assister"><i>assist</i><par n="cred/er__vblex"/></e>
+     <e lm="surprender"><i>surprend</i><par n="cred/er__vblex"/></e>
+     <e lm="concluder"><i>conclud</i><par n="cred/er__vblex"/></e>
+     <e lm="clarar"><i>clar</i><par n="cant/ar__vblex"/></e>
+     <e lm="cantar"><i>cant</i><par n="cant/ar__vblex"/></e>
+     <e lm="modificar"><i>modific</i><par n="cant/ar__vblex"/></e>
+     <e lm="facilitar"><i>facilit</i><par n="cant/ar__vblex"/></e>
+     <e lm="convincer"><i>convinc</i><par n="cred/er__vblex"/></e>
+
+
+     <!-- de nove -->
+     <e lm="de nove">          <i>de<b/>nove</i><par n="ora__adv"/></e>
 
 
   </section>
